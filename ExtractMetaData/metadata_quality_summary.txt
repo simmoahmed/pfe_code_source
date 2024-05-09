@@ -1,0 +1,124 @@
+The metadata quality check has finished. Below are the warnings and errors found.
+
+Summary of Warnings:
+2024-03-07 11:24:08,212 - WARNING - No classification names found for table utilisateur
+2024-03-07 11:24:08,212 - WARNING - No classification names found for attribute 'user_real_name' in table 'utilisateur'
+2024-03-07 11:24:08,212 - WARNING - No classification names found for attribute 'user_name' in table 'utilisateur'
+2024-03-07 11:24:08,213 - WARNING - No classification names found for attribute 'user_editcount' in table 'utilisateur'
+2024-03-07 11:24:08,213 - WARNING - No classification names found for attribute 'user_options' in table 'utilisateur'
+2024-03-07 11:24:08,213 - WARNING - No classification names found for attribute 'user_newpassword' in table 'utilisateur'
+2024-03-07 11:24:08,213 - WARNING - No classification names found for attribute 'user_email_token_expires' in table 'utilisateur'
+2024-03-07 11:24:08,213 - WARNING - No classification names found for attribute 'user_registration' in table 'utilisateur'
+2024-03-07 11:24:08,213 - WARNING - No classification names found for attribute 'user_email_authenticated' in table 'utilisateur'
+2024-03-07 11:24:08,213 - WARNING - No classification names found for attribute 'user_email' in table 'utilisateur'
+2024-03-07 11:24:08,213 - WARNING - No classification names found for attribute 'user_email_token' in table 'utilisateur'
+2024-03-07 11:24:08,213 - WARNING - No classification names found for attribute 'user_token' in table 'utilisateur'
+2024-03-07 11:24:08,214 - WARNING - No classification names found for attribute 'user_touched' in table 'utilisateur'
+2024-03-07 11:24:08,214 - WARNING - No classification names found for attribute 'user_newpass_time' in table 'utilisateur'
+2024-03-07 11:24:08,214 - WARNING - No classification names found for attribute 'user_password' in table 'utilisateur'
+2024-03-07 11:24:08,214 - WARNING - No classification names found for attribute 'user_id' in table 'utilisateur'
+2024-03-07 11:24:08,215 - WARNING - No classification names found for table new_user_groups
+2024-03-07 11:24:08,215 - WARNING - No classification names found for attribute 'ug_group' in table 'new_user_groups'
+2024-03-07 11:24:08,215 - WARNING - No classification names found for attribute 'ug_user' in table 'new_user_groups'
+2024-03-07 11:24:08,216 - WARNING - No classification names found for table langlinks
+2024-03-07 11:24:08,216 - WARNING - No classification names found for attribute 'll_lang' in table 'langlinks'
+2024-03-07 11:24:08,216 - WARNING - No classification names found for attribute 'll_from' in table 'langlinks'
+2024-03-07 11:24:08,216 - WARNING - No classification names found for attribute 'll_title' in table 'langlinks'
+2024-03-07 11:24:08,217 - WARNING - No classification names found for table logging
+2024-03-07 11:24:08,217 - WARNING - No classification names found for attribute 'log_timestamp' in table 'logging'
+2024-03-07 11:24:08,217 - WARNING - No classification names found for attribute 'log_title' in table 'logging'
+2024-03-07 11:24:08,217 - WARNING - No classification names found for attribute 'log_namespace' in table 'logging'
+2024-03-07 11:24:08,217 - WARNING - No classification names found for attribute 'log_id' in table 'logging'
+2024-03-07 11:24:08,217 - WARNING - No classification names found for attribute 'log_comment' in table 'logging'
+2024-03-07 11:24:08,218 - WARNING - No classification names found for attribute 'log_type' in table 'logging'
+2024-03-07 11:24:08,218 - WARNING - No classification names found for attribute 'log_params' in table 'logging'
+2024-03-07 11:24:08,218 - WARNING - No classification names found for attribute 'log_action' in table 'logging'
+2024-03-07 11:24:08,218 - WARNING - No classification names found for attribute 'log_deleted' in table 'logging'
+2024-03-07 11:24:08,218 - WARNING - No classification names found for attribute 'log_user' in table 'logging'
+2024-03-07 11:24:08,219 - WARNING - No classification names found for table job
+2024-03-07 11:24:08,219 - WARNING - No classification names found for attribute 'job_id' in table 'job'
+2024-03-07 11:24:08,219 - WARNING - No classification names found for attribute 'job_cmd' in table 'job'
+2024-03-07 11:24:08,219 - WARNING - No classification names found for attribute 'job_params' in table 'job'
+2024-03-07 11:24:08,220 - WARNING - No classification names found for attribute 'job_title' in table 'job'
+2024-03-07 11:24:08,220 - WARNING - No classification names found for attribute 'job_namespace' in table 'job'
+2024-03-07 11:24:08,220 - WARNING - Total Size for table 'filtered_view' is not available (N/A).
+2024-03-07 11:24:08,220 - WARNING - Number of Rows for table 'filtered_view' is not available (N/A).
+2024-03-07 11:24:08,220 - WARNING - Raw Data Size for table 'filtered_view' is not available (N/A).
+2024-03-07 11:24:08,220 - WARNING - Column Stats Accurate for table 'filtered_view' is not available (N/A).
+2024-03-07 11:24:08,220 - WARNING - Number of Files for table 'filtered_view' is not available (N/A).
+2024-03-07 11:24:08,220 - WARNING - No classification names found for table filtered_view
+2024-03-07 11:24:08,221 - WARNING - No classification names found for attribute 'proprietaire' in table 'filtered_view'
+2024-03-07 11:24:08,221 - WARNING - No classification names found for attribute 'commentaire' in table 'filtered_view'
+2024-03-07 11:24:08,221 - WARNING - No classification names found for attribute 'libellemetier' in table 'filtered_view'
+2024-03-07 11:24:08,221 - WARNING - No classification names found for attribute 'aspectdeperformance(qualite)' in table 'filtered_view'
+2024-03-07 11:24:08,221 - WARNING - Invalid attribute name 'aspectdeperformance(qualite)' in table 'filtered_view'. Attribute names must start with a letter or underscore, and contain only letters, digits, and underscores.
+2024-03-07 11:24:08,221 - WARNING - No classification names found for attribute 'description' in table 'filtered_view'
+2024-03-07 11:24:08,221 - WARNING - Table 'filtered_view' metadata quality check failed.
+2024-03-07 11:24:08,222 - WARNING - No classification names found for table loanpayment
+2024-03-07 11:24:08,222 - WARNING - No classification names found for attribute 'loanpaymentid' in table 'loanpayment'
+2024-03-07 11:24:08,222 - WARNING - No classification names found for attribute 'principalamount' in table 'loanpayment'
+2024-03-07 11:24:08,222 - WARNING - No classification names found for attribute 'paindate' in table 'loanpayment'
+2024-03-07 11:24:08,222 - WARNING - No classification names found for attribute 'paidamount' in table 'loanpayment'
+2024-03-07 11:24:08,222 - WARNING - No classification names found for attribute 'paymentamount' in table 'loanpayment'
+2024-03-07 11:24:08,222 - WARNING - No classification names found for attribute 'interestamount' in table 'loanpayment'
+2024-03-07 11:24:08,223 - WARNING - No classification names found for attribute 'scheduledpaymentdate' in table 'loanpayment'
+2024-03-07 11:24:08,223 - WARNING - No classification names found for attribute 'loanid' in table 'loanpayment'
+2024-03-07 11:24:08,223 - WARNING - No classification names found for table ref_source_de_donnee
+2024-03-07 11:24:08,224 - WARNING - No classification names found for attribute 'domaine' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,224 - WARNING - No classification names found for attribute 'plateforme_source' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,224 - WARNING - No classification names found for attribute 'nom_cible' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,224 - WARNING - No classification names found for attribute 'nom_source' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,224 - WARNING - No classification names found for attribute 'nom_flux/procedure' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,224 - WARNING - Invalid attribute name 'nom_flux/procedure' in table 'ref_source_de_donnee'. Attribute names must start with a letter or underscore, and contain only letters, digits, and underscores.
+2024-03-07 11:24:08,224 - WARNING - No classification names found for attribute 'technologie' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,224 - WARNING - No classification names found for attribute 'fonctions_concernees' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,225 - WARNING - No classification names found for attribute 'sous_domaine' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,225 - WARNING - No classification names found for attribute 'mode_chargement' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,225 - WARNING - No classification names found for attribute 'format' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,225 - WARNING - No classification names found for attribute 'type_source' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,225 - WARNING - No classification names found for attribute 'commentaire' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,225 - WARNING - No classification names found for attribute 'taille_objet' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,225 - WARNING - No classification names found for attribute 'plateforme_cible' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,225 - WARNING - No classification names found for attribute 'frequence_maj' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,226 - WARNING - No classification names found for attribute 'cpi' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,226 - WARNING - No classification names found for attribute 'description' in table 'ref_source_de_donnee'
+2024-03-07 11:24:08,226 - WARNING - Table 'ref_source_de_donnee' metadata quality check failed.
+2024-03-07 11:24:08,226 - WARNING - No classification names found for table ref_technique
+2024-03-07 11:24:08,226 - WARNING - No classification names found for attribute 'taille' in table 'ref_technique'
+2024-03-07 11:24:08,226 - WARNING - No classification names found for attribute 'libellechamp' in table 'ref_technique'
+2024-03-07 11:24:08,227 - WARNING - No classification names found for attribute 'libelle_metier' in table 'ref_technique'
+2024-03-07 11:24:08,227 - WARNING - No classification names found for attribute 'nom_source' in table 'ref_technique'
+2024-03-07 11:24:08,227 - WARNING - No classification names found for attribute 'commentaire' in table 'ref_technique'
+2024-03-07 11:24:08,228 - WARNING - No classification names found for attribute 'type' in table 'ref_technique'
+2024-03-07 11:24:08,228 - WARNING - No classification names found for attribute 'plateforme' in table 'ref_technique'
+2024-03-07 11:24:08,228 - WARNING - No classification names found for table glossmetier
+2024-03-07 11:24:08,229 - WARNING - No classification names found for attribute 'commentaire' in table 'glossmetier'
+2024-03-07 11:24:08,229 - WARNING - No classification names found for attribute 'libelle_metier' in table 'glossmetier'
+2024-03-07 11:24:08,229 - WARNING - No classification names found for attribute 'aspect_de_performance_(qualite)' in table 'glossmetier'
+2024-03-07 11:24:08,229 - WARNING - Invalid attribute name 'aspect_de_performance_(qualite)' in table 'glossmetier'. Attribute names must start with a letter or underscore, and contain only letters, digits, and underscores.
+2024-03-07 11:24:08,229 - WARNING - No classification names found for attribute 'description' in table 'glossmetier'
+2024-03-07 11:24:08,229 - WARNING - No classification names found for attribute 'proprietaire' in table 'glossmetier'
+2024-03-07 11:24:08,229 - WARNING - Table 'glossmetier' metadata quality check failed.
+2024-03-07 11:24:08,230 - WARNING - No classification names found for table complex_types_table
+2024-03-07 11:24:08,230 - WARNING - No classification names found for attribute 'union_col' in table 'complex_types_table'
+2024-03-07 11:24:08,230 - WARNING - No classification names found for attribute 'date_col' in table 'complex_types_table'
+2024-03-07 11:24:08,230 - WARNING - No classification names found for attribute 'map_col' in table 'complex_types_table'
+2024-03-07 11:24:08,231 - WARNING - No classification names found for attribute 'binary_col' in table 'complex_types_table'
+2024-03-07 11:24:08,231 - WARNING - No classification names found for attribute 'tinyint_col' in table 'complex_types_table'
+2024-03-07 11:24:08,231 - WARNING - No classification names found for attribute 'struct_col' in table 'complex_types_table'
+2024-03-07 11:24:08,231 - WARNING - No classification names found for attribute 'string_col' in table 'complex_types_table'
+2024-03-07 11:24:08,231 - WARNING - No classification names found for attribute 'decimal_col' in table 'complex_types_table'
+2024-03-07 11:24:08,231 - WARNING - No classification names found for attribute 'timestamp_col' in table 'complex_types_table'
+2024-03-07 11:24:08,231 - WARNING - No classification names found for attribute 'int_col' in table 'complex_types_table'
+2024-03-07 11:24:08,231 - WARNING - No classification names found for attribute 'varchar_col' in table 'complex_types_table'
+2024-03-07 11:24:08,232 - WARNING - No classification names found for attribute 'smallint_col' in table 'complex_types_table'
+2024-03-07 11:24:08,232 - WARNING - No classification names found for attribute 'float_col' in table 'complex_types_table'
+2024-03-07 11:24:08,232 - WARNING - No classification names found for attribute 'boolean_col' in table 'complex_types_table'
+2024-03-07 11:24:08,232 - WARNING - No classification names found for attribute 'char_col' in table 'complex_types_table'
+2024-03-07 11:24:08,232 - WARNING - No classification names found for attribute 'array_col' in table 'complex_types_table'
+2024-03-07 11:24:08,232 - WARNING - No classification names found for attribute 'double_col' in table 'complex_types_table'
+2024-03-07 11:24:08,232 - WARNING - No classification names found for attribute 'bigint_col' in table 'complex_types_table'
+2024-03-07 11:24:08,233 - WARNING - Table 'complex_types_table' metadata quality check failed.
+
+Summary of Errors:
+2024-03-07 11:24:08,232 - ERROR - Invalid data type 'boolen' for attribute 'boolean_col' in table 'complex_types_table'.

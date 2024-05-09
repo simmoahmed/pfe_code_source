@@ -1,0 +1,1960 @@
+2024-05-07 13:20:34,457 - INFO - Checking metadata quality for table: analyse risque
+2024-05-07 13:20:34,457 - WARNING - Invalid database name: 'default bcp'.
+2024-05-07 13:20:34,457 - WARNING - Invalid table name 'analyse risque' in DB 'default bcp'.
+2024-05-07 13:20:34,466 - ERROR - Create Time '2027-05-02 14:28:14' for table 'analyse risque' is in the future.
+2024-05-07 13:20:34,467 - ERROR - lastAccessTime '2024-05-02 14:28:14' for table 'analyse risque' is before its Create Time '2027-05-02 14:28:14'.
+2024-05-07 13:20:34,467 - INFO - Status of table 'analyse risque' is ACTIVE.
+2024-05-07 13:20:34,467 - ERROR - Total Size for table 'analyse risque' has an invalid value: -4490.
+2024-05-07 13:20:34,467 - ERROR - Number of Rows for table 'analyse risque' has an invalid value: -50.
+2024-05-07 13:20:34,467 - INFO - Raw Data Size for table 'analyse risque': 4440
+2024-05-07 13:20:34,467 - INFO - Number of Files for table 'analyse risque': 1
+2024-05-07 13:20:34,467 - WARNING - No classification names found for table analyse risque
+2024-05-07 13:20:34,468 - INFO - Classification Names for attribute 'date_creation' in table 'analyse risque': Secret
+2024-05-07 13:20:34,468 - INFO - Classification Names for attribute 'niveau' in table 'analyse risque': Restreint
+2024-05-07 13:20:34,468 - INFO - Classification Names for attribute 'description' in table 'analyse risque': Confidentiel
+2024-05-07 13:20:34,468 - INFO - Classification Names for attribute 'type_risque' in table 'analyse risque': Confidentiel
+2024-05-07 13:20:34,468 - INFO - Classification Names for attribute 'id' in table 'analyse risque': Restreint
+2024-05-07 13:20:34,469 - WARNING - Table 'analyse_risque' metadata quality check failed.
+2024-05-07 13:20:34,469 - INFO - Checking metadata quality for table: @annonces ata
+2024-05-07 13:20:34,469 - WARNING - Invalid table name '@annonces ata' in DB 'default'.
+2024-05-07 13:20:34,469 - WARNING - Number of Attributes '0' for table '@annonces ata' does not match the actual number of columns '4'.
+2024-05-07 13:20:34,469 - INFO - Status of table '@annonces ata' is ACTIVE.
+2024-05-07 13:20:34,469 - INFO - Total Size for table '@annonces ata': 19084
+2024-05-07 13:20:34,469 - INFO - Number of Rows for table '@annonces ata': 100
+2024-05-07 13:20:34,470 - INFO - Raw Data Size for table '@annonces ata': 18
+2024-05-07 13:20:34,470 - INFO - Number of Files for table '@annonces ata': 1
+2024-05-07 13:20:34,470 - INFO - Classification Names for table @annonces ata: Secret
+2024-05-07 13:20:34,470 - INFO - Classification Names for attribute 'title' in table '@annonces ata': Secret
+2024-05-07 13:20:34,470 - INFO - Classification Names for attribute 'date' in table '@annonces ata': Restreint
+2024-05-07 13:20:34,470 - INFO - Classification Names for attribute 'id_annonce' in table '@annonces ata': Restreint
+2024-05-07 13:20:34,470 - INFO - Classification Names for attribute 'description' in table '@annonces ata': Restreint
+2024-05-07 13:20:34,470 - INFO - Table 'annonces_data' metadata has good quality.
+2024-05-07 13:20:34,470 - INFO - Checking metadata quality for table: assistance_technique
+2024-05-07 13:20:34,471 - INFO - Status of table 'assistance_technique' is ACTIVE.
+2024-05-07 13:20:34,471 - INFO - Total Size for table 'assistance_technique': 4891
+2024-05-07 13:20:34,471 - INFO - Number of Rows for table 'assistance_technique': 50
+2024-05-07 13:20:34,471 - INFO - Raw Data Size for table 'assistance_technique': 4841
+2024-05-07 13:20:34,471 - INFO - Number of Files for table 'assistance_technique': 1
+2024-05-07 13:20:34,471 - WARNING - No classification names found for table assistance_technique
+2024-05-07 13:20:34,471 - INFO - Classification Names for attribute 'description' in table 'assistance_technique': Secret
+2024-05-07 13:20:34,471 - INFO - Classification Names for attribute 'nom_client' in table 'assistance_technique': Secret
+2024-05-07 13:20:34,472 - INFO - Classification Names for attribute 'statut' in table 'assistance_technique': Secret
+2024-05-07 13:20:34,472 - INFO - Classification Names for attribute 'num_dossier' in table 'assistance_technique': Restreint
+2024-05-07 13:20:34,472 - INFO - Classification Names for attribute 'type_assistance' in table 'assistance_technique': Restreint
+2024-05-07 13:20:34,472 - INFO - Classification Names for attribute 'ville' in table 'assistance_technique': Secret
+2024-05-07 13:20:34,472 - INFO - Table 'assistance_technique' metadata has good quality.
+2024-05-07 13:20:34,472 - INFO - Checking metadata quality for table: alertes_ops_frauduleuses
+2024-05-07 13:20:34,473 - INFO - Status of table 'alertes_ops_frauduleuses' is ACTIVE.
+2024-05-07 13:20:34,473 - INFO - Total Size for table 'alertes_ops_frauduleuses': 2800
+2024-05-07 13:20:34,473 - INFO - Number of Rows for table 'alertes_ops_frauduleuses': 50
+2024-05-07 13:20:34,473 - INFO - Raw Data Size for table 'alertes_ops_frauduleuses': 2750
+2024-05-07 13:20:34,473 - INFO - Number of Files for table 'alertes_ops_frauduleuses': 1
+2024-05-07 13:20:34,473 - WARNING - No classification names found for table alertes_ops_frauduleuses
+2024-05-07 13:20:34,473 - INFO - Classification Names for attribute 'nom_client' in table 'alertes_ops_frauduleuses': Secret
+2024-05-07 13:20:34,473 - INFO - Classification Names for attribute 'id' in table 'alertes_ops_frauduleuses': Secret
+2024-05-07 13:20:34,473 - INFO - Classification Names for attribute 'montant_transaction' in table 'alertes_ops_frauduleuses': Restreint
+2024-05-07 13:20:34,474 - INFO - Classification Names for attribute 'type_alerte' in table 'alertes_ops_frauduleuses': Secret
+2024-05-07 13:20:34,474 - INFO - Classification Names for attribute 'date_alerte' in table 'alertes_ops_frauduleuses': Secret
+2024-05-07 13:20:34,474 - INFO - Table 'alertes_ops_frauduleuses' metadata has good quality.
+2024-05-07 13:20:34,474 - INFO - Checking metadata quality for table: analyse_portefeuille
+2024-05-07 13:20:34,474 - INFO - Status of table 'analyse_portefeuille' is ACTIVE.
+2024-05-07 13:20:34,474 - INFO - Total Size for table 'analyse_portefeuille': 1833
+2024-05-07 13:20:34,474 - INFO - Number of Rows for table 'analyse_portefeuille': 50
+2024-05-07 13:20:34,475 - INFO - Raw Data Size for table 'analyse_portefeuille': 1783
+2024-05-07 13:20:34,475 - INFO - Number of Files for table 'analyse_portefeuille': 1
+2024-05-07 13:20:34,475 - WARNING - No classification names found for table analyse_portefeuille
+2024-05-07 13:20:34,475 - INFO - Classification Names for attribute 'date_evaluation' in table 'analyse_portefeuille': Restreint
+2024-05-07 13:20:34,475 - INFO - Classification Names for attribute 'id' in table 'analyse_portefeuille': Secret
+2024-05-07 13:20:34,475 - INFO - Classification Names for attribute 'valeur_actuelle' in table 'analyse_portefeuille': Confidentiel
+2024-05-07 13:20:34,475 - INFO - Classification Names for attribute 'type_instrument' in table 'analyse_portefeuille': Confidentiel
+2024-05-07 13:20:34,475 - INFO - Classification Names for attribute 'poids_portefeuille' in table 'analyse_portefeuille': Secret
+2024-05-07 13:20:34,476 - INFO - Table 'analyse_portefeuille' metadata has good quality.
+2024-05-07 13:20:34,476 - INFO - Checking metadata quality for table: personne
+2024-05-07 13:20:34,476 - WARNING - Number of Attributes '3' for table 'personne' does not match the actual number of columns '6'.
+2024-05-07 13:20:34,476 - INFO - Status of table 'personne' is ACTIVE.
+2024-05-07 13:20:34,476 - INFO - Total Size for table 'personne': 0
+2024-05-07 13:20:34,476 - INFO - Number of Rows for table 'personne': 0
+2024-05-07 13:20:34,476 - INFO - Raw Data Size for table 'personne': 0
+2024-05-07 13:20:34,476 - INFO - Number of Files for table 'personne': 0
+2024-05-07 13:20:34,477 - WARNING - No classification names found for table personne
+2024-05-07 13:20:34,477 - INFO - Classification Names for attribute 'id' in table 'personne': Confidentiel
+2024-05-07 13:20:34,477 - INFO - Classification Names for attribute 'prenom' in table 'personne': Secret
+2024-05-07 13:20:34,477 - INFO - Classification Names for attribute 'nom' in table 'personne': Restreint
+2024-05-07 13:20:34,477 - INFO - Classification Names for attribute 'id' in table 'personne': Restreint
+2024-05-07 13:20:34,477 - INFO - Classification Names for attribute 'prenom' in table 'personne': Restreint
+2024-05-07 13:20:34,477 - INFO - Classification Names for attribute 'nom' in table 'personne': Restreint
+2024-05-07 13:20:34,477 - INFO - Table 'personne' metadata has good quality.
+2024-05-07 13:20:34,478 - INFO - Checking metadata quality for table: alertes_transactions
+2024-05-07 13:20:34,478 - INFO - Status of table 'alertes_transactions' is ACTIVE.
+2024-05-07 13:20:34,478 - INFO - Total Size for table 'alertes_transactions': 2296
+2024-05-07 13:20:34,478 - INFO - Number of Rows for table 'alertes_transactions': 50
+2024-05-07 13:20:34,478 - INFO - Raw Data Size for table 'alertes_transactions': 2246
+2024-05-07 13:20:34,478 - INFO - Number of Files for table 'alertes_transactions': 1
+2024-05-07 13:20:34,478 - WARNING - No classification names found for table alertes_transactions
+2024-05-07 13:20:34,479 - INFO - Classification Names for attribute 'date_creation' in table 'alertes_transactions': Restreint
+2024-05-07 13:20:34,479 - INFO - Classification Names for attribute 'statut' in table 'alertes_transactions': Secret
+2024-05-07 13:20:34,479 - INFO - Classification Names for attribute 'type_alerte' in table 'alertes_transactions': Confidentiel
+2024-05-07 13:20:34,479 - INFO - Classification Names for attribute 'priorite' in table 'alertes_transactions': Secret
+2024-05-07 13:20:34,479 - INFO - Classification Names for attribute 'id' in table 'alertes_transactions': Restreint
+2024-05-07 13:20:34,479 - INFO - Table 'alertes_transactions' metadata has good quality.
+2024-05-07 13:20:34,479 - INFO - Checking metadata quality for table: account
+2024-05-07 13:20:34,480 - INFO - Status of table 'account' is ACTIVE.
+2024-05-07 13:20:34,480 - INFO - Total Size for table 'account': 52847
+2024-05-07 13:20:34,480 - INFO - Number of Rows for table 'account': 500
+2024-05-07 13:20:34,480 - INFO - Raw Data Size for table 'account': 52347
+2024-05-07 13:20:34,480 - INFO - Number of Files for table 'account': 1
+2024-05-07 13:20:34,480 - WARNING - No classification names found for table account
+2024-05-07 13:20:34,480 - INFO - Classification Names for attribute 'date_creation' in table 'account': Secret
+2024-05-07 13:20:34,481 - INFO - Classification Names for attribute 'id_compte' in table 'account': Secret
+2024-05-07 13:20:34,481 - INFO - Classification Names for attribute 'id_client' in table 'account': Restreint
+2024-05-07 13:20:34,481 - INFO - Classification Names for attribute 'solde' in table 'account': Secret
+2024-05-07 13:20:34,481 - INFO - Classification Names for attribute 'type' in table 'account': Secret
+2024-05-07 13:20:34,481 - INFO - Table 'account' metadata has good quality.
+2024-05-07 13:20:34,481 - INFO - Checking metadata quality for table: agences
+2024-05-07 13:20:34,481 - INFO - Status of table 'agences' is ACTIVE.
+2024-05-07 13:20:34,481 - INFO - Total Size for table 'agences': 54493
+2024-05-07 13:20:34,482 - INFO - Number of Rows for table 'agences': 500
+2024-05-07 13:20:34,482 - INFO - Raw Data Size for table 'agences': 53993
+2024-05-07 13:20:34,482 - INFO - Number of Files for table 'agences': 1
+2024-05-07 13:20:34,482 - WARNING - No classification names found for table agences
+2024-05-07 13:20:34,482 - INFO - Classification Names for attribute 'addresse' in table 'agences': Confidentiel
+2024-05-07 13:20:34,482 - INFO - Classification Names for attribute 'id_agence' in table 'agences': Confidentiel
+2024-05-07 13:20:34,482 - INFO - Classification Names for attribute 'telephone' in table 'agences': Secret
+2024-05-07 13:20:34,482 - INFO - Classification Names for attribute 'nom_agence' in table 'agences': Secret
+2024-05-07 13:20:34,483 - INFO - Table 'agences' metadata has good quality.
+2024-05-07 13:20:34,483 - INFO - Checking metadata quality for table: audit_transactions
+2024-05-07 13:20:34,483 - INFO - Status of table 'audit_transactions' is ACTIVE.
+2024-05-07 13:20:34,483 - INFO - Total Size for table 'audit_transactions': 4781
+2024-05-07 13:20:34,483 - INFO - Number of Rows for table 'audit_transactions': 42
+2024-05-07 13:20:34,483 - INFO - Raw Data Size for table 'audit_transactions': 4739
+2024-05-07 13:20:34,483 - INFO - Number of Files for table 'audit_transactions': 1
+2024-05-07 13:20:34,484 - WARNING - No classification names found for table audit_transactions
+2024-05-07 13:20:34,484 - INFO - Classification Names for attribute 'date_transaction' in table 'audit_transactions': Secret
+2024-05-07 13:20:34,484 - INFO - Classification Names for attribute 'compte_debit' in table 'audit_transactions': Restreint
+2024-05-07 13:20:34,484 - INFO - Classification Names for attribute 'montant' in table 'audit_transactions': Restreint
+2024-05-07 13:20:34,484 - INFO - Classification Names for attribute 'description' in table 'audit_transactions': Secret
+2024-05-07 13:20:34,484 - INFO - Classification Names for attribute 'compte_credit' in table 'audit_transactions': Confidentiel
+2024-05-07 13:20:34,484 - INFO - Table 'audit_transactions' metadata has good quality.
+2024-05-07 13:20:34,484 - INFO - Checking metadata quality for table: audits_automatises
+2024-05-07 13:20:34,485 - INFO - Status of table 'audits_automatises' is ACTIVE.
+2024-05-07 13:20:34,485 - INFO - Total Size for table 'audits_automatises': 6118
+2024-05-07 13:20:34,485 - INFO - Number of Rows for table 'audits_automatises': 45
+2024-05-07 13:20:34,485 - INFO - Raw Data Size for table 'audits_automatises': 6073
+2024-05-07 13:20:34,485 - INFO - Number of Files for table 'audits_automatises': 1
+2024-05-07 13:20:34,485 - WARNING - No classification names found for table audits_automatises
+2024-05-07 13:20:34,485 - INFO - Classification Names for attribute 'resultat_audit' in table 'audits_automatises': Confidentiel
+2024-05-07 13:20:34,485 - INFO - Classification Names for attribute 'type_audit' in table 'audits_automatises': Confidentiel
+2024-05-07 13:20:34,486 - INFO - Classification Names for attribute 'departement_concerne' in table 'audits_automatises': Secret
+2024-05-07 13:20:34,486 - INFO - Classification Names for attribute 'responsable_audit' in table 'audits_automatises': Secret
+2024-05-07 13:20:34,486 - INFO - Classification Names for attribute 'date_audit' in table 'audits_automatises': Restreint
+2024-05-07 13:20:34,486 - INFO - Table 'audits_automatises' metadata has good quality.
+2024-05-07 13:20:34,486 - INFO - Checking metadata quality for table: cartes_essence
+2024-05-07 13:20:34,486 - INFO - Status of table 'cartes_essence' is ACTIVE.
+2024-05-07 13:20:34,486 - INFO - Total Size for table 'cartes_essence': 2388
+2024-05-07 13:20:34,487 - INFO - Number of Rows for table 'cartes_essence': 42
+2024-05-07 13:20:34,487 - INFO - Raw Data Size for table 'cartes_essence': 2346
+2024-05-07 13:20:34,487 - INFO - Number of Files for table 'cartes_essence': 1
+2024-05-07 13:20:34,487 - WARNING - No classification names found for table cartes_essence
+2024-05-07 13:20:34,487 - INFO - Classification Names for attribute 'numero_carte' in table 'cartes_essence': Confidentiel
+2024-05-07 13:20:34,487 - INFO - Classification Names for attribute 'date_validite' in table 'cartes_essence': Restreint
+2024-05-07 13:20:34,487 - INFO - Classification Names for attribute 'plafond_transaction' in table 'cartes_essence': Restreint
+2024-05-07 13:20:34,487 - INFO - Classification Names for attribute 'solde' in table 'cartes_essence': Confidentiel
+2024-05-07 13:20:34,488 - INFO - Classification Names for attribute 'beneficiaire' in table 'cartes_essence': Restreint
+2024-05-07 13:20:34,488 - INFO - Classification Names for attribute 'type' in table 'cartes_essence': Restreint
+2024-05-07 13:20:34,488 - INFO - Table 'cartes_essence' metadata has good quality.
+2024-05-07 13:20:34,488 - INFO - Checking metadata quality for table: assurance_auto
+2024-05-07 13:20:34,488 - INFO - Status of table 'assurance_auto' is ACTIVE.
+2024-05-07 13:20:34,488 - INFO - Total Size for table 'assurance_auto': 3188
+2024-05-07 13:20:34,488 - INFO - Number of Rows for table 'assurance_auto': 20
+2024-05-07 13:20:34,489 - INFO - Raw Data Size for table 'assurance_auto': 3168
+2024-05-07 13:20:34,489 - INFO - Number of Files for table 'assurance_auto': 1
+2024-05-07 13:20:34,489 - WARNING - No classification names found for table assurance_auto
+2024-05-07 13:20:34,489 - INFO - Classification Names for attribute 'modele' in table 'assurance_auto': Secret
+2024-05-07 13:20:34,489 - INFO - Classification Names for attribute 'valeur' in table 'assurance_auto': Secret
+2024-05-07 13:20:34,489 - INFO - Classification Names for attribute 'date_debut' in table 'assurance_auto': Restreint
+2024-05-07 13:20:34,489 - INFO - Classification Names for attribute 'type_contrat' in table 'assurance_auto': Restreint
+2024-05-07 13:20:34,489 - INFO - Classification Names for attribute 'date_fin' in table 'assurance_auto': Confidentiel
+2024-05-07 13:20:34,490 - INFO - Classification Names for attribute 'numero_contrat' in table 'assurance_auto': Secret
+2024-05-07 13:20:34,490 - INFO - Classification Names for attribute 'client' in table 'assurance_auto': Secret
+2024-05-07 13:20:34,490 - INFO - Classification Names for attribute 'marque' in table 'assurance_auto': Secret
+2024-05-07 13:20:34,490 - INFO - Classification Names for attribute 'annee' in table 'assurance_auto': Secret
+2024-05-07 13:20:34,490 - INFO - Table 'assurance_auto' metadata has good quality.
+2024-05-07 13:20:34,490 - INFO - Checking metadata quality for table: assurance_sante
+2024-05-07 13:20:34,490 - INFO - Status of table 'assurance_sante' is ACTIVE.
+2024-05-07 13:20:34,491 - INFO - Total Size for table 'assurance_sante': 2395
+2024-05-07 13:20:34,491 - INFO - Number of Rows for table 'assurance_sante': 35
+2024-05-07 13:20:34,491 - INFO - Raw Data Size for table 'assurance_sante': 2360
+2024-05-07 13:20:34,491 - INFO - Number of Files for table 'assurance_sante': 1
+2024-05-07 13:20:34,491 - WARNING - No classification names found for table assurance_sante
+2024-05-07 13:20:34,491 - INFO - Classification Names for attribute 'prime' in table 'assurance_sante': Restreint
+2024-05-07 13:20:34,491 - INFO - Classification Names for attribute 'profession' in table 'assurance_sante': Secret
+2024-05-07 13:20:34,491 - INFO - Classification Names for attribute 'duree_contrat' in table 'assurance_sante': Confidentiel
+2024-05-07 13:20:34,492 - INFO - Classification Names for attribute 'nom' in table 'assurance_sante': Confidentiel
+2024-05-07 13:20:34,492 - INFO - Classification Names for attribute 'sexe' in table 'assurance_sante': Secret
+2024-05-07 13:20:34,492 - INFO - Classification Names for attribute 'date_effet' in table 'assurance_sante': Secret
+2024-05-07 13:20:34,492 - INFO - Classification Names for attribute 'age' in table 'assurance_sante': Confidentiel
+2024-05-07 13:20:34,492 - INFO - Classification Names for attribute 'assureur' in table 'assurance_sante': Restreint
+2024-05-07 13:20:34,492 - INFO - Table 'assurance_sante' metadata has good quality.
+2024-05-07 13:20:34,492 - INFO - Checking metadata quality for table: bank_card
+2024-05-07 13:20:34,492 - INFO - Status of table 'bank_card' is ACTIVE.
+2024-05-07 13:20:34,493 - INFO - Total Size for table 'bank_card': 1098
+2024-05-07 13:20:34,493 - INFO - Number of Rows for table 'bank_card': 10
+2024-05-07 13:20:34,493 - INFO - Raw Data Size for table 'bank_card': 1088
+2024-05-07 13:20:34,493 - INFO - Number of Files for table 'bank_card': 1
+2024-05-07 13:20:34,493 - WARNING - No classification names found for table bank_card
+2024-05-07 13:20:34,493 - INFO - Classification Names for attribute 'id_carte' in table 'bank_card': Confidentiel
+2024-05-07 13:20:34,493 - INFO - Classification Names for attribute 'code_pin' in table 'bank_card': Secret
+2024-05-07 13:20:34,493 - INFO - Classification Names for attribute 'numero_carte' in table 'bank_card': Restreint
+2024-05-07 13:20:34,494 - INFO - Classification Names for attribute 'type_carte' in table 'bank_card': Restreint
+2024-05-07 13:20:34,494 - INFO - Classification Names for attribute 'id_client' in table 'bank_card': Secret
+2024-05-07 13:20:34,494 - INFO - Classification Names for attribute 'date_expiration' in table 'bank_card': Confidentiel
+2024-05-07 13:20:34,494 - INFO - Table 'bank_card' metadata has good quality.
+2024-05-07 13:20:34,494 - INFO - Checking metadata quality for table: cartes_cadeaux
+2024-05-07 13:20:34,494 - INFO - Status of table 'cartes_cadeaux' is ACTIVE.
+2024-05-07 13:20:34,494 - INFO - Total Size for table 'cartes_cadeaux': 2283
+2024-05-07 13:20:34,494 - INFO - Number of Rows for table 'cartes_cadeaux': 44
+2024-05-07 13:20:34,495 - INFO - Raw Data Size for table 'cartes_cadeaux': 2239
+2024-05-07 13:20:34,495 - INFO - Number of Files for table 'cartes_cadeaux': 1
+2024-05-07 13:20:34,495 - WARNING - No classification names found for table cartes_cadeaux
+2024-05-07 13:20:34,495 - INFO - Classification Names for attribute 'numero_carte' in table 'cartes_cadeaux': Restreint
+2024-05-07 13:20:34,495 - INFO - Classification Names for attribute 'valeur' in table 'cartes_cadeaux': Secret
+2024-05-07 13:20:34,495 - INFO - Classification Names for attribute 'beneficiaire' in table 'cartes_cadeaux': Confidentiel
+2024-05-07 13:20:34,495 - INFO - Classification Names for attribute 'date_expiration' in table 'cartes_cadeaux': Confidentiel
+2024-05-07 13:20:34,495 - INFO - Classification Names for attribute 'statut' in table 'cartes_cadeaux': Secret
+2024-05-07 13:20:34,495 - INFO - Table 'cartes_cadeaux' metadata has good quality.
+2024-05-07 13:20:34,495 - INFO - Checking metadata quality for table: carte_tpe
+2024-05-07 13:20:34,495 - INFO - Status of table 'carte_tpe' is ACTIVE.
+2024-05-07 13:20:34,496 - INFO - Total Size for table 'carte_tpe': 2441
+2024-05-07 13:20:34,496 - INFO - Number of Rows for table 'carte_tpe': 45
+2024-05-07 13:20:34,496 - INFO - Raw Data Size for table 'carte_tpe': 2396
+2024-05-07 13:20:34,496 - INFO - Number of Files for table 'carte_tpe': 1
+2024-05-07 13:20:34,496 - WARNING - No classification names found for table carte_tpe
+2024-05-07 13:20:34,496 - INFO - Classification Names for attribute 'date_expiration' in table 'carte_tpe': Secret
+2024-05-07 13:20:34,496 - INFO - Classification Names for attribute 'solde_disponible' in table 'carte_tpe': Secret
+2024-05-07 13:20:34,496 - INFO - Classification Names for attribute 'proprietaire' in table 'carte_tpe': Secret
+2024-05-07 13:20:34,496 - INFO - Classification Names for attribute 'num_carte' in table 'carte_tpe': Secret
+2024-05-07 13:20:34,496 - INFO - Classification Names for attribute 'type_carte' in table 'carte_tpe': Confidentiel
+2024-05-07 13:20:34,496 - INFO - Table 'carte_tpe' metadata has good quality.
+2024-05-07 13:20:34,496 - INFO - Checking metadata quality for table: assurances_biens
+2024-05-07 13:20:34,496 - INFO - Status of table 'assurances_biens' is ACTIVE.
+2024-05-07 13:20:34,496 - INFO - Total Size for table 'assurances_biens': 1322
+2024-05-07 13:20:34,497 - INFO - Number of Rows for table 'assurances_biens': 50
+2024-05-07 13:20:34,497 - INFO - Raw Data Size for table 'assurances_biens': 1272
+2024-05-07 13:20:34,497 - INFO - Number of Files for table 'assurances_biens': 1
+2024-05-07 13:20:34,497 - WARNING - No classification names found for table assurances_biens
+2024-05-07 13:20:34,497 - INFO - Classification Names for attribute 'id' in table 'assurances_biens': Confidentiel
+2024-05-07 13:20:34,497 - INFO - Classification Names for attribute 'prime_annuelle' in table 'assurances_biens': Restreint
+2024-05-07 13:20:34,497 - INFO - Classification Names for attribute 'type_bien' in table 'assurances_biens': Secret
+2024-05-07 13:20:34,497 - INFO - Classification Names for attribute 'valeur_assuree' in table 'assurances_biens': Confidentiel
+2024-05-07 13:20:34,497 - INFO - Table 'assurances_biens' metadata has good quality.
+2024-05-07 13:20:34,497 - INFO - Checking metadata quality for table: atm_data
+2024-05-07 13:20:34,497 - INFO - Status of table 'atm_data' is ACTIVE.
+2024-05-07 13:20:34,497 - INFO - Total Size for table 'atm_data': 11718
+2024-05-07 13:20:34,497 - INFO - Number of Rows for table 'atm_data': 100
+2024-05-07 13:20:34,497 - INFO - Raw Data Size for table 'atm_data': 11618
+2024-05-07 13:20:34,497 - INFO - Number of Files for table 'atm_data': 1
+2024-05-07 13:20:34,498 - WARNING - No classification names found for table atm_data
+2024-05-07 13:20:34,498 - INFO - Classification Names for attribute 'localisation' in table 'atm_data': Restreint
+2024-05-07 13:20:34,498 - INFO - Classification Names for attribute 'informations' in table 'atm_data': Confidentiel
+2024-05-07 13:20:34,498 - INFO - Classification Names for attribute 'atm_id' in table 'atm_data': Secret
+2024-05-07 13:20:34,498 - INFO - Table 'atm_data' metadata has good quality.
+2024-05-07 13:20:34,498 - INFO - Checking metadata quality for table: certificats_bancaires
+2024-05-07 13:20:34,498 - INFO - Status of table 'certificats_bancaires' is ACTIVE.
+2024-05-07 13:20:34,498 - INFO - Total Size for table 'certificats_bancaires': 4098
+2024-05-07 13:20:34,498 - INFO - Number of Rows for table 'certificats_bancaires': 50
+2024-05-07 13:20:34,498 - INFO - Raw Data Size for table 'certificats_bancaires': 4048
+2024-05-07 13:20:34,498 - INFO - Number of Files for table 'certificats_bancaires': 1
+2024-05-07 13:20:34,498 - WARNING - No classification names found for table certificats_bancaires
+2024-05-07 13:20:34,498 - INFO - Classification Names for attribute 'num_certificat' in table 'certificats_bancaires': Confidentiel
+2024-05-07 13:20:34,498 - INFO - Classification Names for attribute 'date_expiration' in table 'certificats_bancaires': Restreint
+2024-05-07 13:20:34,499 - INFO - Classification Names for attribute 'solde' in table 'certificats_bancaires': Confidentiel
+2024-05-07 13:20:34,499 - INFO - Classification Names for attribute 'date_creation' in table 'certificats_bancaires': Secret
+2024-05-07 13:20:34,499 - INFO - Classification Names for attribute 'type' in table 'certificats_bancaires': Secret
+2024-05-07 13:20:34,499 - INFO - Classification Names for attribute 'titulaire' in table 'certificats_bancaires': Restreint
+2024-05-07 13:20:34,499 - INFO - Table 'certificats_bancaires' metadata has good quality.
+2024-05-07 13:20:34,499 - INFO - Checking metadata quality for table: certificats_deposit
+2024-05-07 13:20:34,499 - INFO - Status of table 'certificats_deposit' is ACTIVE.
+2024-05-07 13:20:34,499 - INFO - Total Size for table 'certificats_deposit': 2323
+2024-05-07 13:20:34,499 - INFO - Number of Rows for table 'certificats_deposit': 41
+2024-05-07 13:20:34,499 - INFO - Raw Data Size for table 'certificats_deposit': 2282
+2024-05-07 13:20:34,499 - INFO - Number of Files for table 'certificats_deposit': 1
+2024-05-07 13:20:34,499 - WARNING - No classification names found for table certificats_deposit
+2024-05-07 13:20:34,499 - INFO - Classification Names for attribute 'numero_compte' in table 'certificats_deposit': Secret
+2024-05-07 13:20:34,499 - INFO - Classification Names for attribute 'montant' in table 'certificats_deposit': Restreint
+2024-05-07 13:20:34,499 - INFO - Classification Names for attribute 'taux_interet' in table 'certificats_deposit': Restreint
+2024-05-07 13:20:34,500 - INFO - Classification Names for attribute 'date_echeance' in table 'certificats_deposit': Secret
+2024-05-07 13:20:34,500 - INFO - Classification Names for attribute 'client' in table 'certificats_deposit': Confidentiel
+2024-05-07 13:20:34,500 - INFO - Classification Names for attribute 'date_emission' in table 'certificats_deposit': Secret
+2024-05-07 13:20:34,500 - INFO - Table 'certificats_deposit' metadata has good quality.
+2024-05-07 13:20:34,500 - INFO - Checking metadata quality for table: cartes_voyage
+2024-05-07 13:20:34,500 - INFO - Status of table 'cartes_voyage' is ACTIVE.
+2024-05-07 13:20:34,500 - INFO - Total Size for table 'cartes_voyage': 2551
+2024-05-07 13:20:34,500 - INFO - Number of Rows for table 'cartes_voyage': 42
+2024-05-07 13:20:34,500 - INFO - Raw Data Size for table 'cartes_voyage': 2509
+2024-05-07 13:20:34,500 - INFO - Number of Files for table 'cartes_voyage': 1
+2024-05-07 13:20:34,500 - WARNING - No classification names found for table cartes_voyage
+2024-05-07 13:20:34,500 - INFO - Classification Names for attribute 'pays_utilisation' in table 'cartes_voyage': Confidentiel
+2024-05-07 13:20:34,500 - INFO - Classification Names for attribute 'numero_carte' in table 'cartes_voyage': Secret
+2024-05-07 13:20:34,500 - INFO - Classification Names for attribute 'type_carte' in table 'cartes_voyage': Secret
+2024-05-07 13:20:34,501 - INFO - Classification Names for attribute 'date_expiration' in table 'cartes_voyage': Restreint
+2024-05-07 13:20:34,501 - INFO - Classification Names for attribute 'plafond_depense' in table 'cartes_voyage': Secret
+2024-05-07 13:20:34,501 - INFO - Table 'cartes_voyage' metadata has good quality.
+2024-05-07 13:20:34,501 - INFO - Checking metadata quality for table: cautions_bancaires
+2024-05-07 13:20:34,501 - INFO - Status of table 'cautions_bancaires' is ACTIVE.
+2024-05-07 13:20:34,501 - INFO - Total Size for table 'cautions_bancaires': 3610
+2024-05-07 13:20:34,501 - INFO - Number of Rows for table 'cautions_bancaires': 50
+2024-05-07 13:20:34,501 - INFO - Raw Data Size for table 'cautions_bancaires': 3560
+2024-05-07 13:20:34,501 - INFO - Number of Files for table 'cautions_bancaires': 1
+2024-05-07 13:20:34,501 - WARNING - No classification names found for table cautions_bancaires
+2024-05-07 13:20:34,501 - INFO - Classification Names for attribute 'montant' in table 'cautions_bancaires': Secret
+2024-05-07 13:20:34,501 - INFO - Classification Names for attribute 'beneficiaire' in table 'cautions_bancaires': Confidentiel
+2024-05-07 13:20:34,501 - INFO - Classification Names for attribute 'id' in table 'cautions_bancaires': Confidentiel
+2024-05-07 13:20:34,501 - INFO - Classification Names for attribute 'num_contrat' in table 'cautions_bancaires': Restreint
+2024-05-07 13:20:34,502 - INFO - Classification Names for attribute 'type_caution' in table 'cautions_bancaires': Restreint
+2024-05-07 13:20:34,502 - INFO - Table 'cautions_bancaires' metadata has good quality.
+2024-05-07 13:20:34,502 - INFO - Checking metadata quality for table: cheques_encaisses
+2024-05-07 13:20:34,502 - INFO - Status of table 'cheques_encaisses' is ACTIVE.
+2024-05-07 13:20:34,502 - INFO - Total Size for table 'cheques_encaisses': 2600
+2024-05-07 13:20:34,502 - INFO - Number of Rows for table 'cheques_encaisses': 50
+2024-05-07 13:20:34,502 - INFO - Raw Data Size for table 'cheques_encaisses': 2550
+2024-05-07 13:20:34,502 - INFO - Number of Files for table 'cheques_encaisses': 1
+2024-05-07 13:20:34,502 - WARNING - No classification names found for table cheques_encaisses
+2024-05-07 13:20:34,502 - INFO - Classification Names for attribute 'nom_beneficiaire' in table 'cheques_encaisses': Restreint
+2024-05-07 13:20:34,502 - INFO - Classification Names for attribute 'numero_compte' in table 'cheques_encaisses': Restreint
+2024-05-07 13:20:34,502 - INFO - Classification Names for attribute 'id' in table 'cheques_encaisses': Confidentiel
+2024-05-07 13:20:34,502 - INFO - Classification Names for attribute 'date_encaissement' in table 'cheques_encaisses': Secret
+2024-05-07 13:20:34,502 - INFO - Classification Names for attribute 'montant' in table 'cheques_encaisses': Secret
+2024-05-07 13:20:34,503 - INFO - Table 'cheques_encaisses' metadata has good quality.
+2024-05-07 13:20:34,503 - INFO - Checking metadata quality for table: cartes_prepayees
+2024-05-07 13:20:34,503 - INFO - Status of table 'cartes_prepayees' is ACTIVE.
+2024-05-07 13:20:34,503 - INFO - Total Size for table 'cartes_prepayees': 3113
+2024-05-07 13:20:34,503 - INFO - Number of Rows for table 'cartes_prepayees': 42
+2024-05-07 13:20:34,503 - INFO - Raw Data Size for table 'cartes_prepayees': 3071
+2024-05-07 13:20:34,503 - INFO - Number of Files for table 'cartes_prepayees': 1
+2024-05-07 13:20:34,503 - WARNING - No classification names found for table cartes_prepayees
+2024-05-07 13:20:34,503 - INFO - Classification Names for attribute 'beneficiaire' in table 'cartes_prepayees': Secret
+2024-05-07 13:20:34,503 - INFO - Classification Names for attribute 'date_creation' in table 'cartes_prepayees': Restreint
+2024-05-07 13:20:34,503 - INFO - Classification Names for attribute 'num_carte' in table 'cartes_prepayees': Secret
+2024-05-07 13:20:34,503 - INFO - Classification Names for attribute 'solde' in table 'cartes_prepayees': Confidentiel
+2024-05-07 13:20:34,503 - INFO - Classification Names for attribute 'code_securite' in table 'cartes_prepayees': Confidentiel
+2024-05-07 13:20:34,504 - INFO - Classification Names for attribute 'date_expiration' in table 'cartes_prepayees': Restreint
+2024-05-07 13:20:34,504 - INFO - Classification Names for attribute 'tel' in table 'cartes_prepayees': Restreint
+2024-05-07 13:20:34,504 - INFO - Classification Names for attribute 'cin' in table 'cartes_prepayees': Secret
+2024-05-07 13:20:34,504 - INFO - Table 'cartes_prepayees' metadata has good quality.
+2024-05-07 13:20:34,504 - INFO - Checking metadata quality for table: cartes_kids
+2024-05-07 13:20:34,504 - INFO - Status of table 'cartes_kids' is ACTIVE.
+2024-05-07 13:20:34,504 - INFO - Total Size for table 'cartes_kids': 1452
+2024-05-07 13:20:34,504 - INFO - Number of Rows for table 'cartes_kids': 50
+2024-05-07 13:20:34,504 - INFO - Raw Data Size for table 'cartes_kids': 1402
+2024-05-07 13:20:34,504 - INFO - Number of Files for table 'cartes_kids': 1
+2024-05-07 13:20:34,504 - WARNING - No classification names found for table cartes_kids
+2024-05-07 13:20:34,504 - INFO - Classification Names for attribute 'plafond' in table 'cartes_kids': Confidentiel
+2024-05-07 13:20:34,504 - INFO - Classification Names for attribute '�ge' in table 'cartes_kids': Secret
+2024-05-07 13:20:34,504 - WARNING - Invalid attribute name '�ge' in table 'cartes_kids'. Attribute names must start with a letter or underscore, and contain only letters, digits, and underscores.
+2024-05-07 13:20:34,505 - INFO - Classification Names for attribute 'prenom' in table 'cartes_kids': Confidentiel
+2024-05-07 13:20:34,505 - INFO - Classification Names for attribute 'nom' in table 'cartes_kids': Confidentiel
+2024-05-07 13:20:34,505 - INFO - Classification Names for attribute 'numero' in table 'cartes_kids': Confidentiel
+2024-05-07 13:20:34,505 - INFO - Classification Names for attribute 'solde' in table 'cartes_kids': Confidentiel
+2024-05-07 13:20:34,505 - WARNING - Table 'cartes_kids' metadata quality check failed.
+2024-05-07 13:20:34,505 - INFO - Checking metadata quality for table: cartes_virtuelles
+2024-05-07 13:20:34,505 - INFO - Status of table 'cartes_virtuelles' is ACTIVE.
+2024-05-07 13:20:34,505 - INFO - Total Size for table 'cartes_virtuelles': 2783
+2024-05-07 13:20:34,505 - INFO - Number of Rows for table 'cartes_virtuelles': 50
+2024-05-07 13:20:34,505 - INFO - Raw Data Size for table 'cartes_virtuelles': 2733
+2024-05-07 13:20:34,505 - INFO - Number of Files for table 'cartes_virtuelles': 1
+2024-05-07 13:20:34,505 - WARNING - No classification names found for table cartes_virtuelles
+2024-05-07 13:20:34,505 - INFO - Classification Names for attribute 'numero_carte' in table 'cartes_virtuelles': Confidentiel
+2024-05-07 13:20:34,505 - INFO - Classification Names for attribute 'date_expiration' in table 'cartes_virtuelles': Confidentiel
+2024-05-07 13:20:34,506 - INFO - Classification Names for attribute 'plafond_quotidien' in table 'cartes_virtuelles': Restreint
+2024-05-07 13:20:34,506 - INFO - Classification Names for attribute 'id' in table 'cartes_virtuelles': Restreint
+2024-05-07 13:20:34,506 - INFO - Classification Names for attribute 'type_carte' in table 'cartes_virtuelles': Restreint
+2024-05-07 13:20:34,506 - INFO - Table 'cartes_virtuelles' metadata has good quality.
+2024-05-07 13:20:34,506 - INFO - Checking metadata quality for table: certificats_garantie
+2024-05-07 13:20:34,506 - INFO - Status of table 'certificats_garantie' is ACTIVE.
+2024-05-07 13:20:34,506 - INFO - Total Size for table 'certificats_garantie': 2101
+2024-05-07 13:20:34,506 - INFO - Number of Rows for table 'certificats_garantie': 40
+2024-05-07 13:20:34,506 - INFO - Raw Data Size for table 'certificats_garantie': 2061
+2024-05-07 13:20:34,506 - INFO - Number of Files for table 'certificats_garantie': 1
+2024-05-07 13:20:34,506 - WARNING - No classification names found for table certificats_garantie
+2024-05-07 13:20:34,506 - INFO - Classification Names for attribute 'nom_client' in table 'certificats_garantie': Restreint
+2024-05-07 13:20:34,506 - INFO - Classification Names for attribute 'date_ouverture' in table 'certificats_garantie': Confidentiel
+2024-05-07 13:20:34,507 - INFO - Classification Names for attribute 'montant' in table 'certificats_garantie': Secret
+2024-05-07 13:20:34,507 - INFO - Classification Names for attribute 'num_certificat' in table 'certificats_garantie': Confidentiel
+2024-05-07 13:20:34,507 - INFO - Classification Names for attribute 'type_garantie' in table 'certificats_garantie': Restreint
+2024-05-07 13:20:34,507 - INFO - Table 'certificats_garantie' metadata has good quality.
+2024-05-07 13:20:34,507 - INFO - Checking metadata quality for table: cartes_gold
+2024-05-07 13:20:34,507 - INFO - Status of table 'cartes_gold' is ACTIVE.
+2024-05-07 13:20:34,507 - INFO - Total Size for table 'cartes_gold': 2879
+2024-05-07 13:20:34,507 - INFO - Number of Rows for table 'cartes_gold': 44
+2024-05-07 13:20:34,507 - INFO - Raw Data Size for table 'cartes_gold': 2835
+2024-05-07 13:20:34,507 - INFO - Number of Files for table 'cartes_gold': 1
+2024-05-07 13:20:34,507 - WARNING - No classification names found for table cartes_gold
+2024-05-07 13:20:34,507 - INFO - Classification Names for attribute 'numero_carte' in table 'cartes_gold': Confidentiel
+2024-05-07 13:20:34,507 - INFO - Classification Names for attribute 'titulaire' in table 'cartes_gold': Confidentiel
+2024-05-07 13:20:34,507 - INFO - Classification Names for attribute 'seuil_opposition' in table 'cartes_gold': Confidentiel
+2024-05-07 13:20:34,507 - INFO - Classification Names for attribute 'limite_depense_mensuelle' in table 'cartes_gold': Confidentiel
+2024-05-07 13:20:34,508 - INFO - Classification Names for attribute 'date_validite' in table 'cartes_gold': Confidentiel
+2024-05-07 13:20:34,508 - INFO - Table 'cartes_gold' metadata has good quality.
+2024-05-07 13:20:34,508 - INFO - Checking metadata quality for table: change_devise
+2024-05-07 13:20:34,508 - INFO - Status of table 'change_devise' is ACTIVE.
+2024-05-07 13:20:34,508 - INFO - Total Size for table 'change_devise': 2392
+2024-05-07 13:20:34,508 - INFO - Number of Rows for table 'change_devise': 92
+2024-05-07 13:20:34,508 - INFO - Raw Data Size for table 'change_devise': 2300
+2024-05-07 13:20:34,508 - INFO - Number of Files for table 'change_devise': 2
+2024-05-07 13:20:34,508 - WARNING - No classification names found for table change_devise
+2024-05-07 13:20:34,508 - INFO - Classification Names for attribute 'montant' in table 'change_devise': Secret
+2024-05-07 13:20:34,508 - INFO - Classification Names for attribute 'devise' in table 'change_devise': Confidentiel
+2024-05-07 13:20:34,508 - INFO - Classification Names for attribute 'type_operation' in table 'change_devise': Restreint
+2024-05-07 13:20:34,508 - INFO - Classification Names for attribute 'date' in table 'change_devise': Secret
+2024-05-07 13:20:34,508 - INFO - Table 'change_devise' metadata has good quality.
+2024-05-07 13:20:34,508 - INFO - Checking metadata quality for table: courses_devise
+2024-05-07 13:20:34,509 - INFO - Status of table 'courses_devise' is ACTIVE.
+2024-05-07 13:20:34,509 - INFO - Total Size for table 'courses_devise': 2122
+2024-05-07 13:20:34,509 - INFO - Number of Rows for table 'courses_devise': 50
+2024-05-07 13:20:34,509 - INFO - Raw Data Size for table 'courses_devise': 2072
+2024-05-07 13:20:34,509 - INFO - Number of Files for table 'courses_devise': 1
+2024-05-07 13:20:34,509 - WARNING - No classification names found for table courses_devise
+2024-05-07 13:20:34,509 - INFO - Classification Names for attribute 'montant_vente' in table 'courses_devise': Secret
+2024-05-07 13:20:34,509 - INFO - Classification Names for attribute 'id' in table 'courses_devise': Public
+2024-05-07 13:20:34,509 - INFO - Classification Names for attribute 'devise_vendue' in table 'courses_devise': Secret
+2024-05-07 13:20:34,509 - INFO - Classification Names for attribute 'montant_achat' in table 'courses_devise': Secret
+2024-05-07 13:20:34,509 - INFO - Classification Names for attribute 'devise_achetee' in table 'courses_devise': Secret
+2024-05-07 13:20:34,509 - INFO - Table 'courses_devise' metadata has good quality.
+2024-05-07 13:20:34,509 - INFO - Checking metadata quality for table: courtage_bourse
+2024-05-07 13:20:34,510 - INFO - Status of table 'courtage_bourse' is ACTIVE.
+2024-05-07 13:20:34,510 - INFO - Total Size for table 'courtage_bourse': 2109
+2024-05-07 13:20:34,510 - INFO - Number of Rows for table 'courtage_bourse': 42
+2024-05-07 13:20:34,510 - INFO - Raw Data Size for table 'courtage_bourse': 2067
+2024-05-07 13:20:34,510 - INFO - Number of Files for table 'courtage_bourse': 1
+2024-05-07 13:20:34,510 - WARNING - No classification names found for table courtage_bourse
+2024-05-07 13:20:34,510 - INFO - Classification Names for attribute 'numero_compte' in table 'courtage_bourse': Confidentiel
+2024-05-07 13:20:34,510 - INFO - Classification Names for attribute 'client' in table 'courtage_bourse': Confidentiel
+2024-05-07 13:20:34,510 - INFO - Classification Names for attribute 'type_action' in table 'courtage_bourse': Restreint
+2024-05-07 13:20:34,510 - INFO - Classification Names for attribute 'montant_total' in table 'courtage_bourse': Tres Secret
+2024-05-07 13:20:34,510 - INFO - Classification Names for attribute 'prix_unitaire' in table 'courtage_bourse': Tres Secret
+2024-05-07 13:20:34,510 - INFO - Classification Names for attribute 'quantite' in table 'courtage_bourse': Confidentiel
+2024-05-07 13:20:34,510 - INFO - Table 'courtage_bourse' metadata has good quality.
+2024-05-07 13:20:34,510 - INFO - Checking metadata quality for table: commissions_remittances
+2024-05-07 13:20:34,511 - INFO - Status of table 'commissions_remittances' is ACTIVE.
+2024-05-07 13:20:34,511 - INFO - Total Size for table 'commissions_remittances': 1993
+2024-05-07 13:20:34,511 - INFO - Number of Rows for table 'commissions_remittances': 50
+2024-05-07 13:20:34,511 - INFO - Raw Data Size for table 'commissions_remittances': 1943
+2024-05-07 13:20:34,511 - INFO - Number of Files for table 'commissions_remittances': 1
+2024-05-07 13:20:34,511 - WARNING - No classification names found for table commissions_remittances
+2024-05-07 13:20:34,511 - INFO - Classification Names for attribute 'montant_max' in table 'commissions_remittances': Secret
+2024-05-07 13:20:34,511 - INFO - Classification Names for attribute 'montant_min' in table 'commissions_remittances': Secret
+2024-05-07 13:20:34,512 - INFO - Classification Names for attribute 'commission' in table 'commissions_remittances': Secret
+2024-05-07 13:20:34,512 - INFO - Classification Names for attribute 'type_operation' in table 'commissions_remittances': Restreint
+2024-05-07 13:20:34,512 - INFO - Classification Names for attribute 'id' in table 'commissions_remittances': Secret
+2024-05-07 13:20:34,512 - INFO - Table 'commissions_remittances' metadata has good quality.
+2024-05-07 13:20:34,512 - INFO - Checking metadata quality for table: community_engagement_data
+2024-05-07 13:20:34,512 - INFO - Status of table 'community_engagement_data' is ACTIVE.
+2024-05-07 13:20:34,512 - INFO - Total Size for table 'community_engagement_data': 18773
+2024-05-07 13:20:34,513 - INFO - Number of Rows for table 'community_engagement_data': 100
+2024-05-07 13:20:34,513 - INFO - Raw Data Size for table 'community_engagement_data': 18673
+2024-05-07 13:20:34,513 - INFO - Number of Files for table 'community_engagement_data': 1
+2024-05-07 13:20:34,513 - WARNING - No classification names found for table community_engagement_data
+2024-05-07 13:20:34,513 - INFO - Classification Names for attribute 'lieu' in table 'community_engagement_data': Secret
+2024-05-07 13:20:34,513 - INFO - Classification Names for attribute 'id_evenement' in table 'community_engagement_data': Confidentiel
+2024-05-07 13:20:34,513 - INFO - Classification Names for attribute 'nom_evenement' in table 'community_engagement_data': Confidentiel
+2024-05-07 13:20:34,513 - INFO - Classification Names for attribute 'date' in table 'community_engagement_data': Restreint
+2024-05-07 13:20:34,514 - INFO - Classification Names for attribute 'description' in table 'community_engagement_data': Confidentiel
+2024-05-07 13:20:34,514 - INFO - Table 'community_engagement_data' metadata has good quality.
+2024-05-07 13:20:34,514 - INFO - Checking metadata quality for table: conciliation_comptes
+2024-05-07 13:20:34,514 - INFO - Status of table 'conciliation_comptes' is ACTIVE.
+2024-05-07 13:20:34,514 - INFO - Total Size for table 'conciliation_comptes': 1990
+2024-05-07 13:20:34,514 - INFO - Number of Rows for table 'conciliation_comptes': 37
+2024-05-07 13:20:34,514 - INFO - Raw Data Size for table 'conciliation_comptes': 1953
+2024-05-07 13:20:34,515 - INFO - Number of Files for table 'conciliation_comptes': 1
+2024-05-07 13:20:34,515 - WARNING - No classification names found for table conciliation_comptes
+2024-05-07 13:20:34,515 - INFO - Classification Names for attribute 'compte' in table 'conciliation_comptes': Secret
+2024-05-07 13:20:34,515 - INFO - Classification Names for attribute 'credit' in table 'conciliation_comptes': Restreint
+2024-05-07 13:20:34,515 - INFO - Classification Names for attribute 'date' in table 'conciliation_comptes': Restreint
+2024-05-07 13:20:34,515 - INFO - Classification Names for attribute 'debit' in table 'conciliation_comptes': Restreint
+2024-05-07 13:20:34,515 - INFO - Classification Names for attribute 'operation' in table 'conciliation_comptes': Restreint
+2024-05-07 13:20:34,515 - INFO - Classification Names for attribute 'solde' in table 'conciliation_comptes': Confidentiel
+2024-05-07 13:20:34,515 - INFO - Table 'conciliation_comptes' metadata has good quality.
+2024-05-07 13:20:34,516 - INFO - Checking metadata quality for table: contact_info_data
+2024-05-07 13:20:34,516 - INFO - Status of table 'contact_info_data' is ACTIVE.
+2024-05-07 13:20:34,516 - INFO - Total Size for table 'contact_info_data': 6023
+2024-05-07 13:20:34,516 - INFO - Number of Rows for table 'contact_info_data': 100
+2024-05-07 13:20:34,516 - INFO - Raw Data Size for table 'contact_info_data': 5923
+2024-05-07 13:20:34,516 - INFO - Number of Files for table 'contact_info_data': 1
+2024-05-07 13:20:34,516 - WARNING - No classification names found for table contact_info_data
+2024-05-07 13:20:34,517 - INFO - Classification Names for attribute 'coordonnees_contact' in table 'contact_info_data': Restreint
+2024-05-07 13:20:34,517 - INFO - Classification Names for attribute 'type_contact' in table 'contact_info_data': Secret
+2024-05-07 13:20:34,517 - INFO - Classification Names for attribute 'id_contact' in table 'contact_info_data': Secret
+2024-05-07 13:20:34,517 - INFO - Table 'contact_info_data' metadata has good quality.
+2024-05-07 13:20:34,517 - INFO - Checking metadata quality for table: credit_documents
+2024-05-07 13:20:34,517 - INFO - Status of table 'credit_documents' is ACTIVE.
+2024-05-07 13:20:34,517 - INFO - Total Size for table 'credit_documents': 1974
+2024-05-07 13:20:34,517 - INFO - Number of Rows for table 'credit_documents': 41
+2024-05-07 13:20:34,518 - INFO - Raw Data Size for table 'credit_documents': 1933
+2024-05-07 13:20:34,518 - INFO - Number of Files for table 'credit_documents': 1
+2024-05-07 13:20:34,518 - WARNING - No classification names found for table credit_documents
+2024-05-07 13:20:34,518 - INFO - Classification Names for attribute 'nom_client' in table 'credit_documents': Secret
+2024-05-07 13:20:34,518 - INFO - Classification Names for attribute 'taux_interet' in table 'credit_documents': Confidentiel
+2024-05-07 13:20:34,518 - INFO - Classification Names for attribute 'montant_credit' in table 'credit_documents': Confidentiel
+2024-05-07 13:20:34,518 - INFO - Classification Names for attribute 'profession' in table 'credit_documents': Confidentiel
+2024-05-07 13:20:34,518 - INFO - Classification Names for attribute 'num_client' in table 'credit_documents': Secret
+2024-05-07 13:20:34,519 - INFO - Classification Names for attribute 'duree_remboursement_mois' in table 'credit_documents': Confidentiel
+2024-05-07 13:20:34,519 - INFO - Table 'credit_documents' metadata has good quality.
+2024-05-07 13:20:34,519 - INFO - Checking metadata quality for table: comptes_conjoints
+2024-05-07 13:20:34,519 - INFO - Status of table 'comptes_conjoints' is ACTIVE.
+2024-05-07 13:20:34,519 - INFO - Total Size for table 'comptes_conjoints': 3897
+2024-05-07 13:20:34,519 - INFO - Number of Rows for table 'comptes_conjoints': 47
+2024-05-07 13:20:34,519 - INFO - Raw Data Size for table 'comptes_conjoints': 3850
+2024-05-07 13:20:34,520 - INFO - Number of Files for table 'comptes_conjoints': 1
+2024-05-07 13:20:34,520 - WARNING - No classification names found for table comptes_conjoints
+2024-05-07 13:20:34,520 - INFO - Classification Names for attribute 'date_ouverture' in table 'comptes_conjoints': Confidentiel
+2024-05-07 13:20:34,520 - INFO - Classification Names for attribute 'num_compte' in table 'comptes_conjoints': Secret
+2024-05-07 13:20:34,520 - INFO - Classification Names for attribute 'titulaire2' in table 'comptes_conjoints': Confidentiel
+2024-05-07 13:20:34,520 - INFO - Classification Names for attribute 'solde' in table 'comptes_conjoints': Secret
+2024-05-07 13:20:34,520 - INFO - Classification Names for attribute 'agence' in table 'comptes_conjoints': Restreint
+2024-05-07 13:20:34,520 - INFO - Classification Names for attribute 'titulaire1' in table 'comptes_conjoints': Secret
+2024-05-07 13:20:34,521 - INFO - Table 'comptes_conjoints' metadata has good quality.
+2024-05-07 13:20:34,521 - INFO - Checking metadata quality for table: clients_professionnels
+2024-05-07 13:20:34,521 - INFO - Status of table 'clients_professionnels' is ACTIVE.
+2024-05-07 13:20:34,521 - INFO - Total Size for table 'clients_professionnels': 4617
+2024-05-07 13:20:34,521 - INFO - Number of Rows for table 'clients_professionnels': 50
+2024-05-07 13:20:34,521 - INFO - Raw Data Size for table 'clients_professionnels': 4567
+2024-05-07 13:20:34,521 - INFO - Number of Files for table 'clients_professionnels': 1
+2024-05-07 13:20:34,521 - WARNING - No classification names found for table clients_professionnels
+2024-05-07 13:20:34,522 - INFO - Classification Names for attribute 'entreprise' in table 'clients_professionnels': Confidentiel
+2024-05-07 13:20:34,522 - INFO - Classification Names for attribute 'secteur_activite' in table 'clients_professionnels': Secret
+2024-05-07 13:20:34,522 - INFO - Classification Names for attribute 'adresse' in table 'clients_professionnels': Confidentiel
+2024-05-07 13:20:34,522 - INFO - Classification Names for attribute 'telephone' in table 'clients_professionnels': Confidentiel
+2024-05-07 13:20:34,522 - INFO - Classification Names for attribute 'id' in table 'clients_professionnels': Confidentiel
+2024-05-07 13:20:34,522 - INFO - Table 'clients_professionnels' metadata has good quality.
+2024-05-07 13:20:34,522 - INFO - Checking metadata quality for table: clients_particuliers
+2024-05-07 13:20:34,522 - INFO - Status of table 'clients_particuliers' is ACTIVE.
+2024-05-07 13:20:34,523 - INFO - Total Size for table 'clients_particuliers': 2780
+2024-05-07 13:20:34,523 - INFO - Number of Rows for table 'clients_particuliers': 50
+2024-05-07 13:20:34,523 - INFO - Raw Data Size for table 'clients_particuliers': 2730
+2024-05-07 13:20:34,523 - INFO - Number of Files for table 'clients_particuliers': 1
+2024-05-07 13:20:34,523 - WARNING - No classification names found for table clients_particuliers
+2024-05-07 13:20:34,523 - INFO - Classification Names for attribute 'nom' in table 'clients_particuliers': Secret
+2024-05-07 13:20:34,523 - INFO - Classification Names for attribute 'prenom' in table 'clients_particuliers': Restreint
+2024-05-07 13:20:34,523 - INFO - Classification Names for attribute 'adresse' in table 'clients_particuliers': Restreint
+2024-05-07 13:20:34,524 - INFO - Classification Names for attribute 'id' in table 'clients_particuliers': Secret
+2024-05-07 13:20:34,524 - INFO - Classification Names for attribute 'cin' in table 'clients_particuliers': Secret
+2024-05-07 13:20:34,524 - INFO - Table 'clients_particuliers' metadata has good quality.
+2024-05-07 13:20:34,524 - INFO - Checking metadata quality for table: comptes_joint
+2024-05-07 13:20:34,524 - INFO - Status of table 'comptes_joint' is ACTIVE.
+2024-05-07 13:20:34,524 - INFO - Total Size for table 'comptes_joint': 1567
+2024-05-07 13:20:34,524 - INFO - Number of Rows for table 'comptes_joint': 50
+2024-05-07 13:20:34,524 - INFO - Raw Data Size for table 'comptes_joint': 1517
+2024-05-07 13:20:34,525 - INFO - Number of Files for table 'comptes_joint': 1
+2024-05-07 13:20:34,525 - WARNING - No classification names found for table comptes_joint
+2024-05-07 13:20:34,525 - INFO - Classification Names for attribute 'solde' in table 'comptes_joint': Secret
+2024-05-07 13:20:34,525 - INFO - Classification Names for attribute 'id' in table 'comptes_joint': Secret
+2024-05-07 13:20:34,525 - INFO - Classification Names for attribute 'titulaire_1' in table 'comptes_joint': Confidentiel
+2024-05-07 13:20:34,525 - INFO - Classification Names for attribute 'date_ouverture' in table 'comptes_joint': Secret
+2024-05-07 13:20:34,525 - INFO - Classification Names for attribute 'titulaire_2' in table 'comptes_joint': Confidentiel
+2024-05-07 13:20:34,525 - INFO - Table 'comptes_joint' metadata has good quality.
+2024-05-07 13:20:34,526 - INFO - Checking metadata quality for table: commission_transactions
+2024-05-07 13:20:34,526 - INFO - Status of table 'commission_transactions' is ACTIVE.
+2024-05-07 13:20:34,526 - INFO - Total Size for table 'commission_transactions': 973
+2024-05-07 13:20:34,526 - INFO - Number of Rows for table 'commission_transactions': 50
+2024-05-07 13:20:34,526 - INFO - Raw Data Size for table 'commission_transactions': 923
+2024-05-07 13:20:34,526 - INFO - Number of Files for table 'commission_transactions': 1
+2024-05-07 13:20:34,526 - WARNING - No classification names found for table commission_transactions
+2024-05-07 13:20:34,526 - INFO - Classification Names for attribute 'type_transaction' in table 'commission_transactions': Confidentiel
+2024-05-07 13:20:34,526 - INFO - Classification Names for attribute 'id' in table 'commission_transactions': Confidentiel
+2024-05-07 13:20:34,527 - INFO - Classification Names for attribute 'commission' in table 'commission_transactions': Secret
+2024-05-07 13:20:34,527 - INFO - Table 'commission_transactions' metadata has good quality.
+2024-05-07 13:20:34,527 - INFO - Checking metadata quality for table: employe
+2024-05-07 13:20:34,527 - INFO - Status of table 'employe' is ACTIVE.
+2024-05-07 13:20:34,527 - INFO - Total Size for table 'employe': 2102
+2024-05-07 13:20:34,527 - INFO - Number of Rows for table 'employe': 10
+2024-05-07 13:20:34,527 - INFO - Raw Data Size for table 'employe': 2092
+2024-05-07 13:20:34,527 - INFO - Number of Files for table 'employe': 1
+2024-05-07 13:20:34,527 - WARNING - No classification names found for table employe
+2024-05-07 13:20:34,527 - INFO - Classification Names for attribute 'numero_tele' in table 'employe': Secret
+2024-05-07 13:20:34,527 - INFO - Classification Names for attribute 'ville' in table 'employe': Secret
+2024-05-07 13:20:34,527 - INFO - Classification Names for attribute 'nom' in table 'employe': Secret
+2024-05-07 13:20:34,527 - INFO - Classification Names for attribute 'adresse' in table 'employe': Confidentiel
+2024-05-07 13:20:34,527 - INFO - Classification Names for attribute 'zipcode' in table 'employe': Confidentiel
+2024-05-07 13:20:34,528 - INFO - Classification Names for attribute 'salaire' in table 'employe': Confidentiel
+2024-05-07 13:20:34,528 - INFO - Classification Names for attribute 'email' in table 'employe': Confidentiel
+2024-05-07 13:20:34,528 - INFO - Classification Names for attribute 'date_recrutement' in table 'employe': Confidentiel
+2024-05-07 13:20:34,528 - INFO - Classification Names for attribute 'departement' in table 'employe': Secret
+2024-05-07 13:20:34,528 - INFO - Classification Names for attribute 'poste' in table 'employe': Secret
+2024-05-07 13:20:34,528 - INFO - Classification Names for attribute 'numerosecuritesocial' in table 'employe': Confidentiel
+2024-05-07 13:20:34,528 - INFO - Classification Names for attribute 'date_naissance' in table 'employe': Secret
+2024-05-07 13:20:34,528 - INFO - Classification Names for attribute 'prenom' in table 'employe': Confidentiel
+2024-05-07 13:20:34,528 - INFO - Classification Names for attribute 'employeeid' in table 'employe': Confidentiel
+2024-05-07 13:20:34,528 - INFO - Classification Names for attribute 'pays' in table 'employe': Secret
+2024-05-07 13:20:34,528 - INFO - Table 'employe' metadata has good quality.
+2024-05-07 13:20:34,528 - INFO - Checking metadata quality for table: emprunts_credits
+2024-05-07 13:20:34,528 - INFO - Status of table 'emprunts_credits' is ACTIVE.
+2024-05-07 13:20:34,529 - INFO - Total Size for table 'emprunts_credits': 1443
+2024-05-07 13:20:34,529 - INFO - Number of Rows for table 'emprunts_credits': 50
+2024-05-07 13:20:34,529 - INFO - Raw Data Size for table 'emprunts_credits': 1393
+2024-05-07 13:20:34,529 - INFO - Number of Files for table 'emprunts_credits': 1
+2024-05-07 13:20:34,529 - WARNING - No classification names found for table emprunts_credits
+2024-05-07 13:20:34,529 - INFO - Classification Names for attribute 'taux_interet' in table 'emprunts_credits': Confidentiel
+2024-05-07 13:20:34,529 - INFO - Classification Names for attribute 'duree_remboursement' in table 'emprunts_credits': Confidentiel
+2024-05-07 13:20:34,529 - INFO - Classification Names for attribute 'montant' in table 'emprunts_credits': Confidentiel
+2024-05-07 13:20:34,529 - INFO - Classification Names for attribute 'date_emprunt' in table 'emprunts_credits': Secret
+2024-05-07 13:20:34,529 - INFO - Classification Names for attribute 'id' in table 'emprunts_credits': Secret
+2024-05-07 13:20:34,529 - INFO - Table 'emprunts_credits' metadata has good quality.
+2024-05-07 13:20:34,529 - INFO - Checking metadata quality for table: fiscalite_comptes
+2024-05-07 13:20:34,529 - INFO - Status of table 'fiscalite_comptes' is ACTIVE.
+2024-05-07 13:20:34,529 - INFO - Total Size for table 'fiscalite_comptes': 1324
+2024-05-07 13:20:34,529 - INFO - Number of Rows for table 'fiscalite_comptes': 10
+2024-05-07 13:20:34,530 - INFO - Raw Data Size for table 'fiscalite_comptes': 1314
+2024-05-07 13:20:34,530 - INFO - Number of Files for table 'fiscalite_comptes': 1
+2024-05-07 13:20:34,530 - WARNING - No classification names found for table fiscalite_comptes
+2024-05-07 13:20:34,530 - INFO - Classification Names for attribute 'description' in table 'fiscalite_comptes': Confidentiel
+2024-05-07 13:20:34,530 - INFO - Classification Names for attribute 'id' in table 'fiscalite_comptes': Confidentiel
+2024-05-07 13:20:34,530 - INFO - Classification Names for attribute 'date_application' in table 'fiscalite_comptes': Confidentiel
+2024-05-07 13:20:34,530 - INFO - Classification Names for attribute 'taux_imposition' in table 'fiscalite_comptes': Secret
+2024-05-07 13:20:34,530 - INFO - Classification Names for attribute 'type_avantage' in table 'fiscalite_comptes': Restreint
+2024-05-07 13:20:34,530 - INFO - Table 'fiscalite_comptes' metadata has good quality.
+2024-05-07 13:20:34,530 - INFO - Checking metadata quality for table: frais_services_bancaires
+2024-05-07 13:20:34,530 - INFO - Status of table 'frais_services_bancaires' is ACTIVE.
+2024-05-07 13:20:34,530 - INFO - Total Size for table 'frais_services_bancaires': 4064
+2024-05-07 13:20:34,531 - INFO - Number of Rows for table 'frais_services_bancaires': 44
+2024-05-07 13:20:34,531 - INFO - Raw Data Size for table 'frais_services_bancaires': 4020
+2024-05-07 13:20:34,531 - INFO - Number of Files for table 'frais_services_bancaires': 1
+2024-05-07 13:20:34,531 - WARNING - No classification names found for table frais_services_bancaires
+2024-05-07 13:20:34,531 - INFO - Classification Names for attribute 'montant' in table 'frais_services_bancaires': Secret
+2024-05-07 13:20:34,531 - INFO - Classification Names for attribute 'service' in table 'frais_services_bancaires': Restreint
+2024-05-07 13:20:34,531 - INFO - Classification Names for attribute 'description' in table 'frais_services_bancaires': Restreint
+2024-05-07 13:20:34,531 - INFO - Table 'frais_services_bancaires' metadata has good quality.
+2024-05-07 13:20:34,531 - INFO - Checking metadata quality for table: customer
+2024-05-07 13:20:34,531 - INFO - Status of table 'customer' is ACTIVE.
+2024-05-07 13:20:34,531 - INFO - Total Size for table 'customer': 96155
+2024-05-07 13:20:34,531 - INFO - Number of Rows for table 'customer': 500
+2024-05-07 13:20:34,531 - INFO - Raw Data Size for table 'customer': 95655
+2024-05-07 13:20:34,531 - INFO - Number of Files for table 'customer': 1
+2024-05-07 13:20:34,531 - WARNING - No classification names found for table customer
+2024-05-07 13:20:34,532 - INFO - Classification Names for attribute 'id_client' in table 'customer': Secret
+2024-05-07 13:20:34,532 - INFO - Classification Names for attribute 'genre' in table 'customer': Secret
+2024-05-07 13:20:34,532 - INFO - Classification Names for attribute 'telephone' in table 'customer': Confidentiel
+2024-05-07 13:20:34,532 - INFO - Classification Names for attribute 'id_agence' in table 'customer': Secret
+2024-05-07 13:20:34,532 - INFO - Classification Names for attribute 'nom' in table 'customer': Confidentiel
+2024-05-07 13:20:34,532 - INFO - Classification Names for attribute 'flag_contencieux' in table 'customer': Restreint
+2024-05-07 13:20:34,532 - INFO - Classification Names for attribute 'date_de_naissance' in table 'customer': Restreint
+2024-05-07 13:20:34,532 - INFO - Classification Names for attribute 'prenom' in table 'customer': Restreint
+2024-05-07 13:20:34,532 - INFO - Classification Names for attribute 'adresse' in table 'customer': Restreint
+2024-05-07 13:20:34,532 - INFO - Classification Names for attribute 'flag_mre' in table 'customer': Restreint
+2024-05-07 13:20:34,532 - INFO - Classification Names for attribute 'cin' in table 'customer': Restreint
+2024-05-07 13:20:34,532 - INFO - Classification Names for attribute 'id_compte' in table 'customer': Tres Secret
+2024-05-07 13:20:34,532 - INFO - Table 'customer' metadata has good quality.
+2024-05-07 13:20:34,532 - INFO - Checking metadata quality for table: demandes_credit_immobilier
+2024-05-07 13:20:34,533 - INFO - Status of table 'demandes_credit_immobilier' is ACTIVE.
+2024-05-07 13:20:34,533 - INFO - Total Size for table 'demandes_credit_immobilier': 3172
+2024-05-07 13:20:34,533 - INFO - Number of Rows for table 'demandes_credit_immobilier': 40
+2024-05-07 13:20:34,533 - INFO - Raw Data Size for table 'demandes_credit_immobilier': 3132
+2024-05-07 13:20:34,533 - INFO - Number of Files for table 'demandes_credit_immobilier': 1
+2024-05-07 13:20:34,533 - WARNING - No classification names found for table demandes_credit_immobilier
+2024-05-07 13:20:34,533 - INFO - Classification Names for attribute 'client_profession' in table 'demandes_credit_immobilier': Restreint
+2024-05-07 13:20:34,533 - INFO - Classification Names for attribute 'num_demande' in table 'demandes_credit_immobilier': Restreint
+2024-05-07 13:20:34,533 - INFO - Classification Names for attribute 'apport_personnel' in table 'demandes_credit_immobilier': Confidentiel
+2024-05-07 13:20:34,533 - INFO - Classification Names for attribute 'client_nom' in table 'demandes_credit_immobilier': Restreint
+2024-05-07 13:20:34,533 - INFO - Classification Names for attribute 'montant_demande' in table 'demandes_credit_immobilier': Secret
+2024-05-07 13:20:34,533 - INFO - Classification Names for attribute 'status' in table 'demandes_credit_immobilier': Restreint
+2024-05-07 13:20:34,533 - INFO - Classification Names for attribute 'date_demande' in table 'demandes_credit_immobilier': Restreint
+2024-05-07 13:20:34,533 - INFO - Table 'demandes_credit_immobilier' metadata has good quality.
+2024-05-07 13:20:34,534 - INFO - Checking metadata quality for table: depots_especes
+2024-05-07 13:20:34,534 - INFO - Status of table 'depots_especes' is ACTIVE.
+2024-05-07 13:20:34,534 - INFO - Total Size for table 'depots_especes': 5248
+2024-05-07 13:20:34,534 - INFO - Number of Rows for table 'depots_especes': 100
+2024-05-07 13:20:34,534 - INFO - Raw Data Size for table 'depots_especes': 5148
+2024-05-07 13:20:34,534 - INFO - Number of Files for table 'depots_especes': 2
+2024-05-07 13:20:34,534 - WARNING - No classification names found for table depots_especes
+2024-05-07 13:20:34,534 - INFO - Classification Names for attribute 'numero_transaction' in table 'depots_especes': Restreint
+2024-05-07 13:20:34,534 - INFO - Classification Names for attribute 'montant_depose' in table 'depots_especes': Secret
+2024-05-07 13:20:34,534 - INFO - Classification Names for attribute 'agence' in table 'depots_especes': Secret
+2024-05-07 13:20:34,534 - INFO - Classification Names for attribute 'date_depot' in table 'depots_especes': Secret
+2024-05-07 13:20:34,534 - INFO - Classification Names for attribute 'nom_client' in table 'depots_especes': Secret
+2024-05-07 13:20:34,534 - INFO - Table 'depots_especes' metadata has good quality.
+2024-05-07 13:20:34,534 - INFO - Checking metadata quality for table: emissions_cartes_pro
+2024-05-07 13:20:34,535 - INFO - Status of table 'emissions_cartes_pro' is ACTIVE.
+2024-05-07 13:20:34,535 - INFO - Total Size for table 'emissions_cartes_pro': 3858
+2024-05-07 13:20:34,535 - INFO - Number of Rows for table 'emissions_cartes_pro': 39
+2024-05-07 13:20:34,535 - INFO - Raw Data Size for table 'emissions_cartes_pro': 3819
+2024-05-07 13:20:34,535 - INFO - Number of Files for table 'emissions_cartes_pro': 1
+2024-05-07 13:20:34,535 - WARNING - No classification names found for table emissions_cartes_pro
+2024-05-07 13:20:34,535 - INFO - Classification Names for attribute 'num_carte' in table 'emissions_cartes_pro': Secret
+2024-05-07 13:20:34,535 - INFO - Classification Names for attribute 'type_carte' in table 'emissions_cartes_pro': Secret
+2024-05-07 13:20:34,535 - INFO - Classification Names for attribute 'solde_disponible' in table 'emissions_cartes_pro': Secret
+2024-05-07 13:20:34,535 - INFO - Classification Names for attribute 'nom_titulaire' in table 'emissions_cartes_pro': Restreint
+2024-05-07 13:20:34,535 - INFO - Classification Names for attribute 'plafond_paiement' in table 'emissions_cartes_pro': Secret
+2024-05-07 13:20:34,535 - INFO - Classification Names for attribute 'plafond_retrait' in table 'emissions_cartes_pro': Restreint
+2024-05-07 13:20:34,535 - INFO - Classification Names for attribute 'date_validite' in table 'emissions_cartes_pro': Public
+2024-05-07 13:20:34,535 - INFO - Table 'emissions_cartes_pro' metadata has good quality.
+2024-05-07 13:20:34,535 - INFO - Checking metadata quality for table: evaluation_credits
+2024-05-07 13:20:34,536 - INFO - Status of table 'evaluation_credits' is ACTIVE.
+2024-05-07 13:20:34,536 - INFO - Total Size for table 'evaluation_credits': 1446
+2024-05-07 13:20:34,536 - INFO - Number of Rows for table 'evaluation_credits': 30
+2024-05-07 13:20:34,536 - INFO - Raw Data Size for table 'evaluation_credits': 1416
+2024-05-07 13:20:34,536 - INFO - Number of Files for table 'evaluation_credits': 1
+2024-05-07 13:20:34,536 - WARNING - No classification names found for table evaluation_credits
+2024-05-07 13:20:34,536 - INFO - Classification Names for attribute 'salaire_mensuel' in table 'evaluation_credits': Public
+2024-05-07 13:20:34,536 - INFO - Classification Names for attribute 'client_id' in table 'evaluation_credits': Restreint
+2024-05-07 13:20:34,536 - INFO - Classification Names for attribute 'anciennete_emploi' in table 'evaluation_credits': Secret
+2024-05-07 13:20:34,536 - INFO - Classification Names for attribute 'nom_client' in table 'evaluation_credits': Secret
+2024-05-07 13:20:34,536 - INFO - Classification Names for attribute 'score_credit' in table 'evaluation_credits': Restreint
+2024-05-07 13:20:34,536 - INFO - Classification Names for attribute 'etat_civil' in table 'evaluation_credits': Restreint
+2024-05-07 13:20:34,536 - INFO - Classification Names for attribute 'montant_demande' in table 'evaluation_credits': Restreint
+2024-05-07 13:20:34,536 - INFO - Table 'evaluation_credits' metadata has good quality.
+2024-05-07 13:20:34,536 - INFO - Checking metadata quality for table: credits_auto
+2024-05-07 13:20:34,537 - INFO - Status of table 'credits_auto' is ACTIVE.
+2024-05-07 13:20:34,537 - INFO - Total Size for table 'credits_auto': 1959
+2024-05-07 13:20:34,537 - INFO - Number of Rows for table 'credits_auto': 40
+2024-05-07 13:20:34,537 - INFO - Raw Data Size for table 'credits_auto': 1919
+2024-05-07 13:20:34,537 - INFO - Number of Files for table 'credits_auto': 1
+2024-05-07 13:20:34,537 - WARNING - No classification names found for table credits_auto
+2024-05-07 13:20:34,537 - INFO - Classification Names for attribute 'salaire_mensuel' in table 'credits_auto': Restreint
+2024-05-07 13:20:34,537 - INFO - Classification Names for attribute 'profession' in table 'credits_auto': Restreint
+2024-05-07 13:20:34,537 - INFO - Classification Names for attribute 'taux_interet' in table 'credits_auto': Confidentiel
+2024-05-07 13:20:34,537 - INFO - Classification Names for attribute 'client' in table 'credits_auto': Restreint
+2024-05-07 13:20:34,537 - INFO - Classification Names for attribute 'duree_mois' in table 'credits_auto': Public
+2024-05-07 13:20:34,537 - INFO - Classification Names for attribute 'montant_pret' in table 'credits_auto': Restreint
+2024-05-07 13:20:34,537 - INFO - Table 'credits_auto' metadata has good quality.
+2024-05-07 13:20:34,537 - INFO - Checking metadata quality for table: education_data
+2024-05-07 13:20:34,538 - INFO - Status of table 'education_data' is ACTIVE.
+2024-05-07 13:20:34,538 - INFO - Total Size for table 'education_data': 20095
+2024-05-07 13:20:34,538 - INFO - Number of Rows for table 'education_data': 100
+2024-05-07 13:20:34,538 - INFO - Raw Data Size for table 'education_data': 19995
+2024-05-07 13:20:34,538 - INFO - Number of Files for table 'education_data': 1
+2024-05-07 13:20:34,538 - WARNING - No classification names found for table education_data
+2024-05-07 13:20:34,538 - INFO - Classification Names for attribute 'title' in table 'education_data': Secret
+2024-05-07 13:20:34,538 - INFO - Classification Names for attribute 'description' in table 'education_data': Restreint
+2024-05-07 13:20:34,538 - INFO - Classification Names for attribute 'url_or_reference' in table 'education_data': Restreint
+2024-05-07 13:20:34,538 - INFO - Classification Names for attribute 'id_ressource' in table 'education_data': Secret
+2024-05-07 13:20:34,538 - INFO - Table 'education_data' metadata has good quality.
+2024-05-07 13:20:34,538 - INFO - Checking metadata quality for table: faqs_data
+2024-05-07 13:20:34,538 - INFO - Status of table 'faqs_data' is ACTIVE.
+2024-05-07 13:20:34,538 - INFO - Total Size for table 'faqs_data': 28114
+2024-05-07 13:20:34,539 - INFO - Number of Rows for table 'faqs_data': 100
+2024-05-07 13:20:34,539 - INFO - Raw Data Size for table 'faqs_data': 28014
+2024-05-07 13:20:34,539 - INFO - Number of Files for table 'faqs_data': 1
+2024-05-07 13:20:34,539 - WARNING - No classification names found for table faqs_data
+2024-05-07 13:20:34,539 - INFO - Classification Names for attribute 'reponse' in table 'faqs_data': Confidentiel
+2024-05-07 13:20:34,539 - INFO - Classification Names for attribute 'question' in table 'faqs_data': Restreint
+2024-05-07 13:20:34,539 - INFO - Classification Names for attribute 'id_question' in table 'faqs_data': Public
+2024-05-07 13:20:34,539 - INFO - Table 'faqs_data' metadata has good quality.
+2024-05-07 13:20:34,539 - INFO - Checking metadata quality for table: gestion_apporteurs_affaires
+2024-05-07 13:20:34,539 - INFO - Status of table 'gestion_apporteurs_affaires' is ACTIVE.
+2024-05-07 13:20:34,539 - INFO - Total Size for table 'gestion_apporteurs_affaires': 2860
+2024-05-07 13:20:34,539 - INFO - Number of Rows for table 'gestion_apporteurs_affaires': 37
+2024-05-07 13:20:34,539 - INFO - Raw Data Size for table 'gestion_apporteurs_affaires': 2823
+2024-05-07 13:20:34,539 - INFO - Number of Files for table 'gestion_apporteurs_affaires': 1
+2024-05-07 13:20:34,539 - WARNING - No classification names found for table gestion_apporteurs_affaires
+2024-05-07 13:20:34,540 - INFO - Classification Names for attribute 'nom' in table 'gestion_apporteurs_affaires': Restreint
+2024-05-07 13:20:34,540 - INFO - Classification Names for attribute 'email' in table 'gestion_apporteurs_affaires': Restreint
+2024-05-07 13:20:34,540 - INFO - Classification Names for attribute 'ville' in table 'gestion_apporteurs_affaires': Public
+2024-05-07 13:20:34,540 - INFO - Classification Names for attribute 'apports_reussis' in table 'gestion_apporteurs_affaires': Secret
+2024-05-07 13:20:34,540 - INFO - Classification Names for attribute 'profesion' in table 'gestion_apporteurs_affaires': Restreint
+2024-05-07 13:20:34,540 - INFO - Classification Names for attribute 'dossier_en_cours' in table 'gestion_apporteurs_affaires': Confidentiel
+2024-05-07 13:20:34,540 - INFO - Classification Names for attribute 'prenom' in table 'gestion_apporteurs_affaires': Confidentiel
+2024-05-07 13:20:34,540 - INFO - Classification Names for attribute 'telephone' in table 'gestion_apporteurs_affaires': Secret
+2024-05-07 13:20:34,540 - INFO - Table 'gestion_apporteurs_affaires' metadata has good quality.
+2024-05-07 13:20:34,540 - INFO - Checking metadata quality for table: gestion_carte_bancaire_pro
+2024-05-07 13:20:34,540 - INFO - Status of table 'gestion_carte_bancaire_pro' is ACTIVE.
+2024-05-07 13:20:34,540 - INFO - Total Size for table 'gestion_carte_bancaire_pro': 2997
+2024-05-07 13:20:34,540 - INFO - Number of Rows for table 'gestion_carte_bancaire_pro': 44
+2024-05-07 13:20:34,540 - INFO - Raw Data Size for table 'gestion_carte_bancaire_pro': 2953
+2024-05-07 13:20:34,541 - INFO - Number of Files for table 'gestion_carte_bancaire_pro': 1
+2024-05-07 13:20:34,541 - WARNING - No classification names found for table gestion_carte_bancaire_pro
+2024-05-07 13:20:34,541 - INFO - Classification Names for attribute 'nom_client' in table 'gestion_carte_bancaire_pro': Confidentiel
+2024-05-07 13:20:34,541 - INFO - Classification Names for attribute 'date_exp' in table 'gestion_carte_bancaire_pro': Restreint
+2024-05-07 13:20:34,541 - INFO - Classification Names for attribute 'type_carte' in table 'gestion_carte_bancaire_pro': Tres Secret
+2024-05-07 13:20:34,541 - INFO - Classification Names for attribute 'num_carte' in table 'gestion_carte_bancaire_pro': Restreint
+2024-05-07 13:20:34,541 - INFO - Classification Names for attribute 'plafond_mensuel' in table 'gestion_carte_bancaire_pro': Secret
+2024-05-07 13:20:34,541 - INFO - Table 'gestion_carte_bancaire_pro' metadata has good quality.
+2024-05-07 13:20:34,541 - INFO - Checking metadata quality for table: gestion_garanties
+2024-05-07 13:20:34,541 - INFO - Status of table 'gestion_garanties' is ACTIVE.
+2024-05-07 13:20:34,541 - INFO - Total Size for table 'gestion_garanties': 3041
+2024-05-07 13:20:34,541 - INFO - Number of Rows for table 'gestion_garanties': 43
+2024-05-07 13:20:34,541 - INFO - Raw Data Size for table 'gestion_garanties': 2998
+2024-05-07 13:20:34,541 - INFO - Number of Files for table 'gestion_garanties': 1
+2024-05-07 13:20:34,541 - WARNING - No classification names found for table gestion_garanties
+2024-05-07 13:20:34,542 - INFO - Classification Names for attribute 'etat' in table 'gestion_garanties': Secret
+2024-05-07 13:20:34,542 - INFO - Classification Names for attribute 'date_debut' in table 'gestion_garanties': Confidentiel
+2024-05-07 13:20:34,542 - INFO - Classification Names for attribute 'type_garantie' in table 'gestion_garanties': Restreint
+2024-05-07 13:20:34,542 - INFO - Classification Names for attribute 'date_fin' in table 'gestion_garanties': Secret
+2024-05-07 13:20:34,542 - INFO - Classification Names for attribute 'valeur_estimee' in table 'gestion_garanties': Restreint
+2024-05-07 13:20:34,542 - INFO - Classification Names for attribute 'num_contrat' in table 'gestion_garanties': Secret
+2024-05-07 13:20:34,543 - INFO - Table 'gestion_garanties' metadata has good quality.
+2024-05-07 13:20:34,543 - INFO - Checking metadata quality for table: gestion_immobilier_entreprises
+2024-05-07 13:20:34,543 - INFO - Status of table 'gestion_immobilier_entreprises' is ACTIVE.
+2024-05-07 13:20:34,543 - INFO - Total Size for table 'gestion_immobilier_entreprises': 3614
+2024-05-07 13:20:34,543 - INFO - Number of Rows for table 'gestion_immobilier_entreprises': 40
+2024-05-07 13:20:34,543 - INFO - Raw Data Size for table 'gestion_immobilier_entreprises': 3574
+2024-05-07 13:20:34,543 - INFO - Number of Files for table 'gestion_immobilier_entreprises': 1
+2024-05-07 13:20:34,543 - WARNING - No classification names found for table gestion_immobilier_entreprises
+2024-05-07 13:20:34,543 - INFO - Classification Names for attribute 'montant_loyer' in table 'gestion_immobilier_entreprises': Confidentiel
+2024-05-07 13:20:34,543 - INFO - Classification Names for attribute 'statut_paiement' in table 'gestion_immobilier_entreprises': Secret
+2024-05-07 13:20:34,543 - INFO - Classification Names for attribute 'responsable_immobilier' in table 'gestion_immobilier_entreprises': Secret
+2024-05-07 13:20:34,543 - INFO - Classification Names for attribute 'nom_entreprise' in table 'gestion_immobilier_entreprises': Secret
+2024-05-07 13:20:34,544 - INFO - Classification Names for attribute 'adresse' in table 'gestion_immobilier_entreprises': Secret
+2024-05-07 13:20:34,544 - INFO - Table 'gestion_immobilier_entreprises' metadata has good quality.
+2024-05-07 13:20:34,544 - INFO - Checking metadata quality for table: gestion_controles_fraude
+2024-05-07 13:20:34,544 - INFO - Status of table 'gestion_controles_fraude' is ACTIVE.
+2024-05-07 13:20:34,544 - INFO - Total Size for table 'gestion_controles_fraude': 3030
+2024-05-07 13:20:34,544 - INFO - Number of Rows for table 'gestion_controles_fraude': 45
+2024-05-07 13:20:34,544 - INFO - Raw Data Size for table 'gestion_controles_fraude': 2985
+2024-05-07 13:20:34,544 - INFO - Number of Files for table 'gestion_controles_fraude': 1
+2024-05-07 13:20:34,544 - WARNING - No classification names found for table gestion_controles_fraude
+2024-05-07 13:20:34,544 - INFO - Classification Names for attribute 'prenom_client' in table 'gestion_controles_fraude': Confidentiel
+2024-05-07 13:20:34,544 - INFO - Classification Names for attribute 'solde' in table 'gestion_controles_fraude': Secret
+2024-05-07 13:20:34,544 - INFO - Classification Names for attribute 'statut' in table 'gestion_controles_fraude': Confidentiel
+2024-05-07 13:20:34,544 - INFO - Classification Names for attribute 'nom_client' in table 'gestion_controles_fraude': Restreint
+2024-05-07 13:20:34,544 - INFO - Classification Names for attribute 'transaction_mensuelle' in table 'gestion_controles_fraude': Restreint
+2024-05-07 13:20:34,545 - INFO - Classification Names for attribute 'numero_compte' in table 'gestion_controles_fraude': Restreint
+2024-05-07 13:20:34,545 - INFO - Classification Names for attribute 'ville' in table 'gestion_controles_fraude': Restreint
+2024-05-07 13:20:34,545 - INFO - Table 'gestion_controles_fraude' metadata has good quality.
+2024-05-07 13:20:34,545 - INFO - Checking metadata quality for table: gestion_credits
+2024-05-07 13:20:34,545 - INFO - Status of table 'gestion_credits' is ACTIVE.
+2024-05-07 13:20:34,545 - INFO - Total Size for table 'gestion_credits': 1451
+2024-05-07 13:20:34,545 - INFO - Number of Rows for table 'gestion_credits': 50
+2024-05-07 13:20:34,545 - INFO - Raw Data Size for table 'gestion_credits': 1401
+2024-05-07 13:20:34,545 - INFO - Number of Files for table 'gestion_credits': 1
+2024-05-07 13:20:34,545 - WARNING - No classification names found for table gestion_credits
+2024-05-07 13:20:34,545 - INFO - Classification Names for attribute 'taux_interet' in table 'gestion_credits': Secret
+2024-05-07 13:20:34,545 - INFO - Classification Names for attribute 'id' in table 'gestion_credits': Secret
+2024-05-07 13:20:34,545 - INFO - Classification Names for attribute 'montant_disponible' in table 'gestion_credits': Restreint
+2024-05-07 13:20:34,545 - INFO - Classification Names for attribute 'date_octroi' in table 'gestion_credits': Restreint
+2024-05-07 13:20:34,546 - INFO - Classification Names for attribute 'duree_remboursement' in table 'gestion_credits': Secret
+2024-05-07 13:20:34,546 - INFO - Table 'gestion_credits' metadata has good quality.
+2024-05-07 13:20:34,546 - INFO - Checking metadata quality for table: gestion_actifs_financiers
+2024-05-07 13:20:34,546 - INFO - Status of table 'gestion_actifs_financiers' is ACTIVE.
+2024-05-07 13:20:34,546 - INFO - Total Size for table 'gestion_actifs_financiers': 2502
+2024-05-07 13:20:34,546 - INFO - Number of Rows for table 'gestion_actifs_financiers': 43
+2024-05-07 13:20:34,546 - INFO - Raw Data Size for table 'gestion_actifs_financiers': 2459
+2024-05-07 13:20:34,546 - INFO - Number of Files for table 'gestion_actifs_financiers': 1
+2024-05-07 13:20:34,546 - WARNING - No classification names found for table gestion_actifs_financiers
+2024-05-07 13:20:34,546 - INFO - Classification Names for attribute 'montant_investi' in table 'gestion_actifs_financiers': Confidentiel
+2024-05-07 13:20:34,546 - INFO - Classification Names for attribute 'type_investissement' in table 'gestion_actifs_financiers': Secret
+2024-05-07 13:20:34,546 - INFO - Classification Names for attribute 'date_investissement' in table 'gestion_actifs_financiers': Secret
+2024-05-07 13:20:34,546 - INFO - Classification Names for attribute 'nom_client' in table 'gestion_actifs_financiers': Secret
+2024-05-07 13:20:34,546 - INFO - Table 'gestion_actifs_financiers' metadata has good quality.
+2024-05-07 13:20:34,546 - INFO - Checking metadata quality for table: gestion_actifs_immobiliers
+2024-05-07 13:20:34,547 - INFO - Status of table 'gestion_actifs_immobiliers' is ACTIVE.
+2024-05-07 13:20:34,547 - INFO - Total Size for table 'gestion_actifs_immobiliers': 1920
+2024-05-07 13:20:34,547 - INFO - Number of Rows for table 'gestion_actifs_immobiliers': 41
+2024-05-07 13:20:34,547 - INFO - Raw Data Size for table 'gestion_actifs_immobiliers': 1879
+2024-05-07 13:20:34,547 - INFO - Number of Files for table 'gestion_actifs_immobiliers': 1
+2024-05-07 13:20:34,547 - WARNING - No classification names found for table gestion_actifs_immobiliers
+2024-05-07 13:20:34,547 - INFO - Classification Names for attribute 'loyer_mensuel' in table 'gestion_actifs_immobiliers': Confidentiel
+2024-05-07 13:20:34,547 - INFO - Classification Names for attribute 'nom_client' in table 'gestion_actifs_immobiliers': Secret
+2024-05-07 13:20:34,547 - INFO - Classification Names for attribute 'type_bien' in table 'gestion_actifs_immobiliers': Secret
+2024-05-07 13:20:34,547 - INFO - Classification Names for attribute 'valeur_estimee' in table 'gestion_actifs_immobiliers': Confidentiel
+2024-05-07 13:20:34,547 - INFO - Classification Names for attribute 'ville' in table 'gestion_actifs_immobiliers': Confidentiel
+2024-05-07 13:20:34,547 - INFO - Table 'gestion_actifs_immobiliers' metadata has good quality.
+2024-05-07 13:20:34,547 - INFO - Checking metadata quality for table: gestion_carte_identite
+2024-05-07 13:20:34,547 - INFO - Status of table 'gestion_carte_identite' is ACTIVE.
+2024-05-07 13:20:34,548 - INFO - Total Size for table 'gestion_carte_identite': 3784
+2024-05-07 13:20:34,548 - INFO - Number of Rows for table 'gestion_carte_identite': 44
+2024-05-07 13:20:34,548 - INFO - Raw Data Size for table 'gestion_carte_identite': 3740
+2024-05-07 13:20:34,548 - INFO - Number of Files for table 'gestion_carte_identite': 1
+2024-05-07 13:20:34,548 - WARNING - No classification names found for table gestion_carte_identite
+2024-05-07 13:20:34,548 - INFO - Classification Names for attribute 'prenom' in table 'gestion_carte_identite': Confidentiel
+2024-05-07 13:20:34,548 - INFO - Classification Names for attribute 'nom' in table 'gestion_carte_identite': Confidentiel
+2024-05-07 13:20:34,548 - INFO - Classification Names for attribute 'date_naissance' in table 'gestion_carte_identite': Confidentiel
+2024-05-07 13:20:34,548 - INFO - Classification Names for attribute 'adresse' in table 'gestion_carte_identite': Restreint
+2024-05-07 13:20:34,548 - INFO - Classification Names for attribute 'numero_carte_identite' in table 'gestion_carte_identite': Restreint
+2024-05-07 13:20:34,548 - INFO - Classification Names for attribute 'profession' in table 'gestion_carte_identite': Confidentiel
+2024-05-07 13:20:34,548 - INFO - Classification Names for attribute 'lieu_naissance' in table 'gestion_carte_identite': Confidentiel
+2024-05-07 13:20:34,548 - INFO - Table 'gestion_carte_identite' metadata has good quality.
+2024-05-07 13:20:34,548 - INFO - Checking metadata quality for table: gestion_claim
+2024-05-07 13:20:34,549 - INFO - Status of table 'gestion_claim' is ACTIVE.
+2024-05-07 13:20:34,549 - INFO - Total Size for table 'gestion_claim': 2764
+2024-05-07 13:20:34,549 - INFO - Number of Rows for table 'gestion_claim': 45
+2024-05-07 13:20:34,549 - INFO - Raw Data Size for table 'gestion_claim': 2719
+2024-05-07 13:20:34,549 - INFO - Number of Files for table 'gestion_claim': 1
+2024-05-07 13:20:34,549 - WARNING - No classification names found for table gestion_claim
+2024-05-07 13:20:34,549 - INFO - Classification Names for attribute 'statut' in table 'gestion_claim': Restreint
+2024-05-07 13:20:34,549 - INFO - Classification Names for attribute 'date_ouverture' in table 'gestion_claim': Restreint
+2024-05-07 13:20:34,549 - INFO - Classification Names for attribute 'nom_client' in table 'gestion_claim': Confidentiel
+2024-05-07 13:20:34,549 - INFO - Classification Names for attribute 'nom_agence' in table 'gestion_claim': Restreint
+2024-05-07 13:20:34,549 - INFO - Classification Names for attribute 'num_claim' in table 'gestion_claim': Confidentiel
+2024-05-07 13:20:34,549 - INFO - Table 'gestion_claim' metadata has good quality.
+2024-05-07 13:20:34,549 - INFO - Checking metadata quality for table: gestion_commissions_vente
+2024-05-07 13:20:34,549 - INFO - Status of table 'gestion_commissions_vente' is ACTIVE.
+2024-05-07 13:20:34,550 - INFO - Total Size for table 'gestion_commissions_vente': 1562
+2024-05-07 13:20:34,550 - INFO - Number of Rows for table 'gestion_commissions_vente': 50
+2024-05-07 13:20:34,550 - INFO - Raw Data Size for table 'gestion_commissions_vente': 1512
+2024-05-07 13:20:34,550 - INFO - Number of Files for table 'gestion_commissions_vente': 1
+2024-05-07 13:20:34,550 - WARNING - No classification names found for table gestion_commissions_vente
+2024-05-07 13:20:34,550 - INFO - Classification Names for attribute 'commission_a_payer' in table 'gestion_commissions_vente': Secret
+2024-05-07 13:20:34,550 - INFO - Classification Names for attribute 'date_transaction' in table 'gestion_commissions_vente': Restreint
+2024-05-07 13:20:34,550 - INFO - Classification Names for attribute 'montant_vente' in table 'gestion_commissions_vente': Confidentiel
+2024-05-07 13:20:34,550 - INFO - Classification Names for attribute 'id' in table 'gestion_commissions_vente': Confidentiel
+2024-05-07 13:20:34,550 - INFO - Classification Names for attribute 'commission_applicable' in table 'gestion_commissions_vente': Secret
+2024-05-07 13:20:34,550 - INFO - Table 'gestion_commissions_vente' metadata has good quality.
+2024-05-07 13:20:34,550 - INFO - Checking metadata quality for table: gestion_coffres_forts
+2024-05-07 13:20:34,550 - INFO - Status of table 'gestion_coffres_forts' is ACTIVE.
+2024-05-07 13:20:34,550 - INFO - Total Size for table 'gestion_coffres_forts': 2784
+2024-05-07 13:20:34,551 - INFO - Number of Rows for table 'gestion_coffres_forts': 50
+2024-05-07 13:20:34,551 - INFO - Raw Data Size for table 'gestion_coffres_forts': 2734
+2024-05-07 13:20:34,551 - INFO - Number of Files for table 'gestion_coffres_forts': 1
+2024-05-07 13:20:34,551 - WARNING - No classification names found for table gestion_coffres_forts
+2024-05-07 13:20:34,551 - INFO - Classification Names for attribute 'localisation' in table 'gestion_coffres_forts': Secret
+2024-05-07 13:20:34,551 - INFO - Classification Names for attribute 'taille' in table 'gestion_coffres_forts': Secret
+2024-05-07 13:20:34,551 - INFO - Classification Names for attribute 'num_coffre' in table 'gestion_coffres_forts': Confidentiel
+2024-05-07 13:20:34,551 - INFO - Classification Names for attribute 'responsable' in table 'gestion_coffres_forts': Secret
+2024-05-07 13:20:34,551 - INFO - Table 'gestion_coffres_forts' metadata has good quality.
+2024-05-07 13:20:34,551 - INFO - Checking metadata quality for table: gestion_change
+2024-05-07 13:20:34,551 - INFO - Status of table 'gestion_change' is ACTIVE.
+2024-05-07 13:20:34,551 - INFO - Total Size for table 'gestion_change': 1672
+2024-05-07 13:20:34,551 - INFO - Number of Rows for table 'gestion_change': 45
+2024-05-07 13:20:34,551 - INFO - Raw Data Size for table 'gestion_change': 1627
+2024-05-07 13:20:34,551 - INFO - Number of Files for table 'gestion_change': 1
+2024-05-07 13:20:34,552 - WARNING - No classification names found for table gestion_change
+2024-05-07 13:20:34,552 - INFO - Classification Names for attribute 'montant_dh' in table 'gestion_change': Secret
+2024-05-07 13:20:34,552 - INFO - Classification Names for attribute 'type_operation' in table 'gestion_change': Secret
+2024-05-07 13:20:34,552 - INFO - Classification Names for attribute 'date_operation' in table 'gestion_change': Confidentiel
+2024-05-07 13:20:34,552 - INFO - Classification Names for attribute 'devise' in table 'gestion_change': Restreint
+2024-05-07 13:20:34,552 - INFO - Table 'gestion_change' metadata has good quality.
+2024-05-07 13:20:34,552 - INFO - Checking metadata quality for table: gestion_loyer
+2024-05-07 13:20:34,552 - INFO - Status of table 'gestion_loyer' is ACTIVE.
+2024-05-07 13:20:34,552 - INFO - Total Size for table 'gestion_loyer': 2568
+2024-05-07 13:20:34,552 - INFO - Number of Rows for table 'gestion_loyer': 50
+2024-05-07 13:20:34,552 - INFO - Raw Data Size for table 'gestion_loyer': 2518
+2024-05-07 13:20:34,552 - INFO - Number of Files for table 'gestion_loyer': 1
+2024-05-07 13:20:34,552 - WARNING - No classification names found for table gestion_loyer
+2024-05-07 13:20:34,552 - INFO - Classification Names for attribute 'date_paiement' in table 'gestion_loyer': Confidentiel
+2024-05-07 13:20:34,552 - INFO - Classification Names for attribute 'type_paiement' in table 'gestion_loyer': Restreint
+2024-05-07 13:20:34,553 - INFO - Classification Names for attribute 'client_nom' in table 'gestion_loyer': Restreint
+2024-05-07 13:20:34,553 - INFO - Classification Names for attribute 'montant_loyer' in table 'gestion_loyer': Confidentiel
+2024-05-07 13:20:34,553 - INFO - Classification Names for attribute 'client_cin' in table 'gestion_loyer': Secret
+2024-05-07 13:20:34,553 - INFO - Classification Names for attribute 'id' in table 'gestion_loyer': Secret
+2024-05-07 13:20:34,553 - INFO - Table 'gestion_loyer' metadata has good quality.
+2024-05-07 13:20:34,553 - INFO - Checking metadata quality for table: gestion_mandats
+2024-05-07 13:20:34,553 - INFO - Status of table 'gestion_mandats' is ACTIVE.
+2024-05-07 13:20:34,553 - INFO - Total Size for table 'gestion_mandats': 2160
+2024-05-07 13:20:34,553 - INFO - Number of Rows for table 'gestion_mandats': 50
+2024-05-07 13:20:34,553 - INFO - Raw Data Size for table 'gestion_mandats': 2110
+2024-05-07 13:20:34,553 - INFO - Number of Files for table 'gestion_mandats': 1
+2024-05-07 13:20:34,553 - WARNING - No classification names found for table gestion_mandats
+2024-05-07 13:20:34,553 - INFO - Classification Names for attribute 'statut' in table 'gestion_mandats': Secret
+2024-05-07 13:20:34,554 - INFO - Classification Names for attribute 'date_creation' in table 'gestion_mandats': Confidentiel
+2024-05-07 13:20:34,554 - INFO - Classification Names for attribute 'client' in table 'gestion_mandats': Secret
+2024-05-07 13:20:34,554 - INFO - Classification Names for attribute 'montant' in table 'gestion_mandats': Restreint
+2024-05-07 13:20:34,554 - INFO - Classification Names for attribute 'num_mandat' in table 'gestion_mandats': Confidentiel
+2024-05-07 13:20:34,554 - INFO - Table 'gestion_mandats' metadata has good quality.
+2024-05-07 13:20:34,554 - INFO - Checking metadata quality for table: gestionnaires_clients
+2024-05-07 13:20:34,554 - INFO - Status of table 'gestionnaires_clients' is ACTIVE.
+2024-05-07 13:20:34,554 - INFO - Total Size for table 'gestionnaires_clients': 3688
+2024-05-07 13:20:34,554 - INFO - Number of Rows for table 'gestionnaires_clients': 50
+2024-05-07 13:20:34,554 - INFO - Raw Data Size for table 'gestionnaires_clients': 3638
+2024-05-07 13:20:34,554 - INFO - Number of Files for table 'gestionnaires_clients': 1
+2024-05-07 13:20:34,554 - WARNING - No classification names found for table gestionnaires_clients
+2024-05-07 13:20:34,554 - INFO - Classification Names for attribute 'email' in table 'gestionnaires_clients': Confidentiel
+2024-05-07 13:20:34,554 - INFO - Classification Names for attribute 'nom_agence' in table 'gestionnaires_clients': Tres Secret
+2024-05-07 13:20:34,555 - INFO - Classification Names for attribute 'id' in table 'gestionnaires_clients': Public
+2024-05-07 13:20:34,555 - INFO - Classification Names for attribute 'nom_gestionnaire' in table 'gestionnaires_clients': Public
+2024-05-07 13:20:34,555 - INFO - Classification Names for attribute 'telephone' in table 'gestionnaires_clients': Confidentiel
+2024-05-07 13:20:34,555 - INFO - Table 'gestionnaires_clients' metadata has good quality.
+2024-05-07 13:20:34,555 - INFO - Checking metadata quality for table: gestion_placements
+2024-05-07 13:20:34,555 - INFO - Status of table 'gestion_placements' is ACTIVE.
+2024-05-07 13:20:34,555 - INFO - Total Size for table 'gestion_placements': 2112
+2024-05-07 13:20:34,555 - INFO - Number of Rows for table 'gestion_placements': 47
+2024-05-07 13:20:34,555 - INFO - Raw Data Size for table 'gestion_placements': 2065
+2024-05-07 13:20:34,555 - INFO - Number of Files for table 'gestion_placements': 1
+2024-05-07 13:20:34,555 - WARNING - No classification names found for table gestion_placements
+2024-05-07 13:20:34,555 - INFO - Classification Names for attribute 'numero_compte' in table 'gestion_placements': Restreint
+2024-05-07 13:20:34,555 - INFO - Classification Names for attribute 'date_ouverture' in table 'gestion_placements': Secret
+2024-05-07 13:20:34,555 - INFO - Classification Names for attribute 'nom_client' in table 'gestion_placements': Secret
+2024-05-07 13:20:34,555 - INFO - Classification Names for attribute 'montant_initial' in table 'gestion_placements': Secret
+2024-05-07 13:20:34,556 - INFO - Classification Names for attribute 'type_placement' in table 'gestion_placements': Secret
+2024-05-07 13:20:34,556 - INFO - Table 'gestion_placements' metadata has good quality.
+2024-05-07 13:20:34,556 - INFO - Checking metadata quality for table: gestion_produit_structure
+2024-05-07 13:20:34,556 - INFO - Status of table 'gestion_produit_structure' is ACTIVE.
+2024-05-07 13:20:34,556 - INFO - Total Size for table 'gestion_produit_structure': 396
+2024-05-07 13:20:34,556 - INFO - Number of Rows for table 'gestion_produit_structure': 10
+2024-05-07 13:20:34,556 - INFO - Raw Data Size for table 'gestion_produit_structure': 386
+2024-05-07 13:20:34,556 - INFO - Number of Files for table 'gestion_produit_structure': 1
+2024-05-07 13:20:34,556 - WARNING - No classification names found for table gestion_produit_structure
+2024-05-07 13:20:34,556 - INFO - Classification Names for attribute 'id' in table 'gestion_produit_structure': Public
+2024-05-07 13:20:34,556 - INFO - Classification Names for attribute 'categorie' in table 'gestion_produit_structure': Tres Secret
+2024-05-07 13:20:34,556 - INFO - Classification Names for attribute 'taux_interet' in table 'gestion_produit_structure': Confidentiel
+2024-05-07 13:20:34,556 - INFO - Classification Names for attribute 'duree_max_mois' in table 'gestion_produit_structure': Restreint
+2024-05-07 13:20:34,556 - INFO - Classification Names for attribute 'montant_min' in table 'gestion_produit_structure': Restreint
+2024-05-07 13:20:34,557 - INFO - Classification Names for attribute 'nom_produit' in table 'gestion_produit_structure': Confidentiel
+2024-05-07 13:20:34,557 - INFO - Table 'gestion_produit_structure' metadata has good quality.
+2024-05-07 13:20:34,557 - INFO - Checking metadata quality for table: gestion_interets_epargne
+2024-05-07 13:20:34,557 - INFO - Status of table 'gestion_interets_epargne' is ACTIVE.
+2024-05-07 13:20:34,557 - INFO - Total Size for table 'gestion_interets_epargne': 2179
+2024-05-07 13:20:34,557 - INFO - Number of Rows for table 'gestion_interets_epargne': 50
+2024-05-07 13:20:34,557 - INFO - Raw Data Size for table 'gestion_interets_epargne': 2129
+2024-05-07 13:20:34,557 - INFO - Number of Files for table 'gestion_interets_epargne': 1
+2024-05-07 13:20:34,557 - WARNING - No classification names found for table gestion_interets_epargne
+2024-05-07 13:20:34,557 - INFO - Classification Names for attribute 'taux_interet' in table 'gestion_interets_epargne': Secret
+2024-05-07 13:20:34,557 - INFO - Classification Names for attribute 'montant_epargne' in table 'gestion_interets_epargne': Confidentiel
+2024-05-07 13:20:34,557 - INFO - Classification Names for attribute 'identifiant' in table 'gestion_interets_epargne': Secret
+2024-05-07 13:20:34,557 - INFO - Classification Names for attribute 'interets_gagnes' in table 'gestion_interets_epargne': Confidentiel
+2024-05-07 13:20:34,557 - INFO - Classification Names for attribute 'client' in table 'gestion_interets_epargne': Confidentiel
+2024-05-07 13:20:34,557 - INFO - Classification Names for attribute 'compte' in table 'gestion_interets_epargne': Secret
+2024-05-07 13:20:34,559 - INFO - Table 'gestion_interets_epargne' metadata has good quality.
+2024-05-07 13:20:34,559 - INFO - Checking metadata quality for table: gestion_investissements
+2024-05-07 13:20:34,560 - INFO - Status of table 'gestion_investissements' is ACTIVE.
+2024-05-07 13:20:34,560 - INFO - Total Size for table 'gestion_investissements': 2630
+2024-05-07 13:20:34,560 - INFO - Number of Rows for table 'gestion_investissements': 50
+2024-05-07 13:20:34,560 - INFO - Raw Data Size for table 'gestion_investissements': 2580
+2024-05-07 13:20:34,560 - INFO - Number of Files for table 'gestion_investissements': 1
+2024-05-07 13:20:34,560 - WARNING - No classification names found for table gestion_investissements
+2024-05-07 13:20:34,560 - INFO - Classification Names for attribute 'montant_investi' in table 'gestion_investissements': Confidentiel
+2024-05-07 13:20:34,560 - INFO - Classification Names for attribute 'client' in table 'gestion_investissements': Secret
+2024-05-07 13:20:34,561 - INFO - Classification Names for attribute 'type_investissement' in table 'gestion_investissements': Restreint
+2024-05-07 13:20:34,561 - INFO - Classification Names for attribute 'id' in table 'gestion_investissements': Confidentiel
+2024-05-07 13:20:34,561 - INFO - Classification Names for attribute 'ville' in table 'gestion_investissements': Confidentiel
+2024-05-07 13:20:34,561 - INFO - Classification Names for attribute 'date_investissement' in table 'gestion_investissements': Secret
+2024-05-07 13:20:34,561 - INFO - Table 'gestion_investissements' metadata has good quality.
+2024-05-07 13:20:34,561 - INFO - Checking metadata quality for table: gestion_locataires
+2024-05-07 13:20:34,561 - INFO - Status of table 'gestion_locataires' is ACTIVE.
+2024-05-07 13:20:34,562 - INFO - Total Size for table 'gestion_locataires': 2014
+2024-05-07 13:20:34,562 - INFO - Number of Rows for table 'gestion_locataires': 20
+2024-05-07 13:20:34,562 - INFO - Raw Data Size for table 'gestion_locataires': 1994
+2024-05-07 13:20:34,562 - INFO - Number of Files for table 'gestion_locataires': 1
+2024-05-07 13:20:34,562 - WARNING - No classification names found for table gestion_locataires
+2024-05-07 13:20:34,562 - INFO - Classification Names for attribute 'nom' in table 'gestion_locataires': Confidentiel
+2024-05-07 13:20:34,562 - INFO - Classification Names for attribute 'email' in table 'gestion_locataires': Confidentiel
+2024-05-07 13:20:34,562 - INFO - Classification Names for attribute 'profession' in table 'gestion_locataires': Secret
+2024-05-07 13:20:34,563 - INFO - Classification Names for attribute 'prenom' in table 'gestion_locataires': Restreint
+2024-05-07 13:20:34,563 - INFO - Classification Names for attribute 'tel' in table 'gestion_locataires': Restreint
+2024-05-07 13:20:34,563 - INFO - Classification Names for attribute 'adresse' in table 'gestion_locataires': Confidentiel
+2024-05-07 13:20:34,563 - INFO - Classification Names for attribute 'ville' in table 'gestion_locataires': Restreint
+2024-05-07 13:20:34,563 - INFO - Table 'gestion_locataires' metadata has good quality.
+2024-05-07 13:20:34,563 - INFO - Checking metadata quality for table: gestion_patrimoine
+2024-05-07 13:20:34,564 - INFO - Status of table 'gestion_patrimoine' is ACTIVE.
+2024-05-07 13:20:34,564 - INFO - Total Size for table 'gestion_patrimoine': 2514
+2024-05-07 13:20:34,564 - INFO - Number of Rows for table 'gestion_patrimoine': 44
+2024-05-07 13:20:34,564 - INFO - Raw Data Size for table 'gestion_patrimoine': 2470
+2024-05-07 13:20:34,564 - INFO - Number of Files for table 'gestion_patrimoine': 1
+2024-05-07 13:20:34,564 - WARNING - No classification names found for table gestion_patrimoine
+2024-05-07 13:20:34,564 - INFO - Classification Names for attribute 'type_compte' in table 'gestion_patrimoine': Restreint
+2024-05-07 13:20:34,564 - INFO - Classification Names for attribute 'numero_compte' in table 'gestion_patrimoine': Secret
+2024-05-07 13:20:34,564 - INFO - Classification Names for attribute 'actifs' in table 'gestion_patrimoine': Secret
+2024-05-07 13:20:34,565 - INFO - Classification Names for attribute 'ville' in table 'gestion_patrimoine': Restreint
+2024-05-07 13:20:34,565 - INFO - Classification Names for attribute 'client' in table 'gestion_patrimoine': Restreint
+2024-05-07 13:20:34,565 - INFO - Classification Names for attribute 'solde' in table 'gestion_patrimoine': Secret
+2024-05-07 13:20:34,565 - INFO - Table 'gestion_patrimoine' metadata has good quality.
+2024-05-07 13:20:34,565 - INFO - Checking metadata quality for table: gestion_ops_precaires
+2024-05-07 13:20:34,565 - INFO - Status of table 'gestion_ops_precaires' is ACTIVE.
+2024-05-07 13:20:34,566 - INFO - Total Size for table 'gestion_ops_precaires': 2173
+2024-05-07 13:20:34,566 - INFO - Number of Rows for table 'gestion_ops_precaires': 43
+2024-05-07 13:20:34,566 - INFO - Raw Data Size for table 'gestion_ops_precaires': 2130
+2024-05-07 13:20:34,566 - INFO - Number of Files for table 'gestion_ops_precaires': 1
+2024-05-07 13:20:34,566 - WARNING - No classification names found for table gestion_ops_precaires
+2024-05-07 13:20:34,566 - INFO - Classification Names for attribute 'type_operation' in table 'gestion_ops_precaires': Secret
+2024-05-07 13:20:34,566 - INFO - Classification Names for attribute 'montant' in table 'gestion_ops_precaires': Restreint
+2024-05-07 13:20:34,566 - INFO - Classification Names for attribute 'date_operation' in table 'gestion_ops_precaires': Secret
+2024-05-07 13:20:34,566 - INFO - Classification Names for attribute 'client' in table 'gestion_ops_precaires': Secret
+2024-05-07 13:20:34,567 - INFO - Classification Names for attribute 'numero_compte' in table 'gestion_ops_precaires': Secret
+2024-05-07 13:20:34,567 - INFO - Table 'gestion_ops_precaires' metadata has good quality.
+2024-05-07 13:20:34,567 - INFO - Checking metadata quality for table: gestion_termes_condition
+2024-05-07 13:20:34,567 - INFO - Status of table 'gestion_termes_condition' is ACTIVE.
+2024-05-07 13:20:34,567 - INFO - Total Size for table 'gestion_termes_condition': 7067
+2024-05-07 13:20:34,567 - INFO - Number of Rows for table 'gestion_termes_condition': 50
+2024-05-07 13:20:34,567 - INFO - Raw Data Size for table 'gestion_termes_condition': 7017
+2024-05-07 13:20:34,568 - INFO - Number of Files for table 'gestion_termes_condition': 1
+2024-05-07 13:20:34,568 - WARNING - No classification names found for table gestion_termes_condition
+2024-05-07 13:20:34,568 - INFO - Classification Names for attribute 'conditions' in table 'gestion_termes_condition': Confidentiel
+2024-05-07 13:20:34,568 - INFO - Classification Names for attribute 'produit' in table 'gestion_termes_condition': Confidentiel
+2024-05-07 13:20:34,568 - INFO - Classification Names for attribute 'avantages' in table 'gestion_termes_condition': Secret
+2024-05-07 13:20:34,568 - INFO - Classification Names for attribute 'type' in table 'gestion_termes_condition': Restreint
+2024-05-07 13:20:34,568 - INFO - Classification Names for attribute 'id' in table 'gestion_termes_condition': Confidentiel
+2024-05-07 13:20:34,568 - INFO - Table 'gestion_termes_condition' metadata has good quality.
+2024-05-07 13:20:34,569 - INFO - Checking metadata quality for table: loyalty_program
+2024-05-07 13:20:34,569 - INFO - Status of table 'loyalty_program' is ACTIVE.
+2024-05-07 13:20:34,569 - INFO - Total Size for table 'loyalty_program': 2193
+2024-05-07 13:20:34,569 - INFO - Number of Rows for table 'loyalty_program': 50
+2024-05-07 13:20:34,569 - INFO - Raw Data Size for table 'loyalty_program': 2143
+2024-05-07 13:20:34,569 - INFO - Number of Files for table 'loyalty_program': 1
+2024-05-07 13:20:34,569 - WARNING - No classification names found for table loyalty_program
+2024-05-07 13:20:34,569 - INFO - Classification Names for attribute 'solde_points' in table 'loyalty_program': Secret
+2024-05-07 13:20:34,570 - INFO - Classification Names for attribute 'nom' in table 'loyalty_program': Confidentiel
+2024-05-07 13:20:34,570 - INFO - Classification Names for attribute 'numero_client' in table 'loyalty_program': Secret
+2024-05-07 13:20:34,570 - INFO - Classification Names for attribute 'ville' in table 'loyalty_program': Restreint
+2024-05-07 13:20:34,570 - INFO - Classification Names for attribute 'prenom' in table 'loyalty_program': Restreint
+2024-05-07 13:20:34,570 - INFO - Classification Names for attribute 'date_naissance' in table 'loyalty_program': Confidentiel
+2024-05-07 13:20:34,570 - INFO - Table 'loyalty_program' metadata has good quality.
+2024-05-07 13:20:34,570 - INFO - Checking metadata quality for table: mandats_virement
+2024-05-07 13:20:34,571 - INFO - Status of table 'mandats_virement' is ACTIVE.
+2024-05-07 13:20:34,571 - INFO - Total Size for table 'mandats_virement': 4461
+2024-05-07 13:20:34,571 - INFO - Number of Rows for table 'mandats_virement': 39
+2024-05-07 13:20:34,571 - INFO - Raw Data Size for table 'mandats_virement': 4422
+2024-05-07 13:20:34,571 - INFO - Number of Files for table 'mandats_virement': 1
+2024-05-07 13:20:34,571 - WARNING - No classification names found for table mandats_virement
+2024-05-07 13:20:34,571 - INFO - Classification Names for attribute 'montant' in table 'mandats_virement': Secret
+2024-05-07 13:20:34,571 - INFO - Classification Names for attribute 'compte_credit' in table 'mandats_virement': Restreint
+2024-05-07 13:20:34,572 - INFO - Classification Names for attribute 'compte_debit' in table 'mandats_virement': Secret
+2024-05-07 13:20:34,572 - INFO - Classification Names for attribute 'client' in table 'mandats_virement': Confidentiel
+2024-05-07 13:20:34,572 - INFO - Classification Names for attribute 'description' in table 'mandats_virement': Confidentiel
+2024-05-07 13:20:34,572 - INFO - Classification Names for attribute 'beneficiaire' in table 'mandats_virement': Confidentiel
+2024-05-07 13:20:34,572 - INFO - Table 'mandats_virement' metadata has good quality.
+2024-05-07 13:20:34,572 - INFO - Checking metadata quality for table: livraisons_cash
+2024-05-07 13:20:34,572 - INFO - Status of table 'livraisons_cash' is ACTIVE.
+2024-05-07 13:20:34,572 - INFO - Total Size for table 'livraisons_cash': 2776
+2024-05-07 13:20:34,573 - INFO - Number of Rows for table 'livraisons_cash': 40
+2024-05-07 13:20:34,573 - INFO - Raw Data Size for table 'livraisons_cash': 2736
+2024-05-07 13:20:34,573 - INFO - Number of Files for table 'livraisons_cash': 1
+2024-05-07 13:20:34,573 - WARNING - No classification names found for table livraisons_cash
+2024-05-07 13:20:34,573 - INFO - Classification Names for attribute 'agence_origine' in table 'livraisons_cash': Confidentiel
+2024-05-07 13:20:34,573 - INFO - Classification Names for attribute 'date_livraison' in table 'livraisons_cash': Secret
+2024-05-07 13:20:34,573 - INFO - Classification Names for attribute 'montant' in table 'livraisons_cash': Secret
+2024-05-07 13:20:34,573 - INFO - Classification Names for attribute 'agence_destination' in table 'livraisons_cash': Secret
+2024-05-07 13:20:34,574 - INFO - Classification Names for attribute 'numero_transaction' in table 'livraisons_cash': Secret
+2024-05-07 13:20:34,574 - INFO - Table 'livraisons_cash' metadata has good quality.
+2024-05-07 13:20:34,574 - INFO - Checking metadata quality for table: livret_jeune
+2024-05-07 13:20:34,574 - INFO - Status of table 'livret_jeune' is ACTIVE.
+2024-05-07 13:20:34,574 - INFO - Total Size for table 'livret_jeune': 3802
+2024-05-07 13:20:34,574 - INFO - Number of Rows for table 'livret_jeune': 88
+2024-05-07 13:20:34,574 - INFO - Raw Data Size for table 'livret_jeune': 3714
+2024-05-07 13:20:34,575 - INFO - Number of Files for table 'livret_jeune': 2
+2024-05-07 13:20:34,575 - WARNING - No classification names found for table livret_jeune
+2024-05-07 13:20:34,575 - INFO - Classification Names for attribute 'solde' in table 'livret_jeune': Secret
+2024-05-07 13:20:34,575 - INFO - Classification Names for attribute 'nom' in table 'livret_jeune': Restreint
+2024-05-07 13:20:34,575 - INFO - Classification Names for attribute 'date_ouverture' in table 'livret_jeune': Secret
+2024-05-07 13:20:34,575 - INFO - Classification Names for attribute 'num_compte' in table 'livret_jeune': Secret
+2024-05-07 13:20:34,575 - INFO - Classification Names for attribute 'prenom' in table 'livret_jeune': Confidentiel
+2024-05-07 13:20:34,575 - INFO - Table 'livret_jeune' metadata has good quality.
+2024-05-07 13:20:34,576 - INFO - Checking metadata quality for table: livrets_epargne
+2024-05-07 13:20:34,576 - INFO - Status of table 'livrets_epargne' is ACTIVE.
+2024-05-07 13:20:34,576 - INFO - Total Size for table 'livrets_epargne': 1753
+2024-05-07 13:20:34,576 - INFO - Number of Rows for table 'livrets_epargne': 50
+2024-05-07 13:20:34,576 - INFO - Raw Data Size for table 'livrets_epargne': 1703
+2024-05-07 13:20:34,576 - INFO - Number of Files for table 'livrets_epargne': 1
+2024-05-07 13:20:34,576 - WARNING - No classification names found for table livrets_epargne
+2024-05-07 13:20:34,576 - INFO - Classification Names for attribute 'taux_interet' in table 'livrets_epargne': Secret
+2024-05-07 13:20:34,577 - INFO - Classification Names for attribute 'solde' in table 'livrets_epargne': Restreint
+2024-05-07 13:20:34,577 - INFO - Classification Names for attribute 'numero_compte' in table 'livrets_epargne': Secret
+2024-05-07 13:20:34,577 - INFO - Classification Names for attribute 'titulaire' in table 'livrets_epargne': Confidentiel
+2024-05-07 13:20:34,577 - INFO - Table 'livrets_epargne' metadata has good quality.
+2024-05-07 13:20:34,577 - INFO - Checking metadata quality for table: operations_bancaires_en_ligne
+2024-05-07 13:20:34,577 - INFO - Status of table 'operations_bancaires_en_ligne' is ACTIVE.
+2024-05-07 13:20:34,577 - INFO - Total Size for table 'operations_bancaires_en_ligne': 2576
+2024-05-07 13:20:34,578 - INFO - Number of Rows for table 'operations_bancaires_en_ligne': 42
+2024-05-07 13:20:34,578 - INFO - Raw Data Size for table 'operations_bancaires_en_ligne': 2534
+2024-05-07 13:20:34,578 - INFO - Number of Files for table 'operations_bancaires_en_ligne': 1
+2024-05-07 13:20:34,578 - WARNING - No classification names found for table operations_bancaires_en_ligne
+2024-05-07 13:20:34,578 - INFO - Classification Names for attribute 'beneficiaire' in table 'operations_bancaires_en_ligne': Secret
+2024-05-07 13:20:34,578 - INFO - Classification Names for attribute 'date_operation' in table 'operations_bancaires_en_ligne': Confidentiel
+2024-05-07 13:20:34,578 - INFO - Classification Names for attribute 'num_operation' in table 'operations_bancaires_en_ligne': Secret
+2024-05-07 13:20:34,578 - INFO - Classification Names for attribute 'statut' in table 'operations_bancaires_en_ligne': Secret
+2024-05-07 13:20:34,579 - INFO - Classification Names for attribute 'type_operation' in table 'operations_bancaires_en_ligne': Confidentiel
+2024-05-07 13:20:34,579 - INFO - Classification Names for attribute 'montant' in table 'operations_bancaires_en_ligne': Confidentiel
+2024-05-07 13:20:34,579 - INFO - Table 'operations_bancaires_en_ligne' metadata has good quality.
+2024-05-07 13:20:34,579 - INFO - Checking metadata quality for table: operations_change
+2024-05-07 13:20:34,579 - INFO - Status of table 'operations_change' is ACTIVE.
+2024-05-07 13:20:34,579 - INFO - Total Size for table 'operations_change': 1273
+2024-05-07 13:20:34,579 - INFO - Number of Rows for table 'operations_change': 50
+2024-05-07 13:20:34,579 - INFO - Raw Data Size for table 'operations_change': 1223
+2024-05-07 13:20:34,579 - INFO - Number of Files for table 'operations_change': 1
+2024-05-07 13:20:34,579 - WARNING - No classification names found for table operations_change
+2024-05-07 13:20:34,579 - INFO - Classification Names for attribute 'id' in table 'operations_change': Restreint
+2024-05-07 13:20:34,579 - INFO - Classification Names for attribute 'montant_vente' in table 'operations_change': Confidentiel
+2024-05-07 13:20:34,579 - INFO - Classification Names for attribute 'devise_vente' in table 'operations_change': Confidentiel
+2024-05-07 13:20:34,580 - INFO - Classification Names for attribute 'montant_achat' in table 'operations_change': Secret
+2024-05-07 13:20:34,580 - INFO - Classification Names for attribute 'devise_achat' in table 'operations_change': Secret
+2024-05-07 13:20:34,580 - INFO - Table 'operations_change' metadata has good quality.
+2024-05-07 13:20:34,580 - INFO - Checking metadata quality for table: loan
+2024-05-07 13:20:34,580 - INFO - Status of table 'loan' is ACTIVE.
+2024-05-07 13:20:34,580 - INFO - Total Size for table 'loan': 1165
+2024-05-07 13:20:34,580 - INFO - Number of Rows for table 'loan': 10
+2024-05-07 13:20:34,580 - INFO - Raw Data Size for table 'loan': 1155
+2024-05-07 13:20:34,580 - INFO - Number of Files for table 'loan': 1
+2024-05-07 13:20:34,580 - WARNING - No classification names found for table loan
+2024-05-07 13:20:34,580 - INFO - Classification Names for attribute 'date_debut' in table 'loan': Restreint
+2024-05-07 13:20:34,580 - INFO - Classification Names for attribute 'montant_pret' in table 'loan': Secret
+2024-05-07 13:20:34,580 - INFO - Classification Names for attribute 'paiement_mensuel' in table 'loan': Restreint
+2024-05-07 13:20:34,580 - INFO - Classification Names for attribute 'taux_interet' in table 'loan': Restreint
+2024-05-07 13:20:34,580 - INFO - Classification Names for attribute 'id_pr�t' in table 'loan': Secret
+2024-05-07 13:20:34,581 - WARNING - Invalid attribute name 'id_pr�t' in table 'loan'. Attribute names must start with a letter or underscore, and contain only letters, digits, and underscores.
+2024-05-07 13:20:34,581 - INFO - Classification Names for attribute 'date_fin' in table 'loan': Secret
+2024-05-07 13:20:34,581 - INFO - Classification Names for attribute 'duree_pret' in table 'loan': Restreint
+2024-05-07 13:20:34,581 - INFO - Classification Names for attribute 'id_client' in table 'loan': Confidentiel
+2024-05-07 13:20:34,581 - WARNING - Table 'loan' metadata quality check failed.
+2024-05-07 13:20:34,581 - INFO - Checking metadata quality for table: livraisons_cartes
+2024-05-07 13:20:34,581 - INFO - Status of table 'livraisons_cartes' is ACTIVE.
+2024-05-07 13:20:34,581 - INFO - Total Size for table 'livraisons_cartes': 4054
+2024-05-07 13:20:34,581 - INFO - Number of Rows for table 'livraisons_cartes': 50
+2024-05-07 13:20:34,581 - INFO - Raw Data Size for table 'livraisons_cartes': 4004
+2024-05-07 13:20:34,581 - INFO - Number of Files for table 'livraisons_cartes': 1
+2024-05-07 13:20:34,581 - WARNING - No classification names found for table livraisons_cartes
+2024-05-07 13:20:34,581 - INFO - Classification Names for attribute 'numero_carte' in table 'livraisons_cartes': Confidentiel
+2024-05-07 13:20:34,581 - INFO - Classification Names for attribute 'id' in table 'livraisons_cartes': Secret
+2024-05-07 13:20:34,582 - INFO - Classification Names for attribute 'adresse_livraison' in table 'livraisons_cartes': Secret
+2024-05-07 13:20:34,582 - INFO - Classification Names for attribute 'destinataire' in table 'livraisons_cartes': Secret
+2024-05-07 13:20:34,582 - INFO - Classification Names for attribute 'date_livraison' in table 'livraisons_cartes': Restreint
+2024-05-07 13:20:34,582 - INFO - Table 'livraisons_cartes' metadata has good quality.
+2024-05-07 13:20:34,582 - INFO - Checking metadata quality for table: offres_speciales
+2024-05-07 13:20:34,582 - INFO - Status of table 'offres_speciales' is ACTIVE.
+2024-05-07 13:20:34,582 - INFO - Total Size for table 'offres_speciales': 1961
+2024-05-07 13:20:34,582 - INFO - Number of Rows for table 'offres_speciales': 15
+2024-05-07 13:20:34,582 - INFO - Raw Data Size for table 'offres_speciales': 1946
+2024-05-07 13:20:34,582 - INFO - Number of Files for table 'offres_speciales': 1
+2024-05-07 13:20:34,582 - WARNING - No classification names found for table offres_speciales
+2024-05-07 13:20:34,582 - INFO - Classification Names for attribute 'id' in table 'offres_speciales': Restreint
+2024-05-07 13:20:34,582 - INFO - Classification Names for attribute 'description' in table 'offres_speciales': Confidentiel
+2024-05-07 13:20:34,582 - INFO - Classification Names for attribute 'date_debut' in table 'offres_speciales': Secret
+2024-05-07 13:20:34,582 - INFO - Classification Names for attribute 'date_fin' in table 'offres_speciales': Confidentiel
+2024-05-07 13:20:34,583 - INFO - Classification Names for attribute 'type_offre' in table 'offres_speciales': Confidentiel
+2024-05-07 13:20:34,583 - INFO - Table 'offres_speciales' metadata has good quality.
+2024-05-07 13:20:34,583 - INFO - Checking metadata quality for table: interets_credits
+2024-05-07 13:20:34,583 - INFO - Status of table 'interets_credits' is ACTIVE.
+2024-05-07 13:20:34,583 - INFO - Total Size for table 'interets_credits': 1655
+2024-05-07 13:20:34,583 - INFO - Number of Rows for table 'interets_credits': 50
+2024-05-07 13:20:34,583 - INFO - Raw Data Size for table 'interets_credits': 1605
+2024-05-07 13:20:34,583 - INFO - Number of Files for table 'interets_credits': 1
+2024-05-07 13:20:34,583 - WARNING - No classification names found for table interets_credits
+2024-05-07 13:20:34,583 - INFO - Classification Names for attribute 'montant' in table 'interets_credits': Restreint
+2024-05-07 13:20:34,583 - INFO - Classification Names for attribute 'numero_compte' in table 'interets_credits': Restreint
+2024-05-07 13:20:34,583 - INFO - Classification Names for attribute 'date_operation' in table 'interets_credits': Restreint
+2024-05-07 13:20:34,583 - INFO - Classification Names for attribute 'id' in table 'interets_credits': Restreint
+2024-05-07 13:20:34,583 - INFO - Table 'interets_credits' metadata has good quality.
+2024-05-07 13:20:34,583 - INFO - Checking metadata quality for table: ibam_services
+2024-05-07 13:20:34,584 - INFO - Status of table 'ibam_services' is ACTIVE.
+2024-05-07 13:20:34,584 - INFO - Total Size for table 'ibam_services': 6238
+2024-05-07 13:20:34,584 - INFO - Number of Rows for table 'ibam_services': 50
+2024-05-07 13:20:34,584 - INFO - Raw Data Size for table 'ibam_services': 6188
+2024-05-07 13:20:34,584 - INFO - Number of Files for table 'ibam_services': 1
+2024-05-07 13:20:34,584 - WARNING - No classification names found for table ibam_services
+2024-05-07 13:20:34,584 - INFO - Classification Names for attribute 'description' in table 'ibam_services': Confidentiel
+2024-05-07 13:20:34,584 - INFO - Classification Names for attribute 'fees' in table 'ibam_services': Restreint
+2024-05-07 13:20:34,584 - INFO - Classification Names for attribute 'service_name' in table 'ibam_services': Secret
+2024-05-07 13:20:34,584 - INFO - Classification Names for attribute 'service_id' in table 'ibam_services': Confidentiel
+2024-05-07 13:20:34,584 - INFO - Table 'ibam_services' metadata has good quality.
+2024-05-07 13:20:34,584 - INFO - Checking metadata quality for table: page_view
+2024-05-07 13:20:34,584 - WARNING - Number of Attributes '5' for table 'page_view' does not match the actual number of columns '7'.
+2024-05-07 13:20:34,585 - INFO - Status of table 'page_view' is ACTIVE.
+2024-05-07 13:20:34,585 - ERROR - Total Size for table 'page_view' has an invalid value: N/A.
+2024-05-07 13:20:34,585 - ERROR - Number of Rows for table 'page_view' has an invalid value: N/A.
+2024-05-07 13:20:34,585 - ERROR - Raw Data Size for table 'page_view' has an invalid value: N/A.
+2024-05-07 13:20:34,585 - ERROR - Number of Files for table 'page_view' has an invalid value: N/A.
+2024-05-07 13:20:34,585 - WARNING - Total Size for table 'page_view' is not available (N/A).
+2024-05-07 13:20:34,585 - WARNING - Number of Rows for table 'page_view' is not available (N/A).
+2024-05-07 13:20:34,585 - WARNING - Raw Data Size for table 'page_view' is not available (N/A).
+2024-05-07 13:20:34,585 - WARNING - Number of Files for table 'page_view' is not available (N/A).
+2024-05-07 13:20:34,585 - WARNING - No classification names found for table page_view
+2024-05-07 13:20:34,585 - INFO - Classification Names for attribute 'userid' in table 'page_view': Secret
+2024-05-07 13:20:34,585 - INFO - Classification Names for attribute 'page_url' in table 'page_view': Restreint
+2024-05-07 13:20:34,585 - INFO - Classification Names for attribute 'country' in table 'page_view': Secret
+2024-05-07 13:20:34,585 - INFO - Classification Names for attribute 'dt' in table 'page_view': Restreint
+2024-05-07 13:20:34,585 - INFO - Classification Names for attribute 'ip' in table 'page_view': Secret
+2024-05-07 13:20:34,586 - INFO - Classification Names for attribute 'referrer_url' in table 'page_view': Restreint
+2024-05-07 13:20:34,586 - INFO - Classification Names for attribute 'viewtime' in table 'page_view': Secret
+2024-05-07 13:20:34,586 - WARNING - Table 'page_view' metadata quality check failed.
+2024-05-07 13:20:34,586 - INFO - Checking metadata quality for table: paiements_factures
+2024-05-07 13:20:34,586 - INFO - Status of table 'paiements_factures' is ACTIVE.
+2024-05-07 13:20:34,586 - INFO - Total Size for table 'paiements_factures': 1278
+2024-05-07 13:20:34,586 - INFO - Number of Rows for table 'paiements_factures': 20
+2024-05-07 13:20:34,586 - INFO - Raw Data Size for table 'paiements_factures': 1258
+2024-05-07 13:20:34,586 - INFO - Number of Files for table 'paiements_factures': 1
+2024-05-07 13:20:34,586 - WARNING - No classification names found for table paiements_factures
+2024-05-07 13:20:34,586 - INFO - Classification Names for attribute 'statut' in table 'paiements_factures': Confidentiel
+2024-05-07 13:20:34,586 - INFO - Classification Names for attribute 'id' in table 'paiements_factures': Confidentiel
+2024-05-07 13:20:34,586 - INFO - Classification Names for attribute 'date_paiement' in table 'paiements_factures': Confidentiel
+2024-05-07 13:20:34,586 - INFO - Classification Names for attribute 'facture_numero' in table 'paiements_factures': Confidentiel
+2024-05-07 13:20:34,587 - INFO - Classification Names for attribute 'client_nom' in table 'paiements_factures': Confidentiel
+2024-05-07 13:20:34,587 - INFO - Classification Names for attribute 'montant' in table 'paiements_factures': Confidentiel
+2024-05-07 13:20:34,587 - INFO - Classification Names for attribute 'mode_paiement' in table 'paiements_factures': Tres Secret
+2024-05-07 13:20:34,587 - INFO - Table 'paiements_factures' metadata has good quality.
+2024-05-07 13:20:34,587 - INFO - Checking metadata quality for table: planning_patrimoine
+2024-05-07 13:20:34,587 - INFO - Status of table 'planning_patrimoine' is ACTIVE.
+2024-05-07 13:20:34,587 - INFO - Total Size for table 'planning_patrimoine': 2683
+2024-05-07 13:20:34,587 - INFO - Number of Rows for table 'planning_patrimoine': 46
+2024-05-07 13:20:34,587 - INFO - Raw Data Size for table 'planning_patrimoine': 2637
+2024-05-07 13:20:34,587 - INFO - Number of Files for table 'planning_patrimoine': 1
+2024-05-07 13:20:34,587 - WARNING - No classification names found for table planning_patrimoine
+2024-05-07 13:20:34,587 - INFO - Classification Names for attribute 'montant_initial' in table 'planning_patrimoine': Restreint
+2024-05-07 13:20:34,587 - INFO - Classification Names for attribute 'type_produit' in table 'planning_patrimoine': Restreint
+2024-05-07 13:20:34,587 - INFO - Classification Names for attribute 'duree_contrat' in table 'planning_patrimoine': Restreint
+2024-05-07 13:20:34,587 - INFO - Classification Names for attribute 'date_ouverture' in table 'planning_patrimoine': Secret
+2024-05-07 13:20:34,588 - INFO - Classification Names for attribute 'beneficiaire' in table 'planning_patrimoine': Secret
+2024-05-07 13:20:34,588 - INFO - Classification Names for attribute 'client' in table 'planning_patrimoine': Confidentiel
+2024-05-07 13:20:34,588 - INFO - Table 'planning_patrimoine' metadata has good quality.
+2024-05-07 13:20:34,588 - INFO - Checking metadata quality for table: prets_etudiants
+2024-05-07 13:20:34,588 - INFO - Status of table 'prets_etudiants' is ACTIVE.
+2024-05-07 13:20:34,588 - INFO - Total Size for table 'prets_etudiants': 1632
+2024-05-07 13:20:34,588 - INFO - Number of Rows for table 'prets_etudiants': 40
+2024-05-07 13:20:34,588 - INFO - Raw Data Size for table 'prets_etudiants': 1592
+2024-05-07 13:20:34,588 - INFO - Number of Files for table 'prets_etudiants': 1
+2024-05-07 13:20:34,588 - WARNING - No classification names found for table prets_etudiants
+2024-05-07 13:20:34,588 - INFO - Classification Names for attribute 'prenom' in table 'prets_etudiants': Restreint
+2024-05-07 13:20:34,588 - INFO - Classification Names for attribute 'age' in table 'prets_etudiants': Confidentiel
+2024-05-07 13:20:34,588 - INFO - Classification Names for attribute 'niveau_scolarite' in table 'prets_etudiants': Confidentiel
+2024-05-07 13:20:34,588 - INFO - Classification Names for attribute 'montant_pret' in table 'prets_etudiants': Confidentiel
+2024-05-07 13:20:34,589 - INFO - Classification Names for attribute 'nom' in table 'prets_etudiants': Confidentiel
+2024-05-07 13:20:34,589 - INFO - Classification Names for attribute 'ville' in table 'prets_etudiants': Confidentiel
+2024-05-07 13:20:34,589 - INFO - Classification Names for attribute 'duree_remboursement_mois' in table 'prets_etudiants': Confidentiel
+2024-05-07 13:20:34,589 - INFO - Table 'prets_etudiants' metadata has good quality.
+2024-05-07 13:20:34,589 - INFO - Checking metadata quality for table: operations_mandats
+2024-05-07 13:20:34,589 - INFO - Status of table 'operations_mandats' is ACTIVE.
+2024-05-07 13:20:34,589 - INFO - Total Size for table 'operations_mandats': 2614
+2024-05-07 13:20:34,589 - INFO - Number of Rows for table 'operations_mandats': 46
+2024-05-07 13:20:34,589 - INFO - Raw Data Size for table 'operations_mandats': 2568
+2024-05-07 13:20:34,589 - INFO - Number of Files for table 'operations_mandats': 1
+2024-05-07 13:20:34,589 - WARNING - No classification names found for table operations_mandats
+2024-05-07 13:20:34,589 - INFO - Classification Names for attribute 'date_creation' in table 'operations_mandats': Secret
+2024-05-07 13:20:34,589 - INFO - Classification Names for attribute 'montant' in table 'operations_mandats': Secret
+2024-05-07 13:20:34,589 - INFO - Classification Names for attribute 'emetteur' in table 'operations_mandats': Secret
+2024-05-07 13:20:34,589 - INFO - Classification Names for attribute 'statut' in table 'operations_mandats': Public
+2024-05-07 13:20:34,590 - INFO - Classification Names for attribute 'destinataire' in table 'operations_mandats': Restreint
+2024-05-07 13:20:34,590 - INFO - Classification Names for attribute 'numero_mandat' in table 'operations_mandats': Confidentiel
+2024-05-07 13:20:34,590 - INFO - Table 'operations_mandats' metadata has good quality.
+2024-05-07 13:20:34,590 - INFO - Checking metadata quality for table: oppositions_cartes
+2024-05-07 13:20:34,590 - INFO - Status of table 'oppositions_cartes' is ACTIVE.
+2024-05-07 13:20:34,590 - INFO - Total Size for table 'oppositions_cartes': 2911
+2024-05-07 13:20:34,590 - INFO - Number of Rows for table 'oppositions_cartes': 50
+2024-05-07 13:20:34,590 - INFO - Raw Data Size for table 'oppositions_cartes': 2861
+2024-05-07 13:20:34,590 - INFO - Number of Files for table 'oppositions_cartes': 1
+2024-05-07 13:20:34,590 - WARNING - No classification names found for table oppositions_cartes
+2024-05-07 13:20:34,591 - INFO - Classification Names for attribute 'statut' in table 'oppositions_cartes': Secret
+2024-05-07 13:20:34,591 - INFO - Classification Names for attribute 'id' in table 'oppositions_cartes': Confidentiel
+2024-05-07 13:20:34,591 - INFO - Classification Names for attribute 'numero_carte' in table 'oppositions_cartes': Confidentiel
+2024-05-07 13:20:34,591 - INFO - Classification Names for attribute 'raison_opposition' in table 'oppositions_cartes': Confidentiel
+2024-05-07 13:20:34,591 - INFO - Classification Names for attribute 'date_opposition' in table 'oppositions_cartes': Secret
+2024-05-07 13:20:34,591 - INFO - Table 'oppositions_cartes' metadata has good quality.
+2024-05-07 13:20:34,591 - INFO - Checking metadata quality for table: plafonds_retrait
+2024-05-07 13:20:34,591 - INFO - Status of table 'plafonds_retrait' is ACTIVE.
+2024-05-07 13:20:34,591 - INFO - Total Size for table 'plafonds_retrait': 1762
+2024-05-07 13:20:34,591 - INFO - Number of Rows for table 'plafonds_retrait': 47
+2024-05-07 13:20:34,591 - INFO - Raw Data Size for table 'plafonds_retrait': 1715
+2024-05-07 13:20:34,591 - INFO - Number of Files for table 'plafonds_retrait': 1
+2024-05-07 13:20:34,591 - WARNING - No classification names found for table plafonds_retrait
+2024-05-07 13:20:34,591 - INFO - Classification Names for attribute 'type_carte' in table 'plafonds_retrait': Secret
+2024-05-07 13:20:34,592 - INFO - Classification Names for attribute 'plafond_hebdomadaire' in table 'plafonds_retrait': Secret
+2024-05-07 13:20:34,592 - INFO - Classification Names for attribute 'plafond_journalier' in table 'plafonds_retrait': Restreint
+2024-05-07 13:20:34,592 - INFO - Table 'plafonds_retrait' metadata has good quality.
+2024-05-07 13:20:34,592 - INFO - Checking metadata quality for table: plan_epargne_retraite
+2024-05-07 13:20:34,592 - INFO - Status of table 'plan_epargne_retraite' is ACTIVE.
+2024-05-07 13:20:34,592 - INFO - Total Size for table 'plan_epargne_retraite': 1880
+2024-05-07 13:20:34,592 - INFO - Number of Rows for table 'plan_epargne_retraite': 44
+2024-05-07 13:20:34,592 - INFO - Raw Data Size for table 'plan_epargne_retraite': 1836
+2024-05-07 13:20:34,592 - INFO - Number of Files for table 'plan_epargne_retraite': 1
+2024-05-07 13:20:34,592 - WARNING - No classification names found for table plan_epargne_retraite
+2024-05-07 13:20:34,592 - INFO - Classification Names for attribute 'client' in table 'plan_epargne_retraite': Secret
+2024-05-07 13:20:34,592 - INFO - Classification Names for attribute 'age' in table 'plan_epargne_retraite': Secret
+2024-05-07 13:20:34,592 - INFO - Classification Names for attribute 'statut' in table 'plan_epargne_retraite': Confidentiel
+2024-05-07 13:20:34,592 - INFO - Classification Names for attribute 'nif' in table 'plan_epargne_retraite': Secret
+2024-05-07 13:20:34,592 - INFO - Classification Names for attribute 'solde' in table 'plan_epargne_retraite': Restreint
+2024-05-07 13:20:34,593 - INFO - Table 'plan_epargne_retraite' metadata has good quality.
+2024-05-07 13:20:34,593 - INFO - Checking metadata quality for table: pensions_retraites
+2024-05-07 13:20:34,593 - INFO - Status of table 'pensions_retraites' is ACTIVE.
+2024-05-07 13:20:34,593 - INFO - Total Size for table 'pensions_retraites': 1491
+2024-05-07 13:20:34,593 - INFO - Number of Rows for table 'pensions_retraites': 50
+2024-05-07 13:20:34,593 - INFO - Raw Data Size for table 'pensions_retraites': 1441
+2024-05-07 13:20:34,593 - INFO - Number of Files for table 'pensions_retraites': 1
+2024-05-07 13:20:34,593 - WARNING - No classification names found for table pensions_retraites
+2024-05-07 13:20:34,593 - INFO - Classification Names for attribute 'date_fin' in table 'pensions_retraites': Confidentiel
+2024-05-07 13:20:34,593 - INFO - Classification Names for attribute 'montant_mensuel' in table 'pensions_retraites': Confidentiel
+2024-05-07 13:20:34,593 - INFO - Classification Names for attribute 'date_debut' in table 'pensions_retraites': Secret
+2024-05-07 13:20:34,593 - INFO - Classification Names for attribute 'id' in table 'pensions_retraites': Restreint
+2024-05-07 13:20:34,593 - INFO - Table 'pensions_retraites' metadata has good quality.
+2024-05-07 13:20:34,594 - INFO - Checking metadata quality for table: prets_personnels
+2024-05-07 13:20:34,594 - INFO - Status of table 'prets_personnels' is ACTIVE.
+2024-05-07 13:20:34,594 - INFO - Total Size for table 'prets_personnels': 1210
+2024-05-07 13:20:34,594 - INFO - Number of Rows for table 'prets_personnels': 43
+2024-05-07 13:20:34,594 - INFO - Raw Data Size for table 'prets_personnels': 1167
+2024-05-07 13:20:34,594 - INFO - Number of Files for table 'prets_personnels': 1
+2024-05-07 13:20:34,594 - WARNING - No classification names found for table prets_personnels
+2024-05-07 13:20:34,594 - INFO - Classification Names for attribute 'duree_remboursement_mois' in table 'prets_personnels': Secret
+2024-05-07 13:20:34,594 - INFO - Classification Names for attribute 'client' in table 'prets_personnels': Secret
+2024-05-07 13:20:34,594 - INFO - Classification Names for attribute 'montant_pret' in table 'prets_personnels': Secret
+2024-05-07 13:20:34,594 - INFO - Classification Names for attribute 'taux_interet' in table 'prets_personnels': Confidentiel
+2024-05-07 13:20:34,594 - INFO - Table 'prets_personnels' metadata has good quality.
+2024-05-07 13:20:34,594 - INFO - Checking metadata quality for table: partenariats_commerciaux
+2024-05-07 13:20:34,595 - INFO - Status of table 'partenariats_commerciaux' is ACTIVE.
+2024-05-07 13:20:34,595 - INFO - Total Size for table 'partenariats_commerciaux': 4398
+2024-05-07 13:20:34,595 - INFO - Number of Rows for table 'partenariats_commerciaux': 50
+2024-05-07 13:20:34,595 - INFO - Raw Data Size for table 'partenariats_commerciaux': 4348
+2024-05-07 13:20:34,595 - INFO - Number of Files for table 'partenariats_commerciaux': 1
+2024-05-07 13:20:34,595 - WARNING - No classification names found for table partenariats_commerciaux
+2024-05-07 13:20:34,595 - INFO - Classification Names for attribute 'benefices' in table 'partenariats_commerciaux': Restreint
+2024-05-07 13:20:34,595 - INFO - Classification Names for attribute 'domaine_activite' in table 'partenariats_commerciaux': Secret
+2024-05-07 13:20:34,595 - INFO - Classification Names for attribute 'nom_partenaire' in table 'partenariats_commerciaux': Confidentiel
+2024-05-07 13:20:34,595 - INFO - Classification Names for attribute 'id' in table 'partenariats_commerciaux': Secret
+2024-05-07 13:20:34,595 - INFO - Classification Names for attribute 'date_debut' in table 'partenariats_commerciaux': Confidentiel
+2024-05-07 13:20:34,595 - INFO - Table 'partenariats_commerciaux' metadata has good quality.
+2024-05-07 13:20:34,595 - INFO - Checking metadata quality for table: operations_fraude
+2024-05-07 13:20:34,595 - INFO - Status of table 'operations_fraude' is ACTIVE.
+2024-05-07 13:20:34,595 - INFO - Total Size for table 'operations_fraude': 2493
+2024-05-07 13:20:34,596 - INFO - Number of Rows for table 'operations_fraude': 50
+2024-05-07 13:20:34,596 - INFO - Raw Data Size for table 'operations_fraude': 2443
+2024-05-07 13:20:34,596 - INFO - Number of Files for table 'operations_fraude': 1
+2024-05-07 13:20:34,596 - WARNING - No classification names found for table operations_fraude
+2024-05-07 13:20:34,596 - INFO - Classification Names for attribute 'description' in table 'operations_fraude': Confidentiel
+2024-05-07 13:20:34,596 - INFO - Classification Names for attribute 'id_operation' in table 'operations_fraude': Secret
+2024-05-07 13:20:34,596 - INFO - Classification Names for attribute 'montant' in table 'operations_fraude': Restreint
+2024-05-07 13:20:34,596 - INFO - Classification Names for attribute 'date_operation' in table 'operations_fraude': Secret
+2024-05-07 13:20:34,596 - INFO - Table 'operations_fraude' metadata has good quality.
+2024-05-07 13:20:34,596 - INFO - Checking metadata quality for table: operations_foret
+2024-05-07 13:20:34,596 - INFO - Status of table 'operations_foret' is ACTIVE.
+2024-05-07 13:20:34,596 - INFO - Total Size for table 'operations_foret': 1788
+2024-05-07 13:20:34,596 - INFO - Number of Rows for table 'operations_foret': 42
+2024-05-07 13:20:34,596 - INFO - Raw Data Size for table 'operations_foret': 1746
+2024-05-07 13:20:34,596 - INFO - Number of Files for table 'operations_foret': 1
+2024-05-07 13:20:34,597 - WARNING - No classification names found for table operations_foret
+2024-05-07 13:20:34,597 - INFO - Classification Names for attribute 'transaction' in table 'operations_foret': Confidentiel
+2024-05-07 13:20:34,597 - INFO - Classification Names for attribute 'beneficiary' in table 'operations_foret': Confidentiel
+2024-05-07 13:20:34,597 - INFO - Classification Names for attribute 'amount' in table 'operations_foret': Secret
+2024-05-07 13:20:34,597 - INFO - Classification Names for attribute 'date' in table 'operations_foret': Secret
+2024-05-07 13:20:34,597 - INFO - Table 'operations_foret' metadata has good quality.
+2024-05-07 13:20:34,597 - INFO - Checking metadata quality for table: processus_adhesion
+2024-05-07 13:20:34,597 - INFO - Status of table 'processus_adhesion' is ACTIVE.
+2024-05-07 13:20:34,597 - INFO - Total Size for table 'processus_adhesion': 1489
+2024-05-07 13:20:34,597 - INFO - Number of Rows for table 'processus_adhesion': 10
+2024-05-07 13:20:34,597 - INFO - Raw Data Size for table 'processus_adhesion': 1479
+2024-05-07 13:20:34,597 - INFO - Number of Files for table 'processus_adhesion': 1
+2024-05-07 13:20:34,597 - WARNING - No classification names found for table processus_adhesion
+2024-05-07 13:20:34,597 - INFO - Classification Names for attribute 'nom_client' in table 'processus_adhesion': Secret
+2024-05-07 13:20:34,598 - INFO - Classification Names for attribute 'email' in table 'processus_adhesion': Secret
+2024-05-07 13:20:34,598 - INFO - Classification Names for attribute 'etat_civil' in table 'processus_adhesion': Secret
+2024-05-07 13:20:34,598 - INFO - Classification Names for attribute 'profession' in table 'processus_adhesion': Restreint
+2024-05-07 13:20:34,598 - INFO - Classification Names for attribute 'ville' in table 'processus_adhesion': Secret
+2024-05-07 13:20:34,598 - INFO - Classification Names for attribute 'telephone' in table 'processus_adhesion': Confidentiel
+2024-05-07 13:20:34,598 - INFO - Classification Names for attribute 'num_dossier' in table 'processus_adhesion': Confidentiel
+2024-05-07 13:20:34,598 - INFO - Classification Names for attribute 'date_naissance' in table 'processus_adhesion': Confidentiel
+2024-05-07 13:20:34,598 - INFO - Classification Names for attribute 'adresse' in table 'processus_adhesion': Restreint
+2024-05-07 13:20:34,598 - INFO - Table 'processus_adhesion' metadata has good quality.
+2024-05-07 13:20:34,598 - INFO - Checking metadata quality for table: produit_data
+2024-05-07 13:20:34,598 - INFO - Status of table 'produit_data' is ACTIVE.
+2024-05-07 13:20:34,598 - INFO - Total Size for table 'produit_data': 18289
+2024-05-07 13:20:34,598 - INFO - Number of Rows for table 'produit_data': 100
+2024-05-07 13:20:34,598 - INFO - Raw Data Size for table 'produit_data': 18189
+2024-05-07 13:20:34,598 - INFO - Number of Files for table 'produit_data': 1
+2024-05-07 13:20:34,599 - WARNING - No classification names found for table produit_data
+2024-05-07 13:20:34,599 - INFO - Classification Names for attribute 'conditions_utilisation' in table 'produit_data': Confidentiel
+2024-05-07 13:20:34,599 - INFO - Classification Names for attribute 'type_produit' in table 'produit_data': Secret
+2024-05-07 13:20:34,599 - INFO - Classification Names for attribute 'caract_produit' in table 'produit_data': Confidentiel
+2024-05-07 13:20:34,599 - INFO - Classification Names for attribute 'id_produit' in table 'produit_data': Secret
+2024-05-07 13:20:34,599 - INFO - Table 'produit_data' metadata has good quality.
+2024-05-07 13:20:34,599 - INFO - Checking metadata quality for table: reclassement_autres_creances
+2024-05-07 13:20:34,599 - INFO - Status of table 'reclassement_autres_creances' is ACTIVE.
+2024-05-07 13:20:34,599 - INFO - Total Size for table 'reclassement_autres_creances': 2155
+2024-05-07 13:20:34,599 - INFO - Number of Rows for table 'reclassement_autres_creances': 44
+2024-05-07 13:20:34,599 - INFO - Raw Data Size for table 'reclassement_autres_creances': 2111
+2024-05-07 13:20:34,599 - INFO - Number of Files for table 'reclassement_autres_creances': 1
+2024-05-07 13:20:34,599 - WARNING - No classification names found for table reclassement_autres_creances
+2024-05-07 13:20:34,599 - INFO - Classification Names for attribute 'montant' in table 'reclassement_autres_creances': Confidentiel
+2024-05-07 13:20:34,600 - INFO - Classification Names for attribute 'numero_compte' in table 'reclassement_autres_creances': Confidentiel
+2024-05-07 13:20:34,600 - INFO - Classification Names for attribute 'motif' in table 'reclassement_autres_creances': Secret
+2024-05-07 13:20:34,600 - INFO - Classification Names for attribute 'date_reclassement' in table 'reclassement_autres_creances': Confidentiel
+2024-05-07 13:20:34,600 - INFO - Table 'reclassement_autres_creances' metadata has good quality.
+2024-05-07 13:20:34,600 - INFO - Checking metadata quality for table: recommandations_assurance_vie
+2024-05-07 13:20:34,600 - INFO - Status of table 'recommandations_assurance_vie' is ACTIVE.
+2024-05-07 13:20:34,600 - INFO - Total Size for table 'recommandations_assurance_vie': 4235
+2024-05-07 13:20:34,600 - INFO - Number of Rows for table 'recommandations_assurance_vie': 50
+2024-05-07 13:20:34,600 - INFO - Raw Data Size for table 'recommandations_assurance_vie': 4185
+2024-05-07 13:20:34,600 - INFO - Number of Files for table 'recommandations_assurance_vie': 1
+2024-05-07 13:20:34,600 - WARNING - No classification names found for table recommandations_assurance_vie
+2024-05-07 13:20:34,600 - INFO - Classification Names for attribute 'nom_client' in table 'recommandations_assurance_vie': Secret
+2024-05-07 13:20:34,600 - INFO - Classification Names for attribute 'age' in table 'recommandations_assurance_vie': Confidentiel
+2024-05-07 13:20:34,600 - INFO - Classification Names for attribute 'solde_compte' in table 'recommandations_assurance_vie': Secret
+2024-05-07 13:20:34,600 - INFO - Classification Names for attribute 'client_id' in table 'recommandations_assurance_vie': Confidentiel
+2024-05-07 13:20:34,601 - INFO - Classification Names for attribute 'recommandation' in table 'recommandations_assurance_vie': Confidentiel
+2024-05-07 13:20:34,601 - INFO - Classification Names for attribute 'profession' in table 'recommandations_assurance_vie': Restreint
+2024-05-07 13:20:34,601 - INFO - Classification Names for attribute 'prime_mensuelle' in table 'recommandations_assurance_vie': Secret
+2024-05-07 13:20:34,601 - INFO - Table 'recommandations_assurance_vie' metadata has good quality.
+2024-05-07 13:20:34,601 - INFO - Checking metadata quality for table: relations_clients_prospects
+2024-05-07 13:20:34,601 - INFO - Status of table 'relations_clients_prospects' is ACTIVE.
+2024-05-07 13:20:34,601 - INFO - Total Size for table 'relations_clients_prospects': 1910
+2024-05-07 13:20:34,601 - INFO - Number of Rows for table 'relations_clients_prospects': 30
+2024-05-07 13:20:34,601 - INFO - Raw Data Size for table 'relations_clients_prospects': 1880
+2024-05-07 13:20:34,601 - INFO - Number of Files for table 'relations_clients_prospects': 1
+2024-05-07 13:20:34,601 - WARNING - No classification names found for table relations_clients_prospects
+2024-05-07 13:20:34,601 - INFO - Classification Names for attribute 'profession' in table 'relations_clients_prospects': Confidentiel
+2024-05-07 13:20:34,601 - INFO - Classification Names for attribute 'age' in table 'relations_clients_prospects': Confidentiel
+2024-05-07 13:20:34,601 - INFO - Classification Names for attribute 'situation_familiale' in table 'relations_clients_prospects': Secret
+2024-05-07 13:20:34,602 - INFO - Classification Names for attribute 'prospect' in table 'relations_clients_prospects': Secret
+2024-05-07 13:20:34,602 - INFO - Classification Names for attribute 'revenu_annuel' in table 'relations_clients_prospects': Secret
+2024-05-07 13:20:34,602 - INFO - Classification Names for attribute 'nom' in table 'relations_clients_prospects': Secret
+2024-05-07 13:20:34,602 - INFO - Classification Names for attribute 'client_id' in table 'relations_clients_prospects': Confidentiel
+2024-05-07 13:20:34,602 - INFO - Classification Names for attribute 'prenom' in table 'relations_clients_prospects': Confidentiel
+2024-05-07 13:20:34,602 - INFO - Classification Names for attribute 'ville' in table 'relations_clients_prospects': Confidentiel
+2024-05-07 13:20:34,602 - INFO - Table 'relations_clients_prospects' metadata has good quality.
+2024-05-07 13:20:34,602 - INFO - Checking metadata quality for table: releves_comptes_epargne
+2024-05-07 13:20:34,602 - INFO - Status of table 'releves_comptes_epargne' is ACTIVE.
+2024-05-07 13:20:34,602 - INFO - Total Size for table 'releves_comptes_epargne': 2419
+2024-05-07 13:20:34,602 - INFO - Number of Rows for table 'releves_comptes_epargne': 45
+2024-05-07 13:20:34,602 - INFO - Raw Data Size for table 'releves_comptes_epargne': 2374
+2024-05-07 13:20:34,602 - INFO - Number of Files for table 'releves_comptes_epargne': 1
+2024-05-07 13:20:34,602 - WARNING - No classification names found for table releves_comptes_epargne
+2024-05-07 13:20:34,603 - INFO - Classification Names for attribute 'nom_client' in table 'releves_comptes_epargne': Restreint
+2024-05-07 13:20:34,603 - INFO - Classification Names for attribute 'solde' in table 'releves_comptes_epargne': Secret
+2024-05-07 13:20:34,603 - INFO - Classification Names for attribute 'date_derniere_operation' in table 'releves_comptes_epargne': Secret
+2024-05-07 13:20:34,603 - INFO - Classification Names for attribute 'numero_compte' in table 'releves_comptes_epargne': Secret
+2024-05-07 13:20:34,603 - INFO - Table 'releves_comptes_epargne' metadata has good quality.
+2024-05-07 13:20:34,603 - INFO - Checking metadata quality for table: recommandations_placements
+2024-05-07 13:20:34,603 - INFO - Status of table 'recommandations_placements' is ACTIVE.
+2024-05-07 13:20:34,603 - INFO - Total Size for table 'recommandations_placements': 4041
+2024-05-07 13:20:34,603 - INFO - Number of Rows for table 'recommandations_placements': 50
+2024-05-07 13:20:34,603 - INFO - Raw Data Size for table 'recommandations_placements': 3991
+2024-05-07 13:20:34,603 - INFO - Number of Files for table 'recommandations_placements': 1
+2024-05-07 13:20:34,603 - WARNING - No classification names found for table recommandations_placements
+2024-05-07 13:20:34,603 - INFO - Classification Names for attribute 'date_recommandation' in table 'recommandations_placements': Secret
+2024-05-07 13:20:34,604 - INFO - Classification Names for attribute 'id' in table 'recommandations_placements': Secret
+2024-05-07 13:20:34,604 - INFO - Classification Names for attribute 'produit_recommande' in table 'recommandations_placements': Secret
+2024-05-07 13:20:34,604 - INFO - Classification Names for attribute 'client_concerne' in table 'recommandations_placements': Confidentiel
+2024-05-07 13:20:34,604 - INFO - Classification Names for attribute 'raison_recommandation' in table 'recommandations_placements': Secret
+2024-05-07 13:20:34,604 - INFO - Table 'recommandations_placements' metadata has good quality.
+2024-05-07 13:20:34,604 - INFO - Checking metadata quality for table: relatif_marche_monetaire
+2024-05-07 13:20:34,604 - INFO - Status of table 'relatif_marche_monetaire' is ACTIVE.
+2024-05-07 13:20:34,604 - INFO - Total Size for table 'relatif_marche_monetaire': 1979
+2024-05-07 13:20:34,604 - INFO - Number of Rows for table 'relatif_marche_monetaire': 46
+2024-05-07 13:20:34,604 - INFO - Raw Data Size for table 'relatif_marche_monetaire': 1933
+2024-05-07 13:20:34,604 - INFO - Number of Files for table 'relatif_marche_monetaire': 1
+2024-05-07 13:20:34,604 - WARNING - No classification names found for table relatif_marche_monetaire
+2024-05-07 13:20:34,604 - INFO - Classification Names for attribute 'debit' in table 'relatif_marche_monetaire': Confidentiel
+2024-05-07 13:20:34,604 - INFO - Classification Names for attribute 'date' in table 'relatif_marche_monetaire': Confidentiel
+2024-05-07 13:20:34,605 - INFO - Classification Names for attribute 'libelle' in table 'relatif_marche_monetaire': Secret
+2024-05-07 13:20:34,605 - INFO - Classification Names for attribute 'credit' in table 'relatif_marche_monetaire': Secret
+2024-05-07 13:20:34,605 - INFO - Classification Names for attribute 'solde' in table 'relatif_marche_monetaire': Restreint
+2024-05-07 13:20:34,605 - INFO - Table 'relatif_marche_monetaire' metadata has good quality.
+2024-05-07 13:20:34,605 - INFO - Checking metadata quality for table: rapports_trimestriels
+2024-05-07 13:20:34,605 - INFO - Status of table 'rapports_trimestriels' is ACTIVE.
+2024-05-07 13:20:34,605 - INFO - Total Size for table 'rapports_trimestriels': 2130
+2024-05-07 13:20:34,605 - INFO - Number of Rows for table 'rapports_trimestriels': 46
+2024-05-07 13:20:34,605 - INFO - Raw Data Size for table 'rapports_trimestriels': 2084
+2024-05-07 13:20:34,605 - INFO - Number of Files for table 'rapports_trimestriels': 1
+2024-05-07 13:20:34,605 - WARNING - No classification names found for table rapports_trimestriels
+2024-05-07 13:20:34,605 - INFO - Classification Names for attribute 'total_actifs' in table 'rapports_trimestriels': Restreint
+2024-05-07 13:20:34,605 - INFO - Classification Names for attribute 'resultat_net' in table 'rapports_trimestriels': Restreint
+2024-05-07 13:20:34,605 - INFO - Classification Names for attribute 'date' in table 'rapports_trimestriels': Restreint
+2024-05-07 13:20:34,606 - INFO - Classification Names for attribute 'total_passifs' in table 'rapports_trimestriels': Secret
+2024-05-07 13:20:34,606 - INFO - Table 'rapports_trimestriels' metadata has good quality.
+2024-05-07 13:20:34,606 - INFO - Checking metadata quality for table: reclamations_clients
+2024-05-07 13:20:34,606 - INFO - Status of table 'reclamations_clients' is ACTIVE.
+2024-05-07 13:20:34,606 - INFO - Total Size for table 'reclamations_clients': 4656
+2024-05-07 13:20:34,606 - INFO - Number of Rows for table 'reclamations_clients': 50
+2024-05-07 13:20:34,606 - INFO - Raw Data Size for table 'reclamations_clients': 4606
+2024-05-07 13:20:34,606 - INFO - Number of Files for table 'reclamations_clients': 1
+2024-05-07 13:20:34,607 - WARNING - No classification names found for table reclamations_clients
+2024-05-07 13:20:34,607 - INFO - Classification Names for attribute 'reponse' in table 'reclamations_clients': Confidentiel
+2024-05-07 13:20:34,607 - INFO - Classification Names for attribute 'date_reclamation' in table 'reclamations_clients': Confidentiel
+2024-05-07 13:20:34,607 - INFO - Classification Names for attribute 'description' in table 'reclamations_clients': Restreint
+2024-05-07 13:20:34,607 - INFO - Classification Names for attribute 'id' in table 'reclamations_clients': Restreint
+2024-05-07 13:20:34,607 - INFO - Classification Names for attribute 'statut' in table 'reclamations_clients': Secret
+2024-05-07 13:20:34,607 - INFO - Table 'reclamations_clients' metadata has good quality.
+2024-05-07 13:20:34,607 - INFO - Checking metadata quality for table: produits_bancaires
+2024-05-07 13:20:34,607 - INFO - Status of table 'produits_bancaires' is ACTIVE.
+2024-05-07 13:20:34,607 - INFO - Total Size for table 'produits_bancaires': 1588
+2024-05-07 13:20:34,607 - INFO - Number of Rows for table 'produits_bancaires': 50
+2024-05-07 13:20:34,607 - INFO - Raw Data Size for table 'produits_bancaires': 1538
+2024-05-07 13:20:34,607 - INFO - Number of Files for table 'produits_bancaires': 1
+2024-05-07 13:20:34,607 - WARNING - No classification names found for table produits_bancaires
+2024-05-07 13:20:34,608 - INFO - Classification Names for attribute 'nom_produit' in table 'produits_bancaires': Confidentiel
+2024-05-07 13:20:34,608 - INFO - Classification Names for attribute 'id' in table 'produits_bancaires': Restreint
+2024-05-07 13:20:34,608 - INFO - Classification Names for attribute 'montant_minimum' in table 'produits_bancaires': Restreint
+2024-05-07 13:20:34,608 - INFO - Classification Names for attribute 'taux_interet' in table 'produits_bancaires': Restreint
+2024-05-07 13:20:34,608 - INFO - Classification Names for attribute 'duree_plafond' in table 'produits_bancaires': Restreint
+2024-05-07 13:20:34,608 - INFO - Table 'produits_bancaires' metadata has good quality.
+2024-05-07 13:20:34,608 - INFO - Checking metadata quality for table: programmes_fidelite
+2024-05-07 13:20:34,608 - INFO - Status of table 'programmes_fidelite' is ACTIVE.
+2024-05-07 13:20:34,608 - INFO - Total Size for table 'programmes_fidelite': 1391
+2024-05-07 13:20:34,608 - INFO - Number of Rows for table 'programmes_fidelite': 42
+2024-05-07 13:20:34,608 - INFO - Raw Data Size for table 'programmes_fidelite': 1349
+2024-05-07 13:20:34,608 - INFO - Number of Files for table 'programmes_fidelite': 1
+2024-05-07 13:20:34,608 - WARNING - No classification names found for table programmes_fidelite
+2024-05-07 13:20:34,608 - INFO - Classification Names for attribute 'nom' in table 'programmes_fidelite': Restreint
+2024-05-07 13:20:34,609 - INFO - Classification Names for attribute 'client_id' in table 'programmes_fidelite': Restreint
+2024-05-07 13:20:34,609 - INFO - Classification Names for attribute 'niveau' in table 'programmes_fidelite': Confidentiel
+2024-05-07 13:20:34,609 - INFO - Classification Names for attribute 'points' in table 'programmes_fidelite': Restreint
+2024-05-07 13:20:34,609 - INFO - Table 'programmes_fidelite' metadata has good quality.
+2024-05-07 13:20:34,609 - INFO - Checking metadata quality for table: rachats_investissements
+2024-05-07 13:20:34,609 - INFO - Status of table 'rachats_investissements' is ACTIVE.
+2024-05-07 13:20:34,609 - INFO - Total Size for table 'rachats_investissements': 3483
+2024-05-07 13:20:34,609 - INFO - Number of Rows for table 'rachats_investissements': 39
+2024-05-07 13:20:34,609 - INFO - Raw Data Size for table 'rachats_investissements': 3444
+2024-05-07 13:20:34,609 - INFO - Number of Files for table 'rachats_investissements': 1
+2024-05-07 13:20:34,609 - WARNING - No classification names found for table rachats_investissements
+2024-05-07 13:20:34,609 - INFO - Classification Names for attribute 'montant_rachat' in table 'rachats_investissements': Secret
+2024-05-07 13:20:34,609 - INFO - Classification Names for attribute 'statut_rachat' in table 'rachats_investissements': Secret
+2024-05-07 13:20:34,609 - INFO - Classification Names for attribute 'duree_placement' in table 'rachats_investissements': Secret
+2024-05-07 13:20:34,610 - INFO - Classification Names for attribute 'objectif_investissement' in table 'rachats_investissements': Restreint
+2024-05-07 13:20:34,610 - INFO - Classification Names for attribute 'type_investissement' in table 'rachats_investissements': Restreint
+2024-05-07 13:20:34,610 - INFO - Classification Names for attribute 'date_rachat' in table 'rachats_investissements': Secret
+2024-05-07 13:20:34,610 - INFO - Classification Names for attribute 'nom_client' in table 'rachats_investissements': Confidentiel
+2024-05-07 13:20:34,610 - INFO - Classification Names for attribute 'num_compte' in table 'rachats_investissements': Restreint
+2024-05-07 13:20:34,610 - INFO - Table 'rachats_investissements' metadata has good quality.
+2024-05-07 13:20:34,610 - INFO - Checking metadata quality for table: prets_professionnels
+2024-05-07 13:20:34,610 - INFO - Status of table 'prets_professionnels' is ACTIVE.
+2024-05-07 13:20:34,610 - INFO - Total Size for table 'prets_professionnels': 2648
+2024-05-07 13:20:34,610 - INFO - Number of Rows for table 'prets_professionnels': 40
+2024-05-07 13:20:34,610 - INFO - Raw Data Size for table 'prets_professionnels': 2608
+2024-05-07 13:20:34,610 - INFO - Number of Files for table 'prets_professionnels': 1
+2024-05-07 13:20:34,610 - WARNING - No classification names found for table prets_professionnels
+2024-05-07 13:20:34,610 - INFO - Classification Names for attribute 'duree_mois' in table 'prets_professionnels': Secret
+2024-05-07 13:20:34,610 - INFO - Classification Names for attribute 'date_accord' in table 'prets_professionnels': Restreint
+2024-05-07 13:20:34,611 - INFO - Classification Names for attribute 'client' in table 'prets_professionnels': Public
+2024-05-07 13:20:34,611 - INFO - Classification Names for attribute 'montant' in table 'prets_professionnels': Public
+2024-05-07 13:20:34,611 - INFO - Classification Names for attribute 'taux_interet' in table 'prets_professionnels': Restreint
+2024-05-07 13:20:34,611 - INFO - Classification Names for attribute 'garantie' in table 'prets_professionnels': Secret
+2024-05-07 13:20:34,611 - INFO - Table 'prets_professionnels' metadata has good quality.
+2024-05-07 13:20:34,611 - INFO - Checking metadata quality for table: rapports_audit
+2024-05-07 13:20:34,611 - INFO - Status of table 'rapports_audit' is ACTIVE.
+2024-05-07 13:20:34,611 - INFO - Total Size for table 'rapports_audit': 7341
+2024-05-07 13:20:34,611 - INFO - Number of Rows for table 'rapports_audit': 46
+2024-05-07 13:20:34,611 - INFO - Raw Data Size for table 'rapports_audit': 7295
+2024-05-07 13:20:34,611 - INFO - Number of Files for table 'rapports_audit': 1
+2024-05-07 13:20:34,611 - WARNING - No classification names found for table rapports_audit
+2024-05-07 13:20:34,611 - INFO - Classification Names for attribute 'nom_agence' in table 'rapports_audit': Restreint
+2024-05-07 13:20:34,612 - INFO - Classification Names for attribute 'analyse' in table 'rapports_audit': Restreint
+2024-05-07 13:20:34,612 - INFO - Classification Names for attribute 'conclusion' in table 'rapports_audit': Restreint
+2024-05-07 13:20:34,612 - INFO - Classification Names for attribute 'date' in table 'rapports_audit': Restreint
+2024-05-07 13:20:34,612 - INFO - Table 'rapports_audit' metadata has good quality.
+2024-05-07 13:20:34,612 - INFO - Checking metadata quality for table: societes_partenaires
+2024-05-07 13:20:34,612 - INFO - Status of table 'societes_partenaires' is ACTIVE.
+2024-05-07 13:20:34,612 - INFO - Total Size for table 'societes_partenaires': 3857
+2024-05-07 13:20:34,612 - INFO - Number of Rows for table 'societes_partenaires': 50
+2024-05-07 13:20:34,612 - INFO - Raw Data Size for table 'societes_partenaires': 3807
+2024-05-07 13:20:34,612 - INFO - Number of Files for table 'societes_partenaires': 1
+2024-05-07 13:20:34,612 - WARNING - No classification names found for table societes_partenaires
+2024-05-07 13:20:34,612 - INFO - Classification Names for attribute 'nom_societe' in table 'societes_partenaires': Restreint
+2024-05-07 13:20:34,612 - INFO - Classification Names for attribute 'telephone' in table 'societes_partenaires': Restreint
+2024-05-07 13:20:34,612 - INFO - Classification Names for attribute 'secteur_activite' in table 'societes_partenaires': Public
+2024-05-07 13:20:34,613 - INFO - Classification Names for attribute 'adresse' in table 'societes_partenaires': Confidentiel
+2024-05-07 13:20:34,613 - INFO - Classification Names for attribute 'id' in table 'societes_partenaires': Restreint
+2024-05-07 13:20:34,613 - INFO - Table 'societes_partenaires' metadata has good quality.
+2024-05-07 13:20:34,613 - INFO - Checking metadata quality for table: suivi_operations_distribution
+2024-05-07 13:20:34,613 - INFO - Status of table 'suivi_operations_distribution' is ACTIVE.
+2024-05-07 13:20:34,613 - INFO - Total Size for table 'suivi_operations_distribution': 2612
+2024-05-07 13:20:34,613 - INFO - Number of Rows for table 'suivi_operations_distribution': 51
+2024-05-07 13:20:34,613 - INFO - Raw Data Size for table 'suivi_operations_distribution': 2561
+2024-05-07 13:20:34,613 - INFO - Number of Files for table 'suivi_operations_distribution': 1
+2024-05-07 13:20:34,613 - WARNING - No classification names found for table suivi_operations_distribution
+2024-05-07 13:20:34,613 - INFO - Classification Names for attribute 'statut' in table 'suivi_operations_distribution': Secret
+2024-05-07 13:20:34,613 - INFO - Classification Names for attribute 'montant' in table 'suivi_operations_distribution': Secret
+2024-05-07 13:20:34,613 - INFO - Classification Names for attribute 'numero_operation' in table 'suivi_operations_distribution': Secret
+2024-05-07 13:20:34,614 - INFO - Classification Names for attribute 'type_operation' in table 'suivi_operations_distribution': Confidentiel
+2024-05-07 13:20:34,614 - INFO - Classification Names for attribute 'date_operation' in table 'suivi_operations_distribution': Restreint
+2024-05-07 13:20:34,614 - INFO - Classification Names for attribute 'beneficiaire' in table 'suivi_operations_distribution': Public
+2024-05-07 13:20:34,614 - INFO - Table 'suivi_operations_distribution' metadata has good quality.
+2024-05-07 13:20:34,614 - INFO - Checking metadata quality for table: suivi_operations_diverses
+2024-05-07 13:20:34,614 - INFO - Status of table 'suivi_operations_diverses' is ACTIVE.
+2024-05-07 13:20:34,614 - INFO - Total Size for table 'suivi_operations_diverses': 2466
+2024-05-07 13:20:34,614 - INFO - Number of Rows for table 'suivi_operations_diverses': 48
+2024-05-07 13:20:34,614 - INFO - Raw Data Size for table 'suivi_operations_diverses': 2418
+2024-05-07 13:20:34,614 - INFO - Number of Files for table 'suivi_operations_diverses': 1
+2024-05-07 13:20:34,614 - WARNING - No classification names found for table suivi_operations_diverses
+2024-05-07 13:20:34,614 - INFO - Classification Names for attribute 'date' in table 'suivi_operations_diverses': Restreint
+2024-05-07 13:20:34,614 - INFO - Classification Names for attribute 'operation' in table 'suivi_operations_diverses': Restreint
+2024-05-07 13:20:34,614 - INFO - Classification Names for attribute 'compte_destination' in table 'suivi_operations_diverses': Public
+2024-05-07 13:20:34,614 - INFO - Classification Names for attribute 'compte_source' in table 'suivi_operations_diverses': Secret
+2024-05-07 13:20:34,615 - INFO - Classification Names for attribute 'montant' in table 'suivi_operations_diverses': Restreint
+2024-05-07 13:20:34,615 - INFO - Classification Names for attribute 'beneficiaire' in table 'suivi_operations_diverses': Confidentiel
+2024-05-07 13:20:34,615 - INFO - Table 'suivi_operations_diverses' metadata has good quality.
+2024-05-07 13:20:34,615 - INFO - Checking metadata quality for table: suivi_operations_guichet
+2024-05-07 13:20:34,615 - INFO - Status of table 'suivi_operations_guichet' is ACTIVE.
+2024-05-07 13:20:34,615 - INFO - Total Size for table 'suivi_operations_guichet': 8620
+2024-05-07 13:20:34,615 - INFO - Number of Rows for table 'suivi_operations_guichet': 82
+2024-05-07 13:20:34,615 - INFO - Raw Data Size for table 'suivi_operations_guichet': 8538
+2024-05-07 13:20:34,615 - INFO - Number of Files for table 'suivi_operations_guichet': 2
+2024-05-07 13:20:34,615 - WARNING - No classification names found for table suivi_operations_guichet
+2024-05-07 13:20:34,615 - INFO - Classification Names for attribute 'date' in table 'suivi_operations_guichet': Restreint
+2024-05-07 13:20:34,615 - INFO - Classification Names for attribute 'statut' in table 'suivi_operations_guichet': Restreint
+2024-05-07 13:20:34,615 - INFO - Classification Names for attribute 'type_operation' in table 'suivi_operations_guichet': Restreint
+2024-05-07 13:20:34,615 - INFO - Classification Names for attribute 'beneficiaire' in table 'suivi_operations_guichet': Secret
+2024-05-07 13:20:34,616 - INFO - Classification Names for attribute 'agence' in table 'suivi_operations_guichet': Confidentiel
+2024-05-07 13:20:34,616 - INFO - Classification Names for attribute 'commentaire' in table 'suivi_operations_guichet': Restreint
+2024-05-07 13:20:34,616 - INFO - Classification Names for attribute 'montant' in table 'suivi_operations_guichet': Secret
+2024-05-07 13:20:34,616 - INFO - Table 'suivi_operations_guichet' metadata has good quality.
+2024-05-07 13:20:34,616 - INFO - Checking metadata quality for table: suivi_titres_boursiers
+2024-05-07 13:20:34,616 - INFO - Status of table 'suivi_titres_boursiers' is ACTIVE.
+2024-05-07 13:20:34,616 - INFO - Total Size for table 'suivi_titres_boursiers': 1886
+2024-05-07 13:20:34,616 - INFO - Number of Rows for table 'suivi_titres_boursiers': 42
+2024-05-07 13:20:34,616 - INFO - Raw Data Size for table 'suivi_titres_boursiers': 1844
+2024-05-07 13:20:34,616 - INFO - Number of Files for table 'suivi_titres_boursiers': 1
+2024-05-07 13:20:34,616 - WARNING - No classification names found for table suivi_titres_boursiers
+2024-05-07 13:20:34,616 - INFO - Classification Names for attribute 'code_client' in table 'suivi_titres_boursiers': Secret
+2024-05-07 13:20:34,616 - INFO - Classification Names for attribute 'nom_client' in table 'suivi_titres_boursiers': Confidentiel
+2024-05-07 13:20:34,616 - INFO - Classification Names for attribute 'quantite' in table 'suivi_titres_boursiers': Secret
+2024-05-07 13:20:34,617 - INFO - Classification Names for attribute 'titre' in table 'suivi_titres_boursiers': Secret
+2024-05-07 13:20:34,617 - INFO - Classification Names for attribute 'valeur' in table 'suivi_titres_boursiers': Confidentiel
+2024-05-07 13:20:34,617 - INFO - Table 'suivi_titres_boursiers' metadata has good quality.
+2024-05-07 13:20:34,617 - INFO - Checking metadata quality for table: surveys_data
+2024-05-07 13:20:34,617 - INFO - Status of table 'surveys_data' is ACTIVE.
+2024-05-07 13:20:34,617 - INFO - Total Size for table 'surveys_data': 28054
+2024-05-07 13:20:34,617 - INFO - Number of Rows for table 'surveys_data': 100
+2024-05-07 13:20:34,617 - INFO - Raw Data Size for table 'surveys_data': 27954
+2024-05-07 13:20:34,617 - INFO - Number of Files for table 'surveys_data': 1
+2024-05-07 13:20:34,617 - WARNING - No classification names found for table surveys_data
+2024-05-07 13:20:34,617 - INFO - Classification Names for attribute 'questions' in table 'surveys_data': Tres Secret
+2024-05-07 13:20:34,617 - INFO - Classification Names for attribute 'titre_enquete' in table 'surveys_data': Restreint
+2024-05-07 13:20:34,617 - INFO - Classification Names for attribute 'id_enquete' in table 'surveys_data': Secret
+2024-05-07 13:20:34,617 - INFO - Table 'surveys_data' metadata has good quality.
+2024-05-07 13:20:34,618 - INFO - Checking metadata quality for table: taux_interets_data
+2024-05-07 13:20:34,618 - INFO - Status of table 'taux_interets_data' is ACTIVE.
+2024-05-07 13:20:34,618 - INFO - Total Size for table 'taux_interets_data': 6195
+2024-05-07 13:20:34,618 - INFO - Number of Rows for table 'taux_interets_data': 100
+2024-05-07 13:20:34,618 - INFO - Raw Data Size for table 'taux_interets_data': 6095
+2024-05-07 13:20:34,618 - INFO - Number of Files for table 'taux_interets_data': 1
+2024-05-07 13:20:34,618 - WARNING - No classification names found for table taux_interets_data
+2024-05-07 13:20:34,618 - INFO - Classification Names for attribute 'id_taux' in table 'taux_interets_data': Confidentiel
+2024-05-07 13:20:34,618 - INFO - Classification Names for attribute 'taux_interet' in table 'taux_interets_data': Secret
+2024-05-07 13:20:34,618 - INFO - Classification Names for attribute 'type_produit' in table 'taux_interets_data': Secret
+2024-05-07 13:20:34,618 - INFO - Table 'taux_interets_data' metadata has good quality.
+2024-05-07 13:20:34,618 - INFO - Checking metadata quality for table: transactions_devises
+2024-05-07 13:20:34,618 - INFO - Status of table 'transactions_devises' is ACTIVE.
+2024-05-07 13:20:34,618 - INFO - Total Size for table 'transactions_devises': 1501
+2024-05-07 13:20:34,619 - INFO - Number of Rows for table 'transactions_devises': 50
+2024-05-07 13:20:34,619 - INFO - Raw Data Size for table 'transactions_devises': 1451
+2024-05-07 13:20:34,619 - INFO - Number of Files for table 'transactions_devises': 1
+2024-05-07 13:20:34,619 - WARNING - No classification names found for table transactions_devises
+2024-05-07 13:20:34,619 - INFO - Classification Names for attribute 'devise' in table 'transactions_devises': Restreint
+2024-05-07 13:20:34,619 - INFO - Classification Names for attribute 'date_transaction' in table 'transactions_devises': Secret
+2024-05-07 13:20:34,619 - INFO - Classification Names for attribute 'id' in table 'transactions_devises': Confidentiel
+2024-05-07 13:20:34,619 - INFO - Classification Names for attribute 'montant' in table 'transactions_devises': Secret
+2024-05-07 13:20:34,619 - INFO - Classification Names for attribute 'taux_change' in table 'transactions_devises': Secret
+2024-05-07 13:20:34,619 - INFO - Table 'transactions_devises' metadata has good quality.
+2024-05-07 13:20:34,619 - INFO - Checking metadata quality for table: transactions_electroniques
+2024-05-07 13:20:34,619 - INFO - Status of table 'transactions_electroniques' is ACTIVE.
+2024-05-07 13:20:34,619 - INFO - Total Size for table 'transactions_electroniques': 3845
+2024-05-07 13:20:34,619 - INFO - Number of Rows for table 'transactions_electroniques': 45
+2024-05-07 13:20:34,619 - INFO - Raw Data Size for table 'transactions_electroniques': 3800
+2024-05-07 13:20:34,620 - INFO - Number of Files for table 'transactions_electroniques': 1
+2024-05-07 13:20:34,620 - WARNING - No classification names found for table transactions_electroniques
+2024-05-07 13:20:34,620 - INFO - Classification Names for attribute 'montant' in table 'transactions_electroniques': Secret
+2024-05-07 13:20:34,620 - INFO - Classification Names for attribute 'heure' in table 'transactions_electroniques': Secret
+2024-05-07 13:20:34,620 - INFO - Classification Names for attribute 'categorie' in table 'transactions_electroniques': Secret
+2024-05-07 13:20:34,620 - INFO - Classification Names for attribute 'date' in table 'transactions_electroniques': Secret
+2024-05-07 13:20:34,620 - INFO - Classification Names for attribute 'etat' in table 'transactions_electroniques': Confidentiel
+2024-05-07 13:20:34,620 - INFO - Classification Names for attribute 'type' in table 'transactions_electroniques': Restreint
+2024-05-07 13:20:34,620 - INFO - Classification Names for attribute 'beneficiaire' in table 'transactions_electroniques': Restreint
+2024-05-07 13:20:34,620 - INFO - Table 'transactions_electroniques' metadata has good quality.
+2024-05-07 13:20:34,620 - INFO - Checking metadata quality for table: tracking_operations
+2024-05-07 13:20:34,620 - INFO - Status of table 'tracking_operations' is ACTIVE.
+2024-05-07 13:20:34,620 - INFO - Total Size for table 'tracking_operations': 2818
+2024-05-07 13:20:34,620 - INFO - Number of Rows for table 'tracking_operations': 42
+2024-05-07 13:20:34,621 - INFO - Raw Data Size for table 'tracking_operations': 2776
+2024-05-07 13:20:34,621 - INFO - Number of Files for table 'tracking_operations': 1
+2024-05-07 13:20:34,621 - WARNING - No classification names found for table tracking_operations
+2024-05-07 13:20:34,621 - INFO - Classification Names for attribute 'montant' in table 'tracking_operations': Restreint
+2024-05-07 13:20:34,621 - INFO - Classification Names for attribute 'date_operation' in table 'tracking_operations': Restreint
+2024-05-07 13:20:34,621 - INFO - Classification Names for attribute 'type_operation' in table 'tracking_operations': Restreint
+2024-05-07 13:20:34,621 - INFO - Classification Names for attribute 'statut' in table 'tracking_operations': Restreint
+2024-05-07 13:20:34,621 - INFO - Classification Names for attribute 'heure_operation' in table 'tracking_operations': Restreint
+2024-05-07 13:20:34,621 - INFO - Classification Names for attribute 'beneficiaire' in table 'tracking_operations': Secret
+2024-05-07 13:20:34,621 - INFO - Classification Names for attribute 'numero_operation' in table 'tracking_operations': Secret
+2024-05-07 13:20:34,621 - INFO - Table 'tracking_operations' metadata has good quality.
+2024-05-07 13:20:34,621 - INFO - Checking metadata quality for table: transactions
+2024-05-07 13:20:34,621 - INFO - Status of table 'transactions' is ACTIVE.
+2024-05-07 13:20:34,621 - INFO - Total Size for table 'transactions': 46287
+2024-05-07 13:20:34,622 - INFO - Number of Rows for table 'transactions': 500
+2024-05-07 13:20:34,622 - INFO - Raw Data Size for table 'transactions': 45787
+2024-05-07 13:20:34,622 - INFO - Number of Files for table 'transactions': 1
+2024-05-07 13:20:34,622 - WARNING - No classification names found for table transactions
+2024-05-07 13:20:34,622 - INFO - Classification Names for attribute 'type' in table 'transactions': Secret
+2024-05-07 13:20:34,622 - INFO - Classification Names for attribute 'id_compte' in table 'transactions': Confidentiel
+2024-05-07 13:20:34,622 - INFO - Classification Names for attribute 'montant' in table 'transactions': Confidentiel
+2024-05-07 13:20:34,622 - INFO - Classification Names for attribute 'id_transaction' in table 'transactions': Secret
+2024-05-07 13:20:34,623 - INFO - Classification Names for attribute 'date_creation' in table 'transactions': Secret
+2024-05-07 13:20:34,623 - INFO - Table 'transactions' metadata has good quality.
+2024-05-07 13:20:34,623 - INFO - Checking metadata quality for table: transactions_immobilieres
+2024-05-07 13:20:34,623 - INFO - Status of table 'transactions_immobilieres' is ACTIVE.
+2024-05-07 13:20:34,623 - INFO - Total Size for table 'transactions_immobilieres': 2832
+2024-05-07 13:20:34,623 - INFO - Number of Rows for table 'transactions_immobilieres': 50
+2024-05-07 13:20:34,624 - INFO - Raw Data Size for table 'transactions_immobilieres': 2782
+2024-05-07 13:20:34,624 - INFO - Number of Files for table 'transactions_immobilieres': 1
+2024-05-07 13:20:34,624 - WARNING - No classification names found for table transactions_immobilieres
+2024-05-07 13:20:34,624 - INFO - Classification Names for attribute 'adresse_bien' in table 'transactions_immobilieres': Secret
+2024-05-07 13:20:34,624 - INFO - Classification Names for attribute 'date_transaction' in table 'transactions_immobilieres': Confidentiel
+2024-05-07 13:20:34,624 - INFO - Classification Names for attribute 'type_transaction' in table 'transactions_immobilieres': Confidentiel
+2024-05-07 13:20:34,624 - INFO - Classification Names for attribute 'id' in table 'transactions_immobilieres': Confidentiel
+2024-05-07 13:20:34,624 - INFO - Classification Names for attribute 'montant_transaction' in table 'transactions_immobilieres': Secret
+2024-05-07 13:20:34,624 - INFO - Table 'transactions_immobilieres' metadata has good quality.
+2024-05-07 13:20:34,625 - INFO - Checking metadata quality for table: transactions_imposables
+2024-05-07 13:20:34,625 - INFO - Status of table 'transactions_imposables' is ACTIVE.
+2024-05-07 13:20:34,625 - INFO - Total Size for table 'transactions_imposables': 2997
+2024-05-07 13:20:34,625 - INFO - Number of Rows for table 'transactions_imposables': 41
+2024-05-07 13:20:34,625 - INFO - Raw Data Size for table 'transactions_imposables': 2956
+2024-05-07 13:20:34,625 - INFO - Number of Files for table 'transactions_imposables': 1
+2024-05-07 13:20:34,625 - WARNING - No classification names found for table transactions_imposables
+2024-05-07 13:20:34,626 - INFO - Classification Names for attribute 'heure_transaction' in table 'transactions_imposables': Confidentiel
+2024-05-07 13:20:34,626 - INFO - Classification Names for attribute 'beneficiaire' in table 'transactions_imposables': Restreint
+2024-05-07 13:20:34,626 - INFO - Classification Names for attribute 'type_transaction' in table 'transactions_imposables': Restreint
+2024-05-07 13:20:34,626 - INFO - Classification Names for attribute 'categorie' in table 'transactions_imposables': Confidentiel
+2024-05-07 13:20:34,626 - INFO - Classification Names for attribute 'montant' in table 'transactions_imposables': Confidentiel
+2024-05-07 13:20:34,626 - INFO - Classification Names for attribute 'date_transaction' in table 'transactions_imposables': Confidentiel
+2024-05-07 13:20:34,626 - INFO - Table 'transactions_imposables' metadata has good quality.
+2024-05-07 13:20:34,626 - INFO - Checking metadata quality for table: reliquat_commissions
+2024-05-07 13:20:34,627 - INFO - Status of table 'reliquat_commissions' is ACTIVE.
+2024-05-07 13:20:34,627 - INFO - Total Size for table 'reliquat_commissions': 1652
+2024-05-07 13:20:34,627 - INFO - Number of Rows for table 'reliquat_commissions': 50
+2024-05-07 13:20:34,627 - INFO - Raw Data Size for table 'reliquat_commissions': 1602
+2024-05-07 13:20:34,627 - INFO - Number of Files for table 'reliquat_commissions': 1
+2024-05-07 13:20:34,627 - WARNING - No classification names found for table reliquat_commissions
+2024-05-07 13:20:34,627 - INFO - Classification Names for attribute 'numero_compte' in table 'reliquat_commissions': Restreint
+2024-05-07 13:20:34,627 - INFO - Classification Names for attribute 'date_operation' in table 'reliquat_commissions': Restreint
+2024-05-07 13:20:34,628 - INFO - Classification Names for attribute 'montant_commission' in table 'reliquat_commissions': Secret
+2024-05-07 13:20:34,628 - INFO - Classification Names for attribute 'id' in table 'reliquat_commissions': Restreint
+2024-05-07 13:20:34,628 - INFO - Table 'reliquat_commissions' metadata has good quality.
+2024-05-07 13:20:34,628 - INFO - Checking metadata quality for table: remises_cheques
+2024-05-07 13:20:34,628 - INFO - Status of table 'remises_cheques' is ACTIVE.
+2024-05-07 13:20:34,628 - INFO - Total Size for table 'remises_cheques': 3062
+2024-05-07 13:20:34,628 - INFO - Number of Rows for table 'remises_cheques': 39
+2024-05-07 13:20:34,629 - INFO - Raw Data Size for table 'remises_cheques': 3023
+2024-05-07 13:20:34,629 - INFO - Number of Files for table 'remises_cheques': 1
+2024-05-07 13:20:34,629 - WARNING - No classification names found for table remises_cheques
+2024-05-07 13:20:34,629 - INFO - Classification Names for attribute 'agence_destinataire' in table 'remises_cheques': Restreint
+2024-05-07 13:20:34,629 - INFO - Classification Names for attribute 'nom_client' in table 'remises_cheques': Confidentiel
+2024-05-07 13:20:34,629 - INFO - Classification Names for attribute 'montant' in table 'remises_cheques': Confidentiel
+2024-05-07 13:20:34,629 - INFO - Classification Names for attribute 'agence_origine' in table 'remises_cheques': Confidentiel
+2024-05-07 13:20:34,629 - INFO - Classification Names for attribute 'date_remise' in table 'remises_cheques': Secret
+2024-05-07 13:20:34,630 - INFO - Classification Names for attribute 'numero_remise' in table 'remises_cheques': Secret
+2024-05-07 13:20:34,630 - INFO - Table 'remises_cheques' metadata has good quality.
+2024-05-07 13:20:34,630 - INFO - Checking metadata quality for table: remittances_banque_centrale
+2024-05-07 13:20:34,630 - INFO - Status of table 'remittances_banque_centrale' is ACTIVE.
+2024-05-07 13:20:34,630 - INFO - Total Size for table 'remittances_banque_centrale': 3908
+2024-05-07 13:20:34,630 - INFO - Number of Rows for table 'remittances_banque_centrale': 50
+2024-05-07 13:20:34,630 - INFO - Raw Data Size for table 'remittances_banque_centrale': 3858
+2024-05-07 13:20:34,630 - INFO - Number of Files for table 'remittances_banque_centrale': 1
+2024-05-07 13:20:34,631 - WARNING - No classification names found for table remittances_banque_centrale
+2024-05-07 13:20:34,631 - INFO - Classification Names for attribute 'ref_transfert' in table 'remittances_banque_centrale': Restreint
+2024-05-07 13:20:34,631 - INFO - Classification Names for attribute 'date_transfert' in table 'remittances_banque_centrale': Secret
+2024-05-07 13:20:34,631 - INFO - Classification Names for attribute 'motif' in table 'remittances_banque_centrale': Secret
+2024-05-07 13:20:34,631 - INFO - Classification Names for attribute 'montant' in table 'remittances_banque_centrale': Confidentiel
+2024-05-07 13:20:34,631 - INFO - Classification Names for attribute 'beneficiaire' in table 'remittances_banque_centrale': Secret
+2024-05-07 13:20:34,631 - INFO - Classification Names for attribute 'emetteur' in table 'remittances_banque_centrale': Secret
+2024-05-07 13:20:34,631 - INFO - Table 'remittances_banque_centrale' metadata has good quality.
+2024-05-07 13:20:34,631 - INFO - Checking metadata quality for table: responsable_comptes
+2024-05-07 13:20:34,632 - INFO - Status of table 'responsable_comptes' is ACTIVE.
+2024-05-07 13:20:34,632 - INFO - Total Size for table 'responsable_comptes': 1816
+2024-05-07 13:20:34,632 - INFO - Number of Rows for table 'responsable_comptes': 50
+2024-05-07 13:20:34,632 - INFO - Raw Data Size for table 'responsable_comptes': 1766
+2024-05-07 13:20:34,632 - INFO - Number of Files for table 'responsable_comptes': 1
+2024-05-07 13:20:34,632 - WARNING - No classification names found for table responsable_comptes
+2024-05-07 13:20:34,632 - INFO - Classification Names for attribute 'email' in table 'responsable_comptes': Restreint
+2024-05-07 13:20:34,633 - INFO - Classification Names for attribute 'id' in table 'responsable_comptes': Restreint
+2024-05-07 13:20:34,633 - INFO - Classification Names for attribute 'prenom' in table 'responsable_comptes': Secret
+2024-05-07 13:20:34,633 - INFO - Classification Names for attribute 'nom' in table 'responsable_comptes': Confidentiel
+2024-05-07 13:20:34,633 - INFO - Table 'responsable_comptes' metadata has good quality.
+2024-05-07 13:20:34,633 - INFO - Checking metadata quality for table: service_actes_cartes
+2024-05-07 13:20:34,633 - INFO - Status of table 'service_actes_cartes' is ACTIVE.
+2024-05-07 13:20:34,633 - INFO - Total Size for table 'service_actes_cartes': 1983
+2024-05-07 13:20:34,634 - INFO - Number of Rows for table 'service_actes_cartes': 43
+2024-05-07 13:20:34,634 - INFO - Raw Data Size for table 'service_actes_cartes': 1940
+2024-05-07 13:20:34,634 - INFO - Number of Files for table 'service_actes_cartes': 1
+2024-05-07 13:20:34,634 - WARNING - No classification names found for table service_actes_cartes
+2024-05-07 13:20:34,634 - INFO - Classification Names for attribute 'numero_client' in table 'service_actes_cartes': Secret
+2024-05-07 13:20:34,634 - INFO - Classification Names for attribute 'etat_demande' in table 'service_actes_cartes': Restreint
+2024-05-07 13:20:34,634 - INFO - Classification Names for attribute 'type_carte' in table 'service_actes_cartes': Confidentiel
+2024-05-07 13:20:34,634 - INFO - Classification Names for attribute 'date_demande' in table 'service_actes_cartes': Restreint
+2024-05-07 13:20:34,634 - INFO - Table 'service_actes_cartes' metadata has good quality.
+2024-05-07 13:20:34,635 - INFO - Checking metadata quality for table: service_etudes_finance
+2024-05-07 13:20:34,635 - INFO - Status of table 'service_etudes_finance' is ACTIVE.
+2024-05-07 13:20:34,635 - INFO - Total Size for table 'service_etudes_finance': 3654
+2024-05-07 13:20:34,635 - INFO - Number of Rows for table 'service_etudes_finance': 90
+2024-05-07 13:20:34,635 - INFO - Raw Data Size for table 'service_etudes_finance': 3564
+2024-05-07 13:20:34,635 - INFO - Number of Files for table 'service_etudes_finance': 2
+2024-05-07 13:20:34,635 - WARNING - No classification names found for table service_etudes_finance
+2024-05-07 13:20:34,636 - INFO - Classification Names for attribute 'epargne_actuelle' in table 'service_etudes_finance': Confidentiel
+2024-05-07 13:20:34,636 - INFO - Classification Names for attribute 'profession' in table 'service_etudes_finance': Confidentiel
+2024-05-07 13:20:34,636 - INFO - Classification Names for attribute 'salaire_mensuel' in table 'service_etudes_finance': Restreint
+2024-05-07 13:20:34,636 - INFO - Classification Names for attribute 'nom_client' in table 'service_etudes_finance': Confidentiel
+2024-05-07 13:20:34,636 - INFO - Table 'service_etudes_finance' metadata has good quality.
+2024-05-07 13:20:34,636 - INFO - Checking metadata quality for table: transactions_interbancaires
+2024-05-07 13:20:34,636 - INFO - Status of table 'transactions_interbancaires' is ACTIVE.
+2024-05-07 13:20:34,637 - INFO - Total Size for table 'transactions_interbancaires': 2871
+2024-05-07 13:20:34,637 - INFO - Number of Rows for table 'transactions_interbancaires': 50
+2024-05-07 13:20:34,637 - INFO - Raw Data Size for table 'transactions_interbancaires': 2821
+2024-05-07 13:20:34,637 - INFO - Number of Files for table 'transactions_interbancaires': 1
+2024-05-07 13:20:34,637 - WARNING - No classification names found for table transactions_interbancaires
+2024-05-07 13:20:34,637 - INFO - Classification Names for attribute 'id' in table 'transactions_interbancaires': Secret
+2024-05-07 13:20:34,637 - INFO - Classification Names for attribute 'montant' in table 'transactions_interbancaires': Confidentiel
+2024-05-07 13:20:34,637 - INFO - Classification Names for attribute 'banque_destinatrice' in table 'transactions_interbancaires': Public
+2024-05-07 13:20:34,638 - INFO - Classification Names for attribute 'banque_emetrice' in table 'transactions_interbancaires': Public
+2024-05-07 13:20:34,638 - INFO - Classification Names for attribute 'date_transaction' in table 'transactions_interbancaires': Confidentiel
+2024-05-07 13:20:34,638 - INFO - Table 'transactions_interbancaires' metadata has good quality.
+2024-05-07 13:20:34,638 - INFO - Checking metadata quality for table: transferts_directs
+2024-05-07 13:20:34,638 - INFO - Status of table 'transferts_directs' is ACTIVE.
+2024-05-07 13:20:34,638 - INFO - Total Size for table 'transferts_directs': 2844
+2024-05-07 13:20:34,639 - INFO - Number of Rows for table 'transferts_directs': 50
+2024-05-07 13:20:34,639 - INFO - Raw Data Size for table 'transferts_directs': 2794
+2024-05-07 13:20:34,639 - INFO - Number of Files for table 'transferts_directs': 1
+2024-05-07 13:20:34,639 - WARNING - No classification names found for table transferts_directs
+2024-05-07 13:20:34,639 - INFO - Classification Names for attribute 'statut' in table 'transferts_directs': Confidentiel
+2024-05-07 13:20:34,639 - INFO - Classification Names for attribute 'num_transaction' in table 'transferts_directs': Public
+2024-05-07 13:20:34,639 - INFO - Classification Names for attribute 'compte_destination' in table 'transferts_directs': Confidentiel
+2024-05-07 13:20:34,639 - INFO - Classification Names for attribute 'date' in table 'transferts_directs': Restreint
+2024-05-07 13:20:34,639 - INFO - Classification Names for attribute 'montant' in table 'transferts_directs': Restreint
+2024-05-07 13:20:34,640 - INFO - Classification Names for attribute 'compte_origine' in table 'transferts_directs': Confidentiel
+2024-05-07 13:20:34,640 - INFO - Table 'transferts_directs' metadata has good quality.
+2024-05-07 13:20:34,640 - INFO - Checking metadata quality for table: valeurs_mobilieres
+2024-05-07 13:20:34,640 - INFO - Status of table 'valeurs_mobilieres' is ACTIVE.
+2024-05-07 13:20:34,640 - INFO - Total Size for table 'valeurs_mobilieres': 1641
+2024-05-07 13:20:34,640 - INFO - Number of Rows for table 'valeurs_mobilieres': 50
+2024-05-07 13:20:34,640 - INFO - Raw Data Size for table 'valeurs_mobilieres': 1591
+2024-05-07 13:20:34,641 - INFO - Number of Files for table 'valeurs_mobilieres': 1
+2024-05-07 13:20:34,641 - WARNING - No classification names found for table valeurs_mobilieres
+2024-05-07 13:20:34,641 - INFO - Classification Names for attribute 'code_valeur' in table 'valeurs_mobilieres': Confidentiel
+2024-05-07 13:20:34,641 - INFO - Classification Names for attribute 'cours_actuel' in table 'valeurs_mobilieres': Confidentiel
+2024-05-07 13:20:34,641 - INFO - Classification Names for attribute 'volume_echange' in table 'valeurs_mobilieres': Confidentiel
+2024-05-07 13:20:34,641 - INFO - Classification Names for attribute 'id' in table 'valeurs_mobilieres': Secret
+2024-05-07 13:20:34,641 - INFO - Classification Names for attribute 'nom_societe' in table 'valeurs_mobilieres': Confidentiel
+2024-05-07 13:20:34,641 - INFO - Table 'valeurs_mobilieres' metadata has good quality.
+2024-05-07 13:20:34,641 - INFO - Checking metadata quality for table: virements_automatiques
+2024-05-07 13:20:34,641 - INFO - Status of table 'virements_automatiques' is ACTIVE.
+2024-05-07 13:20:34,641 - INFO - Total Size for table 'virements_automatiques': 3534
+2024-05-07 13:20:34,642 - INFO - Number of Rows for table 'virements_automatiques': 50
+2024-05-07 13:20:34,642 - INFO - Raw Data Size for table 'virements_automatiques': 3484
+2024-05-07 13:20:34,642 - INFO - Number of Files for table 'virements_automatiques': 1
+2024-05-07 13:20:34,642 - WARNING - No classification names found for table virements_automatiques
+2024-05-07 13:20:34,642 - INFO - Classification Names for attribute 'numero_compte_debit' in table 'virements_automatiques': Secret
+2024-05-07 13:20:34,642 - INFO - Classification Names for attribute 'motif' in table 'virements_automatiques': Confidentiel
+2024-05-07 13:20:34,642 - INFO - Classification Names for attribute 'date_execution' in table 'virements_automatiques': Confidentiel
+2024-05-07 13:20:34,642 - INFO - Classification Names for attribute 'numero_compte_credit' in table 'virements_automatiques': Secret
+2024-05-07 13:20:34,642 - INFO - Classification Names for attribute 'montant' in table 'virements_automatiques': Secret
+2024-05-07 13:20:34,642 - INFO - Classification Names for attribute 'id' in table 'virements_automatiques': Secret
+2024-05-07 13:20:34,642 - INFO - Table 'virements_automatiques' metadata has good quality.
+2024-05-07 13:20:34,642 - INFO - Checking metadata quality for table: transfert_international_etudiant
+2024-05-07 13:20:34,643 - INFO - Status of table 'transfert_international_etudiant' is ACTIVE.
+2024-05-07 13:20:34,643 - INFO - Total Size for table 'transfert_international_etudiant': 2903
+2024-05-07 13:20:34,643 - INFO - Number of Rows for table 'transfert_international_etudiant': 50
+2024-05-07 13:20:34,643 - INFO - Raw Data Size for table 'transfert_international_etudiant': 2853
+2024-05-07 13:20:34,643 - INFO - Number of Files for table 'transfert_international_etudiant': 1
+2024-05-07 13:20:34,643 - WARNING - No classification names found for table transfert_international_etudiant
+2024-05-07 13:20:34,643 - INFO - Classification Names for attribute 'ville_origine' in table 'transfert_international_etudiant': Confidentiel
+2024-05-07 13:20:34,643 - INFO - Classification Names for attribute 'motif_transfert' in table 'transfert_international_etudiant': Restreint
+2024-05-07 13:20:34,643 - INFO - Classification Names for attribute 'nom_etudiant' in table 'transfert_international_etudiant': Secret
+2024-05-07 13:20:34,643 - INFO - Classification Names for attribute 'montant' in table 'transfert_international_etudiant': Secret
+2024-05-07 13:20:34,643 - INFO - Classification Names for attribute 'pays_origine' in table 'transfert_international_etudiant': Confidentiel
+2024-05-07 13:20:34,643 - INFO - Classification Names for attribute 'id' in table 'transfert_international_etudiant': Confidentiel
+2024-05-07 13:20:34,643 - INFO - Table 'transfert_international_etudiant' metadata has good quality.
+2024-05-07 13:20:34,643 - INFO - Checking metadata quality for table: transferts_argent_internationaux
+2024-05-07 13:20:34,644 - INFO - Status of table 'transferts_argent_internationaux' is ACTIVE.
+2024-05-07 13:20:34,644 - INFO - Total Size for table 'transferts_argent_internationaux': 3141
+2024-05-07 13:20:34,644 - INFO - Number of Rows for table 'transferts_argent_internationaux': 46
+2024-05-07 13:20:34,644 - INFO - Raw Data Size for table 'transferts_argent_internationaux': 3095
+2024-05-07 13:20:34,644 - INFO - Number of Files for table 'transferts_argent_internationaux': 1
+2024-05-07 13:20:34,644 - WARNING - No classification names found for table transferts_argent_internationaux
+2024-05-07 13:20:34,644 - INFO - Classification Names for attribute 'destinataire' in table 'transferts_argent_internationaux': Restreint
+2024-05-07 13:20:34,644 - INFO - Classification Names for attribute 'montant' in table 'transferts_argent_internationaux': Restreint
+2024-05-07 13:20:34,644 - INFO - Classification Names for attribute 'heure' in table 'transferts_argent_internationaux': Secret
+2024-05-07 13:20:34,644 - INFO - Classification Names for attribute 'pays_destination' in table 'transferts_argent_internationaux': Confidentiel
+2024-05-07 13:20:34,644 - INFO - Classification Names for attribute 'date' in table 'transferts_argent_internationaux': Confidentiel
+2024-05-07 13:20:34,644 - INFO - Classification Names for attribute 'motif' in table 'transferts_argent_internationaux': Secret
+2024-05-07 13:20:34,644 - INFO - Table 'transferts_argent_internationaux' metadata has good quality.
+2024-05-07 13:20:34,645 - INFO - Checking metadata quality for table: virements_temporises
+2024-05-07 13:20:34,645 - INFO - Status of table 'virements_temporises' is ACTIVE.
+2024-05-07 13:20:34,645 - INFO - Total Size for table 'virements_temporises': 2692
+2024-05-07 13:20:34,645 - INFO - Number of Rows for table 'virements_temporises': 50
+2024-05-07 13:20:34,645 - INFO - Raw Data Size for table 'virements_temporises': 2642
+2024-05-07 13:20:34,645 - INFO - Number of Files for table 'virements_temporises': 1
+2024-05-07 13:20:34,645 - WARNING - No classification names found for table virements_temporises
+2024-05-07 13:20:34,645 - INFO - Classification Names for attribute 'motif' in table 'virements_temporises': Restreint
+2024-05-07 13:20:34,645 - INFO - Classification Names for attribute 'id' in table 'virements_temporises': Restreint
+2024-05-07 13:20:34,645 - INFO - Classification Names for attribute 'montant' in table 'virements_temporises': Confidentiel
+2024-05-07 13:20:34,645 - INFO - Classification Names for attribute 'beneficiaire' in table 'virements_temporises': Confidentiel
+2024-05-07 13:20:34,645 - INFO - Classification Names for attribute 'date' in table 'virements_temporises': Confidentiel
+2024-05-07 13:20:34,645 - INFO - Table 'virements_temporises' metadata has good quality.
+2024-05-07 13:20:34,645 - INFO - Checking metadata quality for table: transactions_market
+2024-05-07 13:20:34,646 - INFO - Status of table 'transactions_market' is ACTIVE.
+2024-05-07 13:20:34,646 - INFO - Total Size for table 'transactions_market': 3717
+2024-05-07 13:20:34,646 - INFO - Number of Rows for table 'transactions_market': 42
+2024-05-07 13:20:34,646 - INFO - Raw Data Size for table 'transactions_market': 3675
+2024-05-07 13:20:34,646 - INFO - Number of Files for table 'transactions_market': 1
+2024-05-07 13:20:34,646 - WARNING - No classification names found for table transactions_market
+2024-05-07 13:20:34,646 - INFO - Classification Names for attribute 'description' in table 'transactions_market': Secret
+2024-05-07 13:20:34,646 - INFO - Classification Names for attribute 'date' in table 'transactions_market': Secret
+2024-05-07 13:20:34,646 - INFO - Classification Names for attribute 'beneficiaire' in table 'transactions_market': Confidentiel
+2024-05-07 13:20:34,646 - INFO - Classification Names for attribute 'montant' in table 'transactions_market': Secret
+2024-05-07 13:20:34,646 - INFO - Table 'transactions_market' metadata has good quality.
