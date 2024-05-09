@@ -2,8 +2,7 @@ import json
 import logging
 import re
 from datetime import datetime
-# from kafka import KafkaConsumer
-# from confluent_kafka import Consumer, KafkaError
+
 
 logging.basicConfig(filename='metadata_quality_report_v2.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
