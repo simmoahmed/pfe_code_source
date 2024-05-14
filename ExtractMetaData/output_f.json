@@ -1,7 +1,7 @@
 {
     "analyse_risque": {
         "Name of DB": "default bcp",
-        "Name of Table": "analyse risque",
+        "Name of Table": "analyse @ risque",
         "Owner": "azureuser",
         "Create Time": "2027-05-02 14:28:14",
         "lastAccessTime": "2024-05-02 14:28:14",
