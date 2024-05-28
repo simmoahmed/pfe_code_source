@@ -4,22 +4,22 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import markdown
 import google.generativeai as genai
-from dotenv import load_dotenv
-# Set up and configure the model globally to avoid reconfiguration
 
-load_dotenv()
-#AIzaSyASxqvQhcv04ggzKRVbt7Q8-RpTpxSE0QI | selmaadoudi
-#AIzaSyC6EpDYb85c7IqxdLkIu5xGn8CrKadc08A | elmaadoudimohamed1
-genai.configure(api_key="AIzaSyASxqvQhcv04ggzKRVbt7Q8-RpTpxSE0QI")
-model = genai.GenerativeModel(
-    model_name="gemini-1.5-pro-latest",
-    generation_config={
-        "temperature": 0.01,
-        "top_p": 0.75,
-        "max_output_tokens": 10000
-    },
-    safety_settings=[{"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"}]  # Simplified for example
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
+
+torch.random.manual_seed(0)
+
+local_model_directory = "D:/atlas_v2/docker-atlas/phi-3/Phi-3-mini-128k-instruct"
+
+model = AutoModelForCausalLM.from_pretrained(
+    local_model_directory, 
+    device_map="cuda", 
+    torch_dtype="auto", 
+    trust_remote_code=True, 
 )
+
+tokenizer = AutoTokenizer.from_pretrained(local_model_directory)
 
 st.set_page_config(page_title="e-report", page_icon="🤖")
 
@@ -87,7 +87,24 @@ def summarize_logs(log_entries):
                     En tant qu'expert en journaux, résumez ce qui s'est passé dans les journaux avec détails. Fournissez le résumé dans un paragraphe facile à comprendre.
                     """
     template = f"Instruction:\n{instructions}\nINPUTDATA:\n{log_entries}\nResponse:\n"
-    response = model.generate_content(template)
+    pipe = pipeline(
+        "text-generation",
+        model=model,
+        tokenizer=tokenizer,
+    )
+
+    generation_args = {
+        "max_new_tokens": 500,
+        "return_full_text": False,
+        "temperature": 0.0,
+        "do_sample": False,
+    }
+    messages = [
+    {"role": "user", "content": template}
+    ]
+
+    output = pipe(messages, **generation_args)
+    response = output[0]['generated_text']
     return response.text
 
 def send_email(email, receiver_email, response):
@@ -207,9 +224,26 @@ def interactive_model_page():
     
 def query_model(query, context):
     instructions = f"Compte tenu du contexte du journal, répondez à la question: {query}"
-    template = f"Instruction:\n{instructions}\nContext:\n{context}\nResponse:\n"
-    response = model.generate_content(template)
-    return response.text
+    template = f"Instruction:\n{instructions}\nINPUTDATA:\n{context}\nResponse:\n"
+    pipe = pipeline(
+        "text-generation",
+        model=model,
+        tokenizer=tokenizer,
+    )
+
+    generation_args = {
+        "max_new_tokens": 500,
+        "return_full_text": False,
+        "temperature": 0.0,
+        "do_sample": False,
+    }
+    messages = [
+    {"role": "user", "content": template}
+    ]
+
+    output = pipe(messages, **generation_args)
+    response = output[0]['generated_text']
+    return response
 
 
 def display_conversation():
