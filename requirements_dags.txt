@@ -1,0 +1,8 @@
+pandas
+pyhive
+thrift
+thrift_sasl
+unidecode
+numpy
+openpyxl
+requests
